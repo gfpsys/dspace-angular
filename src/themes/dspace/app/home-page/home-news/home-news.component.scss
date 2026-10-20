@@ -1,13 +1,14 @@
 :host {
   display: block;
 
+
   div.background-image-container {
     color: white;
     position: relative;
     font-weight: 600;
 
     .background-image > img {
-      background-color: var(--bs-info);
+      background-color:  #002367;
       position: absolute;
       z-index: -1;
       top: 0;
@@ -31,18 +32,7 @@
         position: absolute;
       }
 
-      &:before {
-        background: linear-gradient(to left, var(--ds-banner-text-background), transparent);
-        left: calc(-1 * var(--ds-banner-background-gradient-width));
 
-      }
-
-      &:after {
-        background: linear-gradient(to right, var(--ds-banner-text-background), transparent);
-        right: calc(-1 * var(--ds-banner-background-gradient-width));
-      }
-
-      background-color: var(--ds-banner-text-background);
     }
 
 

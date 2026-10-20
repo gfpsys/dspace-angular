@@ -1,52 +1,86 @@
 <footer>
-  @if (showTopFooter) {
-    <div class="top-footer">
-      <!-- Grid container -->
-      <div class=" container p-4">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <h5 class="text-uppercase">Footer Content</h5>
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a routerLink="./" class="">Lorem ipsum</a>
-              </li>
-              <li>
-                <a routerLink="./" class="">Ut facilisis</a>
-              </li>
-              <li>
-                <a routerLink="./" class="">Aenean sit</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <h5 class="text-uppercase">Footer Content</h5>
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a routerLink="./" class="" role="link" tabindex="0">Suspendisse potenti</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Footer Content</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-              voluptatem veniam, est atque cumque eum delectus sint!
-            </p>
-          </div>
-          <!--Grid column-->
+ <!--
+  src/themes/custom/app/footer/footer.component.html
+  Footer personalizado - El Colegio Mexiquense, A.C. (DSpace Angular 9.x)
+-->
+
+
+  <!-- ===================== PARTE SUPERIOR ===================== -->
+  <div class="cmq-footer__top">
+    <div class="cmq-footer__container">
+
+      <div class="cmq-footer__grid">
+
+        <!-- Columna 1: identidad -->
+        <div class="cmq-footer__brand">
+          <a class="cmq-footer__brand-link" href="#">
+            <img class="cmq-footer__logo"
+                 src="assets/images/colegio_cmq_white.png"
+                 alt="Logotipo de El Colegio Mexiquense">
+            <span class="cmq-footer__brand-name">El Colegio<br>Mexiquense, A.C.</span>
+          </a>
+          <p class="cmq-footer__description">
+            El Colegio Mexiquense desarrolla estudios, diagnósticos y propuestas de políticas
+            públicas, además de contribuir a la formación educativa y a la difusión de la
+            ciencia y la cultura.
+          </p>
         </div>
-        <!--Grid row-->
+
+        <!-- Columna 2: Enlaces -->
+        <nav class="cmq-footer__col" aria-labelledby="cmq-footer-enlaces">
+          <h2 id="cmq-footer-enlaces" class="cmq-footer__title">Enlaces</h2>
+          <ul class="cmq-footer__list">
+            <li><a href="#">Intranet</a></li>
+            <li><a href="#">Correo electrónico</a></li>
+            <li><a href="#">Directorio</a></li>
+            <li><a href="#">Calendario</a></li>
+          </ul>
+        </nav>
+
+        <!-- Columna 3: Contacto -->
+        <div class="cmq-footer__col">
+          <h2 class="cmq-footer__title">Contacto</h2>
+          <address class="cmq-footer__contact">
+            <p class="cmq-footer__address">
+              Santa Cruz de los Patos<br>
+              Zinacantepec, México<br>
+              Código Postal: 51350
+            </p>
+            <p><a href="tel:+527222799908">722 279 9908</a></p>
+            <p><a href="mailto:info@cmq.edu.mx">info&#64;cmq.edu.mx</a></p>
+          </address>
+        </div>
+
+        <!-- Columna 4: Explora CMQ -->
+        <nav class="cmq-footer__col" aria-labelledby="cmq-footer-explora">
+          <h2 id="cmq-footer-explora" class="cmq-footer__title">Explora CMQ</h2>
+          <ul class="cmq-footer__list">
+            <li><a href="#">Actividades académicas</a></li>
+            <li><a href="#">Portal Informativo Archivístico</a></li>
+            <li><a href="#">Transparencia</a></li>
+            <li><a href="#">Buscar</a></li>
+          </ul>
+        </nav>
+
       </div>
+
+      <!-- Redes sociales + decoración -->
+      <div class="cmq-footer__grid cmq-footer__social-row">
+        <ul class="cmq-footer__social" aria-label="Redes sociales">
+          <li><a class="cmq-footer__pill" href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a class="cmq-footer__pill" href="#" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+          <li><a class="cmq-footer__pill" href="#" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+          <li><a class="cmq-footer__pill" href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        </ul>
+        <div class="cmq-footer__lines" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
     </div>
-  }
-  <!-- Grid container -->
+  </div>
+
+    <!-- Grid container -->
 
   <!-- Copyright -->
   <div class="bottom-footer p-1 d-flex flex-column flex-md-row justify-content-center align-items-center text-white">

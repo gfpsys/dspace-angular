@@ -36,7 +36,7 @@
   --ds-navbar-link-color-hover: #{$ds-navbar-link-color-hover};
 
   --ds-header-navbar-border-top-color: #{$ds-header-navbar-border-bottom-color};
-  --ds-header-navbar-border-bottom-color: #{$ds-header-navbar-border-bottom-color};
+  --ds-header-navbar-border-bottom-color: transparent;
 
   --ds-expandable-navbar-bg: #{$ds-expandable-navbar-bg};
   --ds-expandable-navbar-link-color: #{$body-color};
@@ -94,7 +94,7 @@
   --ds-notification-bg-warning: #{darken(adjust-hue($warning, -10), 10%)};
 
   --ds-top-footer-bg: #{$gray-200};
-    --ds-footer-bg: #{$primary};
+  --ds-footer-bg: #002367;
   --ds-footer-border: 1px solid var(--bs-gray-400);
   --ds-footer-padding: 0;
   --ds-footer-padding-bottom: 0;
@@ -105,8 +105,8 @@
   --ds-home-news-link-hover-color: #{darken($ds-home-news-link-color, 15%)};
   --ds-home-news-background-color: #{$gray-200};
 
-  --ds-breadcrumb-bg: #{$gray-200};
-  --ds-breadcrumb-link-color: #{$ds-breadcrumb-link-color};
+  --ds-breadcrumb-bg: #f4f6fa;
+  --ds-breadcrumb-link-color: #1f4fa2;
   --ds-breadcrumb-link-active-color: #{darken($ds-breadcrumb-link-color, 30%)};
   --ds-breadcrumb-max-length: 200px;
 
@@ -164,5 +164,6 @@
 
   --ds-filters-skeleton-height: 40px;
   --ds-filters-skeleton-spacing: 12px;
-  --ds-orcid-icon-height: 2em
+  --ds-orcid-icon-height: 2em;
+  --bs-light:#fff;
 }

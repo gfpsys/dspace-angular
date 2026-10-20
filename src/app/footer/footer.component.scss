@@ -1,10 +1,23 @@
 :host {
+
+  $cmq-navy:        #00236b;
+  $cmq-navy-dark:   #001a52;
+  $cmq-white:       #ffffff;
+  $cmq-text-soft:   rgba(255, 255, 255, 0.86);
+  $cmq-text-legal:  rgba(255, 255, 255, 0.82);
+  $cmq-pill-border: rgba(255, 255, 255, 0.42);
+
   footer {
     background-color: var(--ds-footer-bg);
-    text-align: center;
     z-index: var(--ds-footer-z-index);
     border-top: var(--ds-footer-border);
     padding: var(--ds-footer-padding);
+
+    a{color: $cmq-white;}
+
+    li::marker {
+      content: "";
+    }
 
     p {
       margin: 0;
@@ -75,6 +88,274 @@
     .btn {
       box-shadow: none;
     }
+  }
+
+
+  .cmq-footer {
+    color: $cmq-white;
+    background-color: $cmq-navy;
+    border-top: 6px solid #e9e9e9;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: opacity 0.15s ease;
+
+      &:hover,
+      &:focus-visible {
+        color: $cmq-white;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    // ---------- Contenedor ----------
+    &__container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 2.25rem;
+    }
+
+    // ---------- Parte superior ----------
+    &__top {
+      padding: 4.5rem 0 2.25rem;
+    }
+
+    // Columna 1 más ancha; 2, 3 y 4 iguales (misma rejilla en la fila de redes)
+    &__grid {
+      display: grid;
+      grid-template-columns: 1.25fr 1fr 1fr 1fr;
+      column-gap: 0;
+    }
+
+    // ---------- Marca ----------
+    &__brand {
+      padding-right: 3rem;
+    }
+
+    &__brand-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 1.75rem;
+
+      &:hover,
+      &:focus-visible {
+        text-decoration: none !important;
+      }
+    }
+
+    &__logo {
+      width: 60px;
+      height: auto;
+      flex-shrink: 0;
+    }
+
+    &__brand-name {
+      font-size: 1.375rem;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+    }
+
+    &__description {
+      margin-top: 1.9rem !important;
+      max-width: 34rem;
+      font-size: 0.9375rem;
+      line-height: 1.6;
+      color: $cmq-text-soft;
+    }
+
+    // ---------- Columnas de enlaces ----------
+    &__title {
+      margin: 0 0 1.5rem;
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: $cmq-white;
+    }
+
+    &__list li + li {
+      margin-top: 0.85rem;
+    }
+
+    &__list a,
+    &__contact {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    &__contact {
+      font-style: normal;
+      margin: 0;
+
+      p + p {
+        margin-top: 0.75rem;
+      }
+    }
+
+    &__address {
+      line-height: 1.55 !important;
+    }
+
+    // ---------- Redes sociales ----------
+    &__social-row {
+      margin-top: 4.25rem;
+      align-items: center;
+    }
+
+    &__social {
+      grid-column: 1 / 4;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+
+    &__pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 2.6rem;
+      padding: 0 1.5rem;
+      border: 1px solid $cmq-pill-border;
+      border-radius: 999px;
+      font-size: 0.875rem;
+      font-weight: 700;
+      line-height: 1;
+
+      &:hover,
+      &:focus-visible {
+        text-decoration: none !important;
+        background-color: rgba(255, 255, 255, 0.08);
+        border-color: $cmq-white;
+      }
+    }
+
+    // Decoración de tres líneas (columna 4)
+    &__lines {
+      grid-column: 4;
+      justify-self: start;
+      margin-left: 41%;
+      width: 8.1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+
+      span {
+        display: block;
+        height: 3px;
+        background-color: $cmq-white;
+
+        &:last-child {
+          background-color: #b8bfd1;
+        }
+      }
+    }
+
+    // ---------- Barra inferior ----------
+    &__bottom {
+      background-color: $cmq-navy-dark;
+      padding: 1.15rem 0 1.25rem;
+    }
+
+    &__legal {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      column-gap: 2.1rem;
+      row-gap: 0.4rem;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: $cmq-text-legal;
+
+      & + & {
+        margin-top: 0.85rem !important;
+      }
+    }
+
+    &__link-btn {
+      padding: 0;
+      border: 0;
+      background: none;
+      font: inherit;
+      color: inherit;
+      cursor: pointer;
+
+      &:hover,
+      &:focus-visible {
+        color: $cmq-white;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+    }
+  }
+
+  // ---------- Responsivo ----------
+  @media (max-width: 991.98px) {
+    .cmq-footer {
+      &__grid {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2.5rem;
+      }
+
+      &__brand {
+        grid-column: 1 / -1;
+        padding-right: 0;
+      }
+
+      &__social-row {
+        margin-top: 3rem;
+        row-gap: 1.5rem;
+      }
+
+      &__social {
+        grid-column: 1 / -1;
+      }
+
+      &__lines {
+        grid-column: 1 / -1;
+        margin-left: 0;
+      }
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .cmq-footer {
+      &__container {
+        padding: 0 1rem;
+      }
+
+      &__top {
+        padding-top: 3rem;
+      }
+
+      &__grid {
+        grid-template-columns: 1fr;
+      }
+
+      &__legal {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  }
+
+  .cmq-footer__list {
+    padding-left: 0 !important;
+  }
+  address.cmq-footer__contact p {
+    color: #fff;
+  }
+  .bottom-footer{
+    background-color: #001a4D;
   }
 }
 
