@@ -1,7 +1,13 @@
-@if (typeMessage) {
+@if (type) {
   <span>
     <span class="sr-only">{{ 'listelement.badge.dso-type' | translate }}</span>
-    <span class="badge bg-info">{{ typeMessage | translate }}</span>
+    <span class="badge bg-info">{{ type | translate }}</span>
     <span class="sr-only">, </span>
   </span>
 }
+@else {
+  <span class="sr-only">{{ 'listelement.badge.dso-type' | translate }}</span>
+  <span class="badge bg-info">{{ typeMessage | translate }}</span>
+  <span class="sr-only">, </span>
+}
+

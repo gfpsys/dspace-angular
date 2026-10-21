@@ -26,6 +26,7 @@ export class TypeBadgeComponent {
 
   private _object: DSpaceObject;
   private _typeMessage: string;
+  private _type: string;
 
   /**
    * The component used to retrieve the type from
@@ -33,18 +34,23 @@ export class TypeBadgeComponent {
   @Input() set object(object: DSpaceObject) {
     this._object = object;
 
-    const renderTypes = this._object.getRenderTypes();
-    if (!isEmpty(renderTypes.length)) {
-      const renderType = renderTypes[0];
-      if (renderType instanceof Function) {
-        const resourceTypeValue = getResourceTypeValueFor(object.type);
-        if (hasValue(resourceTypeValue)) {
-          this._typeMessage = `${resourceTypeValue.toLowerCase()}.listelement.badge`;
+    const type = this._object.firstMetadataValue('dc.type');
+    if (hasValue(type)) {
+      this._type = type;
+    } else {
+      const renderTypes = this._object.getRenderTypes();
+      if (!isEmpty(renderTypes.length)) {
+        const renderType = renderTypes[0];
+        if (renderType instanceof Function) {
+          const resourceTypeValue = getResourceTypeValueFor(object.type);
+          if (hasValue(resourceTypeValue)) {
+            this._typeMessage = `${resourceTypeValue.toLowerCase()}.listelement.badge`;
+          } else {
+            this._typeMessage = `${renderType.name.toLowerCase()}.listelement.badge`;
+          }
         } else {
-          this._typeMessage = `${renderType.name.toLowerCase()}.listelement.badge`;
+          this._typeMessage = `${renderType.toLowerCase()}.listelement.badge`;
         }
-      } else {
-        this._typeMessage = `${renderType.toLowerCase()}.listelement.badge`;
       }
     }
   }
@@ -55,5 +61,9 @@ export class TypeBadgeComponent {
 
   get typeMessage(): string {
     return this._typeMessage;
+  }
+
+  get type(): string {
+    return this._type;
   }
 }

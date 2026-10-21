@@ -21,7 +21,10 @@
     <div class="thumbnail-content outer">
       <div class="inner">
         <div class="thumbnail-placeholder centered">
-          {{ placeholder | translate }}
+          <div class="icon-wrapper">
+            <img class="placeholder-icon" src="assets/images/not_thumbnail_icon.png" alt="{{ placeholder | translate }}" />
+          </div>
+          <div class="placeholder-text">{{ placeholder | translate }}</div>
         </div>
       </div>
     </div>

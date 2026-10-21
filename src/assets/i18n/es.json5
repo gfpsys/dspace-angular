@@ -11065,6 +11065,7 @@
   // "item.preview.organization.alternateName": "Alternative name",
   // TODO New key - Add a translation
   "item.preview.organization.alternateName": "Alternative name",
+  "home.recent-submissions.subhead":"Lo más nuevo",
 
 
 }
