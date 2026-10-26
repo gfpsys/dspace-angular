@@ -23,9 +23,10 @@ img {
 
     > .thumbnail-placeholder {
       background: var(--ds-thumbnail-placeholder-background);
-      border: var(--ds-thumbnail-placeholder-border);
       color: var(--ds-thumbnail-placeholder-color);
       font-weight: bold;
+      border-radius: 10px;
+      border-bottom: 6px solid #002367;
     }
     > .centered {
       width: 100%;
@@ -35,5 +36,30 @@ img {
       align-items: center;
       text-align: center;
     }
+  }
+/* Contenedor principal del placeholder */
+  .thumbnail-placeholder.centered {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente (imagen arriba, texto abajo) */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    text-align: center; /* Asegura que el texto también esté centrado */
+    width: 100%;
+    height: 100%; /* Ajusta esto dependiendo de la altura que tenga el contenedor padre (.inner) */
+    gap: 10px; /* Espacio opcional entre la imagen y el texto */
+  }
+
+  /* Contenedor de la imagen */
+  .icon-wrapper {
+    display: flex;
+    justify-content: center; /* Asegura que la imagen esté centrada en su propio div */
+    width: 100%;
+  }
+
+  /* La imagen */
+  .placeholder-icon {
+    max-width: 30%; /* Limita el tamaño máximo al 20% */
+    height: auto; /* Mantiene las proporciones originales de la imagen para que no se deforme */
+    object-fit: contain; 
   }
 }

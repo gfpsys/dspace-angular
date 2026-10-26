@@ -10973,6 +10973,8 @@
 
   // "item.preview.organization.alternateName": "Alternative name",
   "item.preview.organization.alternateName": "Nombre alternativo",
+ 
+  "home.recent-submissions.subhead":"Lo más nuevo",
 
 
 }
