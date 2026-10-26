@@ -49,11 +49,10 @@
   "error-page.description.404": "Página no encontrada",
 
   // "error-page.orcid.generic-error": "An error occurred during login via ORCID. Make sure you have shared your ORCID account email address with DSpace. If the error persists, contact the administrator",
-  "error-page.orcid.generic-error": "Hubo un error en el inicio de sesión vía ORCID. Asegúrese que ha compartido el correo electrónico de su cuenta ORCID con Dspace. Si continuase el error, contacte con el administrador",
+  "error-page.orcid.generic-error": "Hubo un error en el inicio de sesión vía ORCID. Asegúrese de que ha compartido el correo electrónico de su cuenta ORCID con DSpace. Si el error persiste, contacte con el administrador",
 
   // "listelement.badge.access-status": "Access status:",
-  // TODO New key - Add a translation
-  "listelement.badge.access-status": "Access status:",
+  "listelement.badge.access-status": "Estado de acceso:",
 
   // "access-status.embargo.listelement.badge": "Embargo",
   "access-status.embargo.listelement.badge": "Embargo",
@@ -218,7 +217,7 @@
   "admin.registries.bitstream-formats.table.supportLevel.head": "Nivel de soporte",
 
   // "admin.registries.bitstream-formats.title": "Bitstream Format Registry",
-  "admin.registries.bitstream-formats.title": "Registro de formato Archivo",
+  "admin.registries.bitstream-formats.title": "Registro de formato de archivo",
 
   // "admin.registries.bitstream-formats.select": "Select",
   "admin.registries.bitstream-formats.select": "Seleccionar",
@@ -362,19 +361,19 @@
   "admin.registries.schema.title": "Registro de esquemas de metadatos",
 
   // "admin.access-control.bulk-access.breadcrumbs": "Bulk Access Management",
-  "admin.access-control.bulk-access.breadcrumbs": "Gestión de Acceso Masivo",
+  "admin.access-control.bulk-access.breadcrumbs": "Gestión de acceso masivo",
 
   // "administrativeBulkAccess.search.results.head": "Search Results",
   "administrativeBulkAccess.search.results.head": "Resultados de la búsqueda",
 
   // "admin.access-control.bulk-access": "Bulk Access Management",
-  "admin.access-control.bulk-access": "Gestión de Acceso Masivo",
+  "admin.access-control.bulk-access": "Gestión de acceso masivo",
 
   // "admin.access-control.bulk-access.title": "Bulk Access Management",
-  "admin.access-control.bulk-access.title": "Gestión de Acceso Masivo",
+  "admin.access-control.bulk-access.title": "Gestión de acceso masivo",
 
   // "admin.access-control.bulk-access-browse.header": "Step 1: Select Objects",
-  "admin.access-control.bulk-access-browse.header": "Paso 1: Seleccione Objetos",
+  "admin.access-control.bulk-access-browse.header": "Paso 1: Seleccione objetos",
 
   // "admin.access-control.bulk-access-browse.search.header": "Search",
   "admin.access-control.bulk-access-browse.search.header": "Buscar",
@@ -455,18 +454,16 @@
   "admin.access-control.epeople.table.edit.buttons.edit": "Editar \"{{ name }}\"",
 
   // "admin.access-control.epeople.table.edit.buttons.edit-disabled": "You are not authorized to edit this group",
-  "admin.access-control.epeople.table.edit.buttons.edit-disabled": "No tienes autorización para editar este grupo.",
+  "admin.access-control.epeople.table.edit.buttons.edit-disabled": "No tiene autorización para editar este grupo.",
 
   // "admin.access-control.epeople.table.edit.buttons.remove": "Delete \"{{name}}\"",
   "admin.access-control.epeople.table.edit.buttons.remove": "Eliminar \"{{ name }}\"",
 
   // "admin.access-control.epeople.table.edit.buttons.remove.modal.header": "Delete Group \"{{ dsoName }}\"",
-  // TODO New key - Add a translation
-  "admin.access-control.epeople.table.edit.buttons.remove.modal.header": "Delete Group \"{{ dsoName }}\"",
+  "admin.access-control.epeople.table.edit.buttons.remove.modal.header": "Eliminar grupo \"{{ dsoName }}\"",
 
   // "admin.access-control.epeople.table.edit.buttons.remove.modal.info": "Are you sure you want to delete Group \"{{ dsoName }}\" and all its associated policies?",
-  // TODO New key - Add a translation
-  "admin.access-control.epeople.table.edit.buttons.remove.modal.info": "Are you sure you want to delete Group \"{{ dsoName }}\" and all its associated policies?",
+  "admin.access-control.epeople.table.edit.buttons.remove.modal.info": "¿Está seguro de que desea eliminar el grupo \"{{ dsoName }}\" y todas sus políticas asociadas?",
 
   // "admin.access-control.epeople.table.edit.buttons.remove.modal.cancel": "Cancel",
   // TODO New key - Add a translation
@@ -540,7 +537,7 @@
   "admin.access-control.epeople.form.table.name": "Nombre",
 
   // "admin.access-control.epeople.form.table.collectionOrCommunity": "Collection/Community",
-  "admin.access-control.epeople.form.table.collectionOrCommunity": "Colección/Comunidad",
+  "admin.access-control.epeople.form.table.collectionOrCommunity": "Colección/comunidad",
 
   // "admin.access-control.epeople.form.memberOfNoGroups": "This EPerson is not a member of any groups",
   "admin.access-control.epeople.form.memberOfNoGroups": "Este usuario no es miembro de ningún grupo",
@@ -597,7 +594,7 @@
   "admin.access-control.groups.table.name": "Nombre",
 
   // "admin.access-control.groups.table.collectionOrCommunity": "Collection/Community",
-  "admin.access-control.groups.table.collectionOrCommunity": "Colección/Comunidad",
+  "admin.access-control.groups.table.collectionOrCommunity": "Colección/comunidad",
 
   // "admin.access-control.groups.table.members": "Members",
   "admin.access-control.groups.table.members": "Miembros",
@@ -624,7 +621,7 @@
   "admin.access-control.groups.notification.deleted.failure.content": "Causa: \"{{ cause }}\"",
 
   // "admin.access-control.groups.form.alert.permanent": "This group is permanent, so it can't be edited or deleted. You can still add and remove group members using this page.",
-  "admin.access-control.groups.form.alert.permanent": "Este grupo es permanente, por lo que no se puede editar ni eliminar. Sin embargo, puedes añadir y eliminar miembros del grupo utilizando esta página.",
+  "admin.access-control.groups.form.alert.permanent": "Este grupo es permanente, por lo que no se puede editar ni eliminar. Sin embargo, puede añadir y eliminar miembros del grupo utilizando esta página.",
 
   // "admin.access-control.groups.form.alert.workflowGroup": "This group can’t be modified or deleted because it corresponds to a role in the submission and workflow process in the \"{{name}}\" {{comcol}}. You can delete it from the <a href='{{comcolEditRolesRoute}}'>\"assign roles\"</a> tab on the edit {{comcol}} page. You can still add and remove group members using this page.",
   "admin.access-control.groups.form.alert.workflowGroup": "Este grupo no puede ser modificado o eliminado porque corresponde a un rol en el proceso de entrada y revisión de envíos en {{ comcol }} \"{{ name }}\". Puede eliminarlo desde la pestaña <a href='{{ comcolEditRolesRoute }}'>\"asignar roles\"</a> de la página de edición de la {{ comcol }}. Sí puede añadir y eliminar miembros del grupo utilizando esta página.",
@@ -639,7 +636,7 @@
   "admin.access-control.groups.form.groupName": "Nombre del grupo",
 
   // "admin.access-control.groups.form.groupCommunity": "Community or Collection",
-  "admin.access-control.groups.form.groupCommunity": "Comunidad o Colección",
+  "admin.access-control.groups.form.groupCommunity": "Comunidad o colección",
 
   // "admin.access-control.groups.form.groupDescription": "Description",
   "admin.access-control.groups.form.groupDescription": "Descripción",
@@ -718,7 +715,7 @@
   "admin.access-control.groups.form.members-list.table.netid": "NetID",
 
   // "admin.access-control.groups.form.members-list.table.edit": "Remove / Add",
-  "admin.access-control.groups.form.members-list.table.edit": "Eliminar / Agregar",
+  "admin.access-control.groups.form.members-list.table.edit": "Eliminar/agregar",
 
   // "admin.access-control.groups.form.members-list.table.edit.buttons.remove": "Remove member with name \"{{name}}\"",
   "admin.access-control.groups.form.members-list.table.edit.buttons.remove": "Eliminar miembro con nombre \"{{ name }}\"",
@@ -772,10 +769,10 @@
   "admin.access-control.groups.form.subgroups-list.table.name": "Nombre",
 
   // "admin.access-control.groups.form.subgroups-list.table.collectionOrCommunity": "Collection/Community",
-  "admin.access-control.groups.form.subgroups-list.table.collectionOrCommunity": "Colección/Comunidad",
+  "admin.access-control.groups.form.subgroups-list.table.collectionOrCommunity": "Colección/comunidad",
 
   // "admin.access-control.groups.form.subgroups-list.table.edit": "Remove / Add",
-  "admin.access-control.groups.form.subgroups-list.table.edit": "Eliminar / Agregar",
+  "admin.access-control.groups.form.subgroups-list.table.edit": "Eliminar/agregar",
 
   // "admin.access-control.groups.form.subgroups-list.table.edit.buttons.remove": "Remove subgroup with name \"{{name}}\"",
   "admin.access-control.groups.form.subgroups-list.table.edit.buttons.remove": "Eliminar subgrupo con nombre \"{{ name }}\"",
@@ -829,25 +826,25 @@
   "admin.access-control.groups.form.tooltip.editGroupPage": "En esta página, puede modificar las propiedades y miembros de un grupo. En la sección superior, puede editar el nombre del grupo y la descripción, a menos que este sea un grupo de administración de una colección o comunidad, en cuyo caso el nombre y descripción del grupo fueron auto-generadas y no podrán ser editadas. En las secciones siguientes, puede editar la afiliación al grupo. Para más detalles ver [la wiki](https://wiki.lyrasis.org/display/DSDOC7x/Create+or+manage+a+user+group).",
 
   // "admin.access-control.groups.form.tooltip.editGroup.addEpeople": "To add or remove an EPerson to/from this group, either click the 'Browse All' button or use the search bar below to search for users (use the dropdown to the left of the search bar to choose whether to search by metadata or by email). Then click the plus icon for each user you wish to add in the list below, or the trash can icon for each user you wish to remove. The list below may have several pages: use the page controls below the list to navigate to the next pages.",
-  "admin.access-control.groups.form.tooltip.editGroup.addEpeople": "Para agregar o eliminar un usuario en este grupo, pulse el botón ‘Examinar todo’ o utilice la barra de búsqueda de abajo para buscar usuarios (use el menú desplegable a la izquierda de la barra de búsqueda para elegir si buscar por metadatos o por correo electrónico). Posteriormente pulse el botón con el icono más por cada usuario que desea agregar a la lista, o el icono de papelera por cada usuario que desea remover. La lista puede contener varias páginas: utilice los controles de paginación debajo de la lista, para navegar a las siguientes páginas.",
+  "admin.access-control.groups.form.tooltip.editGroup.addEpeople": "Para agregar o eliminar un usuario en este grupo, pulse el botón ‘Examinar todo’ o utilice la barra de búsqueda de abajo para buscar usuarios (use el menú desplegable a la izquierda de la barra de búsqueda para elegir si buscar por metadatos o por correo electrónico). Posteriormente pulse el botón con el icono más por cada usuario que desea agregar a la lista, o el icono de papelera por cada usuario que desea eliminar. La lista puede contener varias páginas: utilice los controles de paginación debajo de la lista, para navegar a las siguientes páginas.",
 
   // "admin.access-control.groups.form.tooltip.editGroup.addSubgroups": "To add or remove a Subgroup to/from this group, either click the 'Browse All' button or use the search bar below to search for groups. Then click the plus icon for each group you wish to add in the list below, or the trash can icon for each group you wish to remove. The list below may have several pages: use the page controls below the list to navigate to the next pages.",
-  "admin.access-control.groups.form.tooltip.editGroup.addSubgroups": "Para agregar o remover un subgrupo en este grupo, pulse el botón ‘Examinar todo’ o utilice la barra de búsqueda de abajo para buscar los grupos. Posteriormente pulse el botón con el icono más por cada grupo que desea agregar a la lista, o el icono de papelera por cada grupo que desea remover. La lista puede contener varias páginas: utilice los controles de paginación debajo de la lista, para navegar a las siguientes páginas.",
+  "admin.access-control.groups.form.tooltip.editGroup.addSubgroups": "Para agregar o eliminar un subgrupo en este grupo, pulse el botón ‘Examinar todo’ o utilice la barra de búsqueda de abajo para buscar los grupos. Posteriormente pulse el botón con el icono más por cada grupo que desea agregar a la lista, o el icono de papelera por cada grupo que desea eliminar. La lista puede contener varias páginas: utilice los controles de paginación debajo de la lista, para navegar a las siguientes páginas.",
 
   // "admin.reports.collections.title": "Collection Filter Report",
-  "admin.reports.collections.title": "Informe de Colecciones Filtradas",
+  "admin.reports.collections.title": "Informe de colecciones filtradas",
 
   // "admin.reports.collections.breadcrumbs": "Collection Filter Report",
-  "admin.reports.collections.breadcrumbs": "Informe de Colecciones Filtradas",
+  "admin.reports.collections.breadcrumbs": "Informe de colecciones filtradas",
 
   // "admin.reports.collections.head": "Collection Filter Report",
-  "admin.reports.collections.head": "Informe de Colecciones Filtradas",
+  "admin.reports.collections.head": "Informe de colecciones filtradas",
 
   // "admin.reports.button.show-collections": "Show Collections",
-  "admin.reports.button.show-collections": "Mostrar Colecciones",
+  "admin.reports.button.show-collections": "Mostrar colecciones",
 
   // "admin.reports.collections.collections-report": "Collection Report",
-  "admin.reports.collections.collections-report": "Informe de Colecciones",
+  "admin.reports.collections.collections-report": "Informe de colecciones",
 
   // "admin.reports.collections.item-results": "Item Results",
   "admin.reports.collections.item-results": "Resultados de ítem",
@@ -859,31 +856,31 @@
   "admin.reports.collections.collection": "Colección",
 
   // "admin.reports.collections.nb_items": "Nb. Items",
-  "admin.reports.collections.nb_items": "Nº Ítems",
+  "admin.reports.collections.nb_items": "N.º de ítems",
 
   // "admin.reports.collections.match_all_selected_filters": "Matching all selected filters",
   "admin.reports.collections.match_all_selected_filters": "Coincidencia con todos los filtros seleccionados",
 
   // "admin.reports.items.breadcrumbs": "Metadata Query Report",
-  "admin.reports.items.breadcrumbs": "Informe de Consulta de Metadatos",
+  "admin.reports.items.breadcrumbs": "Informe de consulta de metadatos",
 
   // "admin.reports.items.head": "Metadata Query Report",
-  "admin.reports.items.head": "Informe de Consulta de Metadatos",
+  "admin.reports.items.head": "Informe de consulta de metadatos",
 
   // "admin.reports.items.run": "Run Item Query",
-  "admin.reports.items.run": "Ejecutar Consulta de Ítems",
+  "admin.reports.items.run": "Ejecutar consulta de ítems",
 
   // "admin.reports.items.section.collectionSelector": "Collection Selector",
-  "admin.reports.items.section.collectionSelector": "Selección de Colecciones",
+  "admin.reports.items.section.collectionSelector": "Selección de colecciones",
 
   // "admin.reports.items.section.metadataFieldQueries": "Metadata Field Queries",
-  "admin.reports.items.section.metadataFieldQueries": "Consultas de Campos de Metadatos",
+  "admin.reports.items.section.metadataFieldQueries": "Consultas de campos de metadatos",
 
   // "admin.reports.items.predefinedQueries": "Predefined Queries",
-  "admin.reports.items.predefinedQueries": "Consultas Predefinidas",
+  "admin.reports.items.predefinedQueries": "Consultas predefinidas",
 
   // "admin.reports.items.section.limitPaginateQueries": "Limit/Paginate Queries",
-  "admin.reports.items.section.limitPaginateQueries": "Limitar/Paginar Consultas",
+  "admin.reports.items.section.limitPaginateQueries": "Limitar/paginar consultas",
 
   // "admin.reports.items.limit": "Limit/",
   "admin.reports.items.limit": "Límite/",
@@ -928,10 +925,10 @@
   "admin.reports.items.predicate.doesNotMatch": "no coincide",
 
   // "admin.reports.items.preset.new": "New Query",
-  "admin.reports.items.preset.new": "Nueva Consulta",
+  "admin.reports.items.preset.new": "Nueva consulta",
 
   // "admin.reports.items.preset.hasNoTitle": "Has No Title",
-  "admin.reports.items.preset.hasNoTitle": "Sin Título",
+  "admin.reports.items.preset.hasNoTitle": "Sin título",
 
   // "admin.reports.items.preset.hasNoIdentifierUri": "Has No dc.identifier.uri",
   "admin.reports.items.preset.hasNoIdentifierUri": "Sin dc.identifier.uri",
@@ -1012,10 +1009,10 @@
   "admin.reports.commons.filters.matches_all": "Coincide con todos los filtros especificados",
 
   // "admin.reports.commons.filters.property": "Item Property Filters",
-  "admin.reports.commons.filters.property": "Filtro de Propiedades de Ítem",
+  "admin.reports.commons.filters.property": "Filtro de propiedades del ítem",
 
   // "admin.reports.commons.filters.property.is_item": "Is Item - always true",
-  "admin.reports.commons.filters.property.is_item": "Es Ítem - siempre verdadero",
+  "admin.reports.commons.filters.property.is_item": "Es ítem: siempre verdadero",
 
   // "admin.reports.commons.filters.property.is_withdrawn": "Withdrawn Items",
   "admin.reports.commons.filters.property.is_withdrawn": "Ítems retirados",
@@ -1024,13 +1021,13 @@
   "admin.reports.commons.filters.property.is_not_withdrawn": "Ítems disponibles - no retirados",
 
   // "admin.reports.commons.filters.property.is_discoverable": "Discoverable Items - Not Private",
-  "admin.reports.commons.filters.property.is_discoverable": "Ítems encontrables - No Privados",
+  "admin.reports.commons.filters.property.is_discoverable": "Ítems encontrables: no privados",
 
   // "admin.reports.commons.filters.property.is_not_discoverable": "Not Discoverable - Private Item",
-  "admin.reports.commons.filters.property.is_not_discoverable": "Ítems Privados - no encontrables",
+  "admin.reports.commons.filters.property.is_not_discoverable": "Ítems privados: no encontrables",
 
   // "admin.reports.commons.filters.bitstream": "Basic Bitstream Filters",
-  "admin.reports.commons.filters.bitstream": "Filtros Básicos de Ficheros",
+  "admin.reports.commons.filters.bitstream": "Filtros básicos de ficheros",
 
   // "admin.reports.commons.filters.bitstream.has_multiple_originals": "Item has Multiple Original Bitstreams",
   "admin.reports.commons.filters.bitstream.has_multiple_originals": "Ítem tiene múltiples ficheros (bloque Original)",
@@ -1042,19 +1039,19 @@
   "admin.reports.commons.filters.bitstream.has_one_original": "Ítem tiene un fichero (bloque Original)",
 
   // "admin.reports.commons.filters.bitstream_mime": "Bitstream Filters by MIME Type",
-  "admin.reports.commons.filters.bitstream_mime": "Filtros de Fichero por tipo MIME",
+  "admin.reports.commons.filters.bitstream_mime": "Filtros de fichero por tipo MIME",
 
   // "admin.reports.commons.filters.bitstream_mime.has_doc_original": "Item has a Doc Original Bitstream (PDF, Office, Text, HTML, XML, etc)",
-  "admin.reports.commons.filters.bitstream_mime.has_doc_original": "Ítem tiene documento (bloque Original)  PDF, Office, Text, HTML, XML, etc ",
+  "admin.reports.commons.filters.bitstream_mime.has_doc_original": "Ítem tiene documento (bloque Original): PDF, Office, texto, HTML, XML, etc.",
 
   // "admin.reports.commons.filters.bitstream_mime.has_image_original": "Item has an Image Original Bitstream",
-  "admin.reports.commons.filters.bitstream_mime.has_image_original": "Ítem tiene una Imagen (bloque Original)",
+  "admin.reports.commons.filters.bitstream_mime.has_image_original": "Ítem tiene una imagen (bloque Original)",
 
   // "admin.reports.commons.filters.bitstream_mime.has_unsupp_type": "Has Other Bitstream Types (not Doc or Image)",
-  "admin.reports.commons.filters.bitstream_mime.has_unsupp_type": "Tiene otros tipos de fichero (ni Doc ni Imagen)",
+  "admin.reports.commons.filters.bitstream_mime.has_unsupp_type": "Tiene otros tipos de fichero (ni documento ni imagen)",
 
   // "admin.reports.commons.filters.bitstream_mime.has_mixed_original": "Item has multiple types of Original Bitstreams (Doc, Image, Other)",
-  "admin.reports.commons.filters.bitstream_mime.has_mixed_original": "Ítem tiene múltiples ficheros (bloque Original) de varios tipos(Doc, Imagen, Otros)",
+  "admin.reports.commons.filters.bitstream_mime.has_mixed_original": "Ítem tiene múltiples ficheros (bloque Original) de varios tipos (documento, imagen, otros)",
 
   // "admin.reports.commons.filters.bitstream_mime.has_pdf_original": "Item has a PDF Original Bitstream",
   "admin.reports.commons.filters.bitstream_mime.has_pdf_original": "Ítem tiene un fichero PDF (bloque Original) ",
@@ -1087,7 +1084,7 @@
   "admin.reports.commons.filters.mime.has_unsupp_doc_type": "El ítem tiene ficheros de tipo documental no soportados",
 
   // "admin.reports.commons.filters.bundle": "Bitstream Bundle Filters",
-  "admin.reports.commons.filters.bundle": "Filtros de Bloques de Ficheros",
+  "admin.reports.commons.filters.bundle": "Filtros de bloques de ficheros",
 
   // "admin.reports.commons.filters.bundle.has_unsupported_bundle": "Has bitstream in an unsupported bundle",
   "admin.reports.commons.filters.bundle.has_unsupported_bundle": "Tiene ficheros en un bloque no soportado",
@@ -1111,7 +1108,7 @@
   "admin.reports.commons.filters.bundle.has_license_documentation": "Tiene documentación en el bloque Licencia",
 
   // "admin.reports.commons.filters.permission": "Permission Filters",
-  "admin.reports.commons.filters.permission": "Filtros de Permisos",
+  "admin.reports.commons.filters.permission": "Filtros de permisos",
 
   // "admin.reports.commons.filters.permission.has_restricted_original": "Item has Restricted Original Bitstream",
   "admin.reports.commons.filters.permission.has_restricted_original": "Ítem con ficheros (bloque Original) restringidos",
@@ -1129,7 +1126,7 @@
   "admin.reports.commons.filters.permission.has_restricted_metadata": "Ítem con metadatos restringidos",
 
   // "admin.reports.commons.filters.permission.has_restricted_metadata.tooltip": "Item has metadata that is not accessible to Anonymous user",
-  "admin.reports.commons.filters.permission.has_restricted_metadata.tooltip": "Item con metadatos no accesibles a usuarios anónimos",
+  "admin.reports.commons.filters.permission.has_restricted_metadata.tooltip": "Ítem con metadatos no accesibles a usuarios anónimos",
 
   // "admin.search.breadcrumbs": "Administrative Search",
   "admin.search.breadcrumbs": "Búsqueda administrativa",
@@ -1213,7 +1210,7 @@
   "admin.metadata-import.page.help": "Puede soltar o examinar archivos CSV que contienen operaciones de metadatos por lotes aquí",
 
   // "admin.batch-import.page.help": "Select the collection to import into. Then, drop or browse to a Simple Archive Format (SAF) zip file that includes the items to import",
-  "admin.batch-import.page.help": "Seleccione la Colección a la que importar. Luego, suelte o busque el archivo zip en formato Simple Archive Format (SAF) que incluye los ítems a importar",
+  "admin.batch-import.page.help": "Seleccione la colección a la que importar. Luego, suelte o busque el archivo zip en formato Simple Archive Format (SAF) que incluye los ítems a importar",
 
   // "admin.batch-import.page.toggle.help": "It is possible to perform import either with file upload or via URL, use above toggle to set the input source",
   "admin.batch-import.page.toggle.help": "Es posible realizar una importación tanto mediante una subida de fichero como a través de una URL. Use el selector de arriba para especificar la fuente de entrada.",
@@ -1237,7 +1234,7 @@
   "admin.metadata-import.page.button.proceed": "Continuar",
 
   // "admin.metadata-import.page.button.select-collection": "Select Collection",
-  "admin.metadata-import.page.button.select-collection": "Selecciona la Colección",
+  "admin.metadata-import.page.button.select-collection": "Seleccione la colección",
 
   // "admin.metadata-import.page.error.addFile": "Select file first!",
   "admin.metadata-import.page.error.addFile": "¡Seleccione el archivo primero!",
@@ -1258,7 +1255,7 @@
   "admin.metadata-import.page.urlMsg": "¡Seleccione primero la URL del archivo ZIP!",
 
   // "admin.metadata-import.page.validateOnly": "Validate Only",
-  "admin.metadata-import.page.validateOnly": "Solo Validar",
+  "admin.metadata-import.page.validateOnly": "Solo validar",
 
   // "admin.metadata-import.page.validateOnly.hint": "When selected, the uploaded CSV will be validated. You will receive a report of detected changes, but no changes will be saved.",
   "admin.metadata-import.page.validateOnly.hint": "Al seleccionar, se validará el CSV subido. Recibirá un informe con los cambios detectados, pero no se efectuarán dichos cambios.",
@@ -1285,7 +1282,7 @@
   "advanced-workflow-action.select-reviewer.description-single": "Por favor, seleccione un revisor antes de realizar el envío",
 
   // "advanced-workflow-action.select-reviewer.description-multiple": "Please select one or more reviewers below before submitting",
-  "advanced-workflow-action.select-reviewer.description-multiple": "Por favor, seleccione uno o mas revisores antes de realizar el envío",
+  "advanced-workflow-action.select-reviewer.description-multiple": "Por favor, seleccione uno o más revisores antes de realizar el envío",
 
   // "advanced-workflow-action-select-reviewer.groups.form.reviewers-list.head": "EPeople",
   "advanced-workflow-action-select-reviewer.groups.form.reviewers-list.head": "Usuario",
@@ -1318,7 +1315,7 @@
   "advanced-workflow-action-select-reviewer.groups.form.reviewers-list.table.netid": "NetID",
 
   // "advanced-workflow-action-select-reviewer.groups.form.reviewers-list.table.edit": "Remove / Add",
-  "advanced-workflow-action-select-reviewer.groups.form.reviewers-list.table.edit": "Eliminar / Agregar",
+  "advanced-workflow-action-select-reviewer.groups.form.reviewers-list.table.edit": "Eliminar/agregar",
 
   // "advanced-workflow-action-select-reviewer.groups.form.reviewers-list.table.edit.buttons.remove": "Remove member with name \"{{name}}\"",
   "advanced-workflow-action-select-reviewer.groups.form.reviewers-list.table.edit.buttons.remove": "Eliminar miembro con nombre \"{{name}}\"",
@@ -1480,7 +1477,7 @@
   "bitstream-request-a-copy.name.label": "Nombre *",
 
   // "bitstream-request-a-copy.name.error": "The name is required",
-  "bitstream-request-a-copy.name.error": "Se requiere un Nombre",
+  "bitstream-request-a-copy.name.error": "Se requiere un nombre",
 
   // "bitstream-request-a-copy.email.label": "Your email address *",
   "bitstream-request-a-copy.email.label": "Su dirección de correo electrónico *",
@@ -1699,12 +1696,10 @@
   "browse.title": "Examinando por {{ field }} {{ value }}",
 
   // "browse.taxonomy.show_next_results": "Show next results",
-  // TODO New key - Add a translation
-  "browse.taxonomy.show_next_results": "Show next results",
+  "browse.taxonomy.show_next_results": "Mostrar resultados siguientes",
 
   // "browse.taxonomy.show_previous_results": "Show previous results",
-  // TODO New key - Add a translation
-  "browse.taxonomy.show_previous_results": "Show previous results",
+  "browse.taxonomy.show_previous_results": "Mostrar resultados anteriores",
 
   // "browse.title.page": "Browsing by {{ field }} {{ value }}",
   "browse.title.page": "Examinando por {{ field }} {{ value }}",
@@ -1722,7 +1717,7 @@
   "claimed-declined-search-result-list-element.title": "Rechazado, enviar de vuelta al depositante",
 
   // "claimed-declined-task-search-result-list-element.title": "Declined, sent back to Review Manager's workflow",
-  "claimed-declined-task-search-result-list-element.title": "Declinado, enviar de vuelta al Administrador de Revisión del flujo de trabajo",
+  "claimed-declined-task-search-result-list-element.title": "Declinado, enviar de vuelta al administrador de revisión del flujo de trabajo",
 
   // "collection.create.breadcrumbs": "Create collection",
   "collection.create.breadcrumbs": "Crear colección",
@@ -1884,10 +1879,10 @@
   "collection.edit.tabs.authorizations.title": "Edición de colección: autorizaciones",
 
   // "collection.edit.item.authorizations.load-bundle-button": "Load more bundles",
-  "collection.edit.item.authorizations.load-bundle-button": "Cargar mas bloques",
+  "collection.edit.item.authorizations.load-bundle-button": "Cargar más bloques",
 
   // "collection.edit.item.authorizations.load-more-button": "Load more",
-  "collection.edit.item.authorizations.load-more-button": "Cargar mas",
+  "collection.edit.item.authorizations.load-more-button": "Cargar más",
 
   // "collection.edit.item.authorizations.show-bitstreams-button": "Show bitstream policies for bundle",
   "collection.edit.item.authorizations.show-bitstreams-button": "Mostrar las autorizaciones de los ficheros del bloque",
@@ -1938,13 +1933,13 @@
   "collection.edit.tabs.source.head": "Origen del contenido",
 
   // "collection.edit.tabs.source.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
-  "collection.edit.tabs.source.notifications.discarded.content": "Tus cambios fueron descartados.  Para recuperarlos, pulse el botón 'Deshacer'",
+  "collection.edit.tabs.source.notifications.discarded.content": "Sus cambios fueron descartados. Para recuperarlos, pulse el botón 'Deshacer'",
 
   // "collection.edit.tabs.source.notifications.discarded.title": "Changes discarded",
   "collection.edit.tabs.source.notifications.discarded.title": "Cambios descartados",
 
   // "collection.edit.tabs.source.notifications.invalid.content": "Your changes were not saved. Please make sure all fields are valid before you save.",
-  "collection.edit.tabs.source.notifications.invalid.content": "Tus cambios no se guardaron. Asegúrese de que todos los campos sean válidos antes de guardar.",
+  "collection.edit.tabs.source.notifications.invalid.content": "Sus cambios no se guardaron. Asegúrese de que todos los campos sean válidos antes de guardar.",
 
   // "collection.edit.tabs.source.notifications.invalid.title": "Metadata invalid",
   "collection.edit.tabs.source.notifications.invalid.title": "Metadatos inválidos",
@@ -2124,7 +2119,7 @@
   "collection.source.controls.reset.running": "Restaurando y reimportando...",
 
   // "collection.source.controls.harvest.status": "Harvest status:",
-  "collection.source.controls.harvest.status": "Estado de la Recolección:",
+  "collection.source.controls.harvest.status": "Estado de la recolección:",
 
   // "collection.source.controls.harvest.start": "Harvest start time:",
   "collection.source.controls.harvest.start": "Comienzo de la recolección:",
@@ -2142,7 +2137,7 @@
   "collection.source.update.notifications.error.content": "La configuración proporcionada se ha probado y no funcionó.",
 
   // "collection.source.update.notifications.error.title": "Server Error",
-  "collection.source.update.notifications.error.title": "Error del Servidor",
+  "collection.source.update.notifications.error.title": "Error del servidor",
 
   // "communityList.breadcrumbs": "Community List",
   "communityList.breadcrumbs": "Lista de comunidades",
@@ -2151,7 +2146,7 @@
   "communityList.tabTitle": "Lista de comunidades",
 
   // "communityList.title": "List of Communities",
-  "communityList.title": "Lista de Comunidades",
+  "communityList.title": "Lista de comunidades",
 
   // "communityList.showMore": "Show More",
   "communityList.showMore": "Mostrar más",
@@ -2250,7 +2245,7 @@
   "community.edit.notifications.success": "Editó con éxito la comunidad",
 
   // "community.edit.notifications.unauthorized": "You do not have privileges to make this change",
-  "community.edit.notifications.unauthorized": "No tienes privilegios para realizar este cambio",
+  "community.edit.notifications.unauthorized": "No tiene privilegios para realizar este cambio",
 
   // "community.edit.notifications.error": "An error occurred while editing the community",
   "community.edit.notifications.error": "Se produjo un error al editar la comunidad.",
@@ -2313,12 +2308,10 @@
   "comcol-role.edit.delete.error.title": "Error al borrar el grupo del rol '{{ role }}'",
 
   // "comcol-role.edit.delete.modal.header": "Delete Group \"{{ dsoName }}\"",
-  // TODO New key - Add a translation
-  "comcol-role.edit.delete.modal.header": "Delete Group \"{{ dsoName }}\"",
+  "comcol-role.edit.delete.modal.header": "Eliminar grupo \"{{ dsoName }}\"",
 
   // "comcol-role.edit.delete.modal.info": "Are you sure you want to delete Group \"{{ dsoName }}\" and all its associated policies?",
-  // TODO New key - Add a translation
-  "comcol-role.edit.delete.modal.info": "Are you sure you want to delete Group \"{{ dsoName }}\" and all its associated policies?",
+  "comcol-role.edit.delete.modal.info": "¿Está seguro de que desea eliminar el grupo \"{{ dsoName }}\" y todas sus políticas asociadas?",
 
   // "comcol-role.edit.delete.modal.cancel": "Cancel",
   // TODO New key - Add a translation
@@ -2344,25 +2337,25 @@
   "comcol-role.edit.submitters.name": "Remitentes",
 
   // "comcol-role.edit.submitters.description": "The E-People and Groups that have permission to submit new items to this collection.",
-  "comcol-role.edit.submitters.description": "Los Usuarios y Grupos que tienen permiso para enviar nuevos ítems a esta colección.",
+  "comcol-role.edit.submitters.description": "Los usuarios y grupos que tienen permiso para enviar nuevos ítems a esta colección.",
 
   // "comcol-role.edit.item_read.name": "Default item read access",
   "comcol-role.edit.item_read.name": "Acceso de lectura predeterminado del ítem",
 
   // "comcol-role.edit.item_read.description": "E-People and Groups that can read new items submitted to this collection. Changes to this role are not retroactive. Existing items in the system will still be viewable by those who had read access at the time of their addition.",
-  "comcol-role.edit.item_read.description": "Usuarios y Grupos que pueden leer nuevos ítems enviados a esta colección. Los cambios en este rol no son retroactivos. Los ítems existentes en el sistema aún serán visibles para aquellos que tenían acceso de lectura en el momento de su adición.",
+  "comcol-role.edit.item_read.description": "Usuarios y grupos que pueden leer nuevos ítems enviados a esta colección. Los cambios en este rol no son retroactivos. Los ítems existentes en el sistema aún serán visibles para aquellos que tenían acceso de lectura en el momento de su adición.",
 
   // "comcol-role.edit.item_read.anonymous-group": "Default read for incoming items is currently set to Anonymous.",
-  "comcol-role.edit.item_read.anonymous-group": "La lectura predeterminada para los ítems entrantes está configurada actualmente como Anónimo.",
+  "comcol-role.edit.item_read.anonymous-group": "La lectura predeterminada para los ítems entrantes está configurada actualmente como «Anónimo».",
 
   // "comcol-role.edit.bitstream_read.name": "Default bitstream read access",
   "comcol-role.edit.bitstream_read.name": "Acceso de lectura predeterminado de archivos",
 
   // "comcol-role.edit.bitstream_read.description": "E-People and Groups that can read new bitstreams submitted to this collection. Changes to this role are not retroactive. Existing bitstreams in the system will still be viewable by those who had read access at the time of their addition.",
-  "comcol-role.edit.bitstream_read.description": "Usuarios y Grupos que pueden leer nuevos archivos enviados a esta colección. Los cambios en este rol no son retroactivos. Los archivos existentes en el sistema aún serán visibles para aquellos que tenían acceso de lectura en el momento de su adición.",
+  "comcol-role.edit.bitstream_read.description": "Usuarios y grupos que pueden leer nuevos archivos enviados a esta colección. Los cambios en este rol no son retroactivos. Los archivos existentes en el sistema aún serán visibles para aquellos que tenían acceso de lectura en el momento de su adición.",
 
   // "comcol-role.edit.bitstream_read.anonymous-group": "Default read for incoming bitstreams is currently set to Anonymous.",
-  "comcol-role.edit.bitstream_read.anonymous-group": "La lectura predeterminada para los archivos entrantes se establece actualmente en Anónimo.",
+  "comcol-role.edit.bitstream_read.anonymous-group": "La lectura predeterminada para los archivos entrantes se establece actualmente en «Anónimo».",
 
   // "comcol-role.edit.editor.name": "Editors",
   "comcol-role.edit.editor.name": "Editores",
@@ -2497,12 +2490,10 @@
   "cookies.consent.content-modal.title": "Información que recopilamos",
 
   // "cookies.consent.app.title.accessibility": "Accessibility Settings",
-  // TODO New key - Add a translation
-  "cookies.consent.app.title.accessibility": "Accessibility Settings",
+  "cookies.consent.app.title.accessibility": "Configuración de accesibilidad",
 
   // "cookies.consent.app.description.accessibility": "Required for saving your accessibility settings locally",
-  // TODO New key - Add a translation
-  "cookies.consent.app.description.accessibility": "Required for saving your accessibility settings locally",
+  "cookies.consent.app.description.accessibility": "Necesaria para guardar localmente su configuración de accesibilidad",
 
   // "cookies.consent.app.title.authentication": "Authentication",
   "cookies.consent.app.title.authentication": "Autenticación",
@@ -2511,12 +2502,10 @@
   "cookies.consent.app.description.authentication": "Requerido para iniciar sesión",
 
   // "cookies.consent.app.title.correlation-id": "Correlation ID",
-  // TODO New key - Add a translation
-  "cookies.consent.app.title.correlation-id": "Correlation ID",
+  "cookies.consent.app.title.correlation-id": "ID de correlación",
 
   // "cookies.consent.app.description.correlation-id": "Allow us to track your session in backend logs for support/debugging purposes",
-  // TODO New key - Add a translation
-  "cookies.consent.app.description.correlation-id": "Allow us to track your session in backend logs for support/debugging purposes",
+  "cookies.consent.app.description.correlation-id": "Nos permite rastrear su sesión en los registros del servidor con fines de soporte y depuración",
 
   // "cookies.consent.app.title.preferences": "Preferences",
   "cookies.consent.app.title.preferences": "Preferencias",
@@ -2630,7 +2619,7 @@
   "deny-request-copy.success": "Solicitud de copia de documento denegada",
 
   // "dynamic-list.load-more": "Load more",
-  "dynamic-list.load-more": "Cargar mas",
+  "dynamic-list.load-more": "Cargar más",
 
   // "dropdown.clear": "Clear selection",
   "dropdown.clear": "Borrar selección",
@@ -2742,7 +2731,7 @@
   "supervision-group-selector.header": "Selector de grupo de supervisión",
 
   // "supervision-group-selector.select.type-of-order.label": "Select a type of Order",
-  "supervision-group-selector.select.type-of-order.label": "Seleccione un tipo de Orden",
+  "supervision-group-selector.select.type-of-order.label": "Seleccione un tipo de orden",
 
   // "supervision-group-selector.select.type-of-order.option.none": "NONE",
   "supervision-group-selector.select.type-of-order.option.none": "NINGUNO",
@@ -2817,7 +2806,7 @@
   "confirmation-modal.delete-community-collection-logo.info": "¿Está seguro de que desea eliminar el logotipo?",
 
   // "confirmation-modal.delete-profile.header": "Delete Profile",
-  "confirmation-modal.delete-profile.header": "Borrar Perfil",
+  "confirmation-modal.delete-profile.header": "Borrar perfil",
 
   // "confirmation-modal.delete-profile.info": "Are you sure you want to delete your profile",
   "confirmation-modal.delete-profile.info": "¿Está seguro que quiere borrar su perfil?",
@@ -2934,25 +2923,25 @@
   "error.validation.groupExists": "Este grupo ya existe",
 
   // "error.validation.metadata.name.invalid-pattern": "This field cannot contain dots, commas or spaces. Please use the Element & Qualifier fields instead",
-  "error.validation.metadata.name.invalid-pattern": "Este campo no puede contener puntos, comas o espacios. Use preferiblemente los campos Elemento y Cualificador",
+  "error.validation.metadata.name.invalid-pattern": "Este campo no puede contener puntos, comas ni espacios. Use preferiblemente los campos «Elemento» y «Cualificador»",
 
   // "error.validation.metadata.name.max-length": "This field may not contain more than 32 characters",
-  "error.validation.metadata.name.max-length": "Este campo no puede contener mas de 32 caracteres",
+  "error.validation.metadata.name.max-length": "Este campo no puede contener más de 32 caracteres",
 
   // "error.validation.metadata.namespace.max-length": "This field may not contain more than 256 characters",
-  "error.validation.metadata.namespace.max-length": "Este campo no puede contener mas de 256 caracteres",
+  "error.validation.metadata.namespace.max-length": "Este campo no puede contener más de 256 caracteres",
 
   // "error.validation.metadata.element.invalid-pattern": "This field cannot contain dots, commas or spaces. Please use the Qualifier field instead",
-  "error.validation.metadata.element.invalid-pattern": "Este campo no puede contener puntos, comas o espacios. Use preferiblemente el campo Cualificador",
+  "error.validation.metadata.element.invalid-pattern": "Este campo no puede contener puntos, comas ni espacios. Use preferiblemente el campo «Cualificador»",
 
   // "error.validation.metadata.element.max-length": "This field may not contain more than 64 characters",
-  "error.validation.metadata.element.max-length": "Este campo no puede contener mas de 64 caracteres",
+  "error.validation.metadata.element.max-length": "Este campo no puede contener más de 64 caracteres",
 
   // "error.validation.metadata.qualifier.invalid-pattern": "This field cannot contain dots, commas or spaces",
-  "error.validation.metadata.qualifier.invalid-pattern": "This field cannot contain dots, commas or spaces",
+  "error.validation.metadata.qualifier.invalid-pattern": "Este campo no puede contener puntos, comas ni espacios",
 
   // "error.validation.metadata.qualifier.max-length": "This field may not contain more than 64 characters",
-  "error.validation.metadata.qualifier.max-length": "Este campo no puede contener mas de 64 caracteres",
+  "error.validation.metadata.qualifier.max-length": "Este campo no puede contener más de 64 caracteres",
 
   // "feed.description": "Syndication feed",
   "feed.description": "Hilo de sindicación",
@@ -2970,8 +2959,7 @@
   "footer.copyright": "copyright © 2002-{{ year }}",
 
   // "footer.link.accessibility": "Accessibility settings",
-  // TODO New key - Add a translation
-  "footer.link.accessibility": "Accessibility settings",
+  "footer.link.accessibility": "Configuración de accesibilidad",
 
   // "footer.link.dspace": "DSpace software",
   "footer.link.dspace": "Software DSpace",
@@ -2989,7 +2977,7 @@
   "footer.link.end-user-agreement": "Acuerdo de usuario final",
 
   // "footer.link.feedback": "Send Feedback",
-  "footer.link.feedback": "Enviar Sugerencias",
+  "footer.link.feedback": "Enviar sugerencias",
 
   // "footer.link.coar-notify-support": "COAR Notify",
   "footer.link.coar-notify-support": "COAR Notify",
@@ -3235,7 +3223,7 @@
   "grant-deny-request-copy.intro2": "Tras elegir una opción, le sugeriremos un texto de correo electrónico que usted puede editar.",
 
   // "grant-deny-request-copy.previous-decision": "This request was previously granted with a secure access token. You may revoke this access now to immediately invalidate the access token",
-  "grant-deny-request-copy.previous-decision": "Esta solicitud se concedió ya mediante  un token de acceso seguro. Puede revocar ahora este acceso para invalidarlo inmediatamente.",
+  "grant-deny-request-copy.previous-decision": "Esta solicitud se concedió ya mediante un token de acceso seguro. Puede revocar ahora este acceso para invalidarlo inmediatamente.",
 
   // "grant-deny-request-copy.processed": "This request has already been processed. You can use the button below to get back to the home page.",
   "grant-deny-request-copy.processed": "Esta solicitud ya fue procesada. Puede usar los botones inferiores para regresas a la página de inicio",
@@ -3280,10 +3268,10 @@
   "grant-request-copy.access-period.FOREVER": "Para siempre",
 
   // "health.breadcrumbs": "Health",
-  "health.breadcrumbs": "Chequeos",
+  "health.breadcrumbs": "Comprobaciones",
 
   // "health-page.heading": "Health",
-  "health-page.heading": "Chequeos",
+  "health-page.heading": "Comprobaciones",
 
   // "health-page.info-tab": "Info",
   "health-page.info-tab": "Información",
@@ -3304,16 +3292,16 @@
   "health-page.section.geoIp.title": "GeoIp",
 
   // "health-page.section.solrAuthorityCore.title": "Solr: authority core",
-  "health-page.section.solrAuthorityCore.title": "Solr: authority core",
+  "health-page.section.solrAuthorityCore.title": "Solr: núcleo de autoridades",
 
   // "health-page.section.solrOaiCore.title": "Solr: oai core",
-  "health-page.section.solrOaiCore.title": "Solr: oai core",
+  "health-page.section.solrOaiCore.title": "Solr: núcleo OAI",
 
   // "health-page.section.solrSearchCore.title": "Solr: search core",
-  "health-page.section.solrSearchCore.title": "Solr: search core",
+  "health-page.section.solrSearchCore.title": "Solr: núcleo de búsqueda",
 
   // "health-page.section.solrStatisticsCore.title": "Solr: statistics core",
-  "health-page.section.solrStatisticsCore.title": "Solr: statistics core",
+  "health-page.section.solrStatisticsCore.title": "Solr: núcleo de estadísticas",
 
   // "health-page.section-info.app.title": "Application Backend",
   "health-page.section-info.app.title": "Backend de la aplicación",
@@ -3334,7 +3322,7 @@
   "health-page.status.warning.info": "Detectados problemas potenciales",
 
   // "health-page.title": "Health",
-  "health-page.title": "Chequeos",
+  "health-page.title": "Comprobaciones",
 
   // "health-page.section.no-issues": "No issues detected",
   "health-page.section.no-issues": "No se detectaron problemas",
@@ -3358,89 +3346,70 @@
   "home.top-level-communities.help": "Seleccione una comunidad para explorar sus colecciones.",
 
   // "info.accessibility-settings.breadcrumbs": "Accessibility settings",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.breadcrumbs": "Accessibility settings",
+  "info.accessibility-settings.breadcrumbs": "Configuración de accesibilidad",
 
   // "info.accessibility-settings.cookie-warning": "Saving the accessibility settings is currently not possible. Either log in to save the settings in user data, or accept the 'Accessibility Settings' cookie using the 'Cookie Settings' menu at the bottom of the page. Once the cookie has been accepted, you can reload the page to remove this message.",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.cookie-warning": "Saving the accessibility settings is currently not possible. Either log in to save the settings in user data, or accept the 'Accessibility Settings' cookie using the 'Cookie Settings' menu at the bottom of the page. Once the cookie has been accepted, you can reload the page to remove this message.",
+  "info.accessibility-settings.cookie-warning": "Actualmente no es posible guardar la configuración de accesibilidad. Inicie sesión para guardarla en sus datos de usuario, o acepte la cookie «Configuración de accesibilidad» desde el menú «Configuración de cookies» al final de la página. Una vez aceptada la cookie, puede recargar la página para quitar este mensaje.",
 
   // "info.accessibility-settings.disableNotificationTimeOut.label": "Automatically close notifications after time out",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.disableNotificationTimeOut.label": "Automatically close notifications after time out",
+  "info.accessibility-settings.disableNotificationTimeOut.label": "Cerrar automáticamente las notificaciones tras el tiempo de espera",
 
   // "info.accessibility-settings.disableNotificationTimeOut.hint": "When this toggle is activated, notifications will close automatically after the time out passes. When deactivated, notifications will remain open until manually closed.",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.disableNotificationTimeOut.hint": "When this toggle is activated, notifications will close automatically after the time out passes. When deactivated, notifications will remain open until manually closed.",
+  "info.accessibility-settings.disableNotificationTimeOut.hint": "Cuando esta opción está activada, las notificaciones se cerrarán automáticamente al transcurrir el tiempo de espera. Cuando está desactivada, las notificaciones permanecerán abiertas hasta que se cierren manualmente.",
 
   // "info.accessibility-settings.failed-notification": "Failed to save accessibility settings",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.failed-notification": "Failed to save accessibility settings",
+  "info.accessibility-settings.failed-notification": "No se pudo guardar la configuración de accesibilidad",
 
   // "info.accessibility-settings.invalid-form-notification": "Did not save. The form contains invalid values.",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.invalid-form-notification": "Did not save. The form contains invalid values.",
+  "info.accessibility-settings.invalid-form-notification": "No se guardó. El formulario contiene valores no válidos.",
 
   // "info.accessibility-settings.liveRegionTimeOut.label": "ARIA Live region time out (in seconds)",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.liveRegionTimeOut.label": "ARIA Live region time out (in seconds)",
+  "info.accessibility-settings.liveRegionTimeOut.label": "Tiempo de espera de la región ARIA live (en segundos)",
 
   // "info.accessibility-settings.liveRegionTimeOut.hint": "The duration after which a message in the ARIA live region disappears. ARIA live regions are not visible on the page, but provide announcements of notifications (or other actions) to screen readers.",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.liveRegionTimeOut.hint": "The duration after which a message in the ARIA live region disappears. ARIA live regions are not visible on the page, but provide announcements of notifications (or other actions) to screen readers.",
+  "info.accessibility-settings.liveRegionTimeOut.hint": "Tiempo tras el cual desaparece un mensaje de la región ARIA live. Las regiones ARIA live no son visibles en la página, pero anuncian las notificaciones (u otras acciones) a los lectores de pantalla.",
 
   // "info.accessibility-settings.liveRegionTimeOut.invalid": "Live region time out must be greater than 0",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.liveRegionTimeOut.invalid": "Live region time out must be greater than 0",
+  "info.accessibility-settings.liveRegionTimeOut.invalid": "El tiempo de espera de la región live debe ser mayor que 0",
 
   // "info.accessibility-settings.notificationTimeOut.label": "Notification time out (in seconds)",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.notificationTimeOut.label": "Notification time out (in seconds)",
+  "info.accessibility-settings.notificationTimeOut.label": "Tiempo de espera de las notificaciones (en segundos)",
 
   // "info.accessibility-settings.notificationTimeOut.hint": "The duration after which a notification disappears.",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.notificationTimeOut.hint": "The duration after which a notification disappears.",
+  "info.accessibility-settings.notificationTimeOut.hint": "Tiempo tras el cual desaparece una notificación.",
 
   // "info.accessibility-settings.notificationTimeOut.invalid": "Notification time out must be greater than 0",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.notificationTimeOut.invalid": "Notification time out must be greater than 0",
+  "info.accessibility-settings.notificationTimeOut.invalid": "El tiempo de espera de las notificaciones debe ser mayor que 0",
 
   // "info.accessibility-settings.save-notification.cookie": "Successfully saved settings locally.",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.save-notification.cookie": "Successfully saved settings locally.",
+  "info.accessibility-settings.save-notification.cookie": "La configuración se guardó correctamente de forma local.",
 
   // "info.accessibility-settings.save-notification.metadata": "Successfully saved settings on the user profile.",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.save-notification.metadata": "Successfully saved settings on the user profile.",
+  "info.accessibility-settings.save-notification.metadata": "La configuración se guardó correctamente en el perfil de usuario.",
 
   // "info.accessibility-settings.reset-failed": "Failed to reset. Either log in or accept the 'Accessibility Settings' cookie.",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.reset-failed": "Failed to reset. Either log in or accept the 'Accessibility Settings' cookie.",
+  "info.accessibility-settings.reset-failed": "No se pudo restablecer. Inicie sesión o acepte la cookie «Configuración de accesibilidad».",
 
   // "info.accessibility-settings.reset-notification": "Successfully reset settings.",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.reset-notification": "Successfully reset settings.",
+  "info.accessibility-settings.reset-notification": "La configuración se restableció correctamente.",
 
   // "info.accessibility-settings.reset": "Reset accessibility settings",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.reset": "Reset accessibility settings",
+  "info.accessibility-settings.reset": "Restablecer configuración de accesibilidad",
 
   // "info.accessibility-settings.submit": "Save accessibility settings",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.submit": "Save accessibility settings",
+  "info.accessibility-settings.submit": "Guardar configuración de accesibilidad",
 
   // "info.accessibility-settings.title": "Accessibility settings",
-  // TODO New key - Add a translation
-  "info.accessibility-settings.title": "Accessibility settings",
+  "info.accessibility-settings.title": "Configuración de accesibilidad",
 
   // "info.end-user-agreement.accept": "I have read and I agree to the End User Agreement",
-  "info.end-user-agreement.accept": "He leído y acepto el Acuerdo de usuario final.",
+  "info.end-user-agreement.accept": "He leído y acepto el acuerdo de usuario final.",
 
   // "info.end-user-agreement.accept.error": "An error occurred accepting the End User Agreement",
-  "info.end-user-agreement.accept.error": "Se produjo un error al aceptar el Acuerdo de usuario final.",
+  "info.end-user-agreement.accept.error": "Se produjo un error al aceptar el acuerdo de usuario final.",
 
   // "info.end-user-agreement.accept.success": "Successfully updated the End User Agreement",
-  "info.end-user-agreement.accept.success": "Se actualizó correctamente el Acuerdo de usuario final.",
+  "info.end-user-agreement.accept.success": "Se actualizó correctamente el acuerdo de usuario final.",
 
   // "info.end-user-agreement.breadcrumbs": "End User Agreement",
   "info.end-user-agreement.breadcrumbs": "Acuerdo de usuario final",
@@ -3533,8 +3502,7 @@
   "item.edit.authorizations.title": "Editar las políticas del ítem",
 
   // "item.badge.status": "Item status:",
-  // TODO New key - Add a translation
-  "item.badge.status": "Item status:",
+  "item.badge.status": "Estado del ítem:",
 
   // "item.badge.private": "Non-discoverable",
   "item.badge.private": "Privado",
@@ -3652,7 +3620,7 @@
   "item.edit.bitstreams.headers.name": "Nombre",
 
   // "item.edit.bitstreams.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
-  "item.edit.bitstreams.notifications.discarded.content": "Tus cambios fueron descartados. Para restaurar tus cambios haga clic en el botón 'Deshacer'",
+  "item.edit.bitstreams.notifications.discarded.content": "Sus cambios fueron descartados. Para restaurar sus cambios haga clic en el botón 'Deshacer'",
 
   // "item.edit.bitstreams.notifications.discarded.title": "Changes discarded",
   "item.edit.bitstreams.notifications.discarded.title": "Cambios descartados",
@@ -3667,7 +3635,7 @@
   "item.edit.bitstreams.notifications.move.saved.title": "Cambios de movimientos guardados",
 
   // "item.edit.bitstreams.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
-  "item.edit.bitstreams.notifications.outdated.content": "Otro usuario ha cambiado el ítem en el que está trabajando actualmente. Tus cambios han sido descartados para evitar conflictos",
+  "item.edit.bitstreams.notifications.outdated.content": "Otro usuario ha cambiado el ítem en el que está trabajando actualmente. Sus cambios han sido descartados para evitar conflictos",
 
   // "item.edit.bitstreams.notifications.outdated.title": "Changes outdated",
   "item.edit.bitstreams.notifications.outdated.title": "Cambios desactualizados",
@@ -3691,7 +3659,7 @@
   "item.edit.bitstreams.upload-button": "Subir",
 
   // "item.edit.bitstreams.load-more.link": "Load more",
-  "item.edit.bitstreams.load-more.link": "Cargar mas",
+  "item.edit.bitstreams.load-more.link": "Cargar más",
 
   // "item.edit.delete.cancel": "Cancel",
   "item.edit.delete.cancel": "Cancelar",
@@ -3718,7 +3686,7 @@
   "item.edit.breadcrumbs": "Editar ítem",
 
   // "item.edit.tabs.disabled.tooltip": "You're not authorized to access this tab",
-  "item.edit.tabs.disabled.tooltip": "No tienes autorización para acceder a esta pestaña",
+  "item.edit.tabs.disabled.tooltip": "No tiene autorización para acceder a esta pestaña",
 
   // "item.edit.tabs.mapper.head": "Collection Mapper",
   "item.edit.tabs.mapper.head": "Mapeador de colecciones",
@@ -3772,7 +3740,7 @@
   "item.edit.register-doi.header": "Registrar un nuevo DOI o uno pendiente",
 
   // "item.edit.register-doi.description": "Review any pending identifiers and item metadata below and click Confirm to proceed with DOI registration, or Cancel to back out",
-  "item.edit.register-doi.description": "Revise los identificadores pendientes y los metadatos a continuación y pulse Confirmar para proceder con el registro DOI, o pulse Cancelar para devolverse",
+  "item.edit.register-doi.description": "Revise los identificadores pendientes y los metadatos a continuación y pulse «Confirmar» para proceder con el registro DOI, o pulse «Cancelar» para volver",
 
   // "item.edit.register-doi.confirm": "Confirm",
   "item.edit.register-doi.confirm": "Confirmar",
@@ -3814,12 +3782,10 @@
   "item.edit.item-mapper.notifications.add.error.content": "Se produjeron errores al mapear el ítem a {{ amount }} colecciones.",
 
   // "item.edit.item-mapper.notifications.add.error.forbidden.head": "Permission denied",
-  // TODO New key - Add a translation
-  "item.edit.item-mapper.notifications.add.error.forbidden.head": "Permission denied",
+  "item.edit.item-mapper.notifications.add.error.forbidden.head": "Permiso denegado",
 
   // "item.edit.item-mapper.notifications.add.error.forbidden.content": "You do not have permission to map this item to a collection.",
-  // TODO New key - Add a translation
-  "item.edit.item-mapper.notifications.add.error.forbidden.content": "You do not have permission to map this item to a collection.",
+  "item.edit.item-mapper.notifications.add.error.forbidden.content": "No tiene permiso para mapear este ítem a una colección.",
 
   // "item.edit.item-mapper.notifications.add.error.head": "Mapping errors",
   "item.edit.item-mapper.notifications.add.error.head": "Errores de mapeo",
@@ -3834,12 +3800,10 @@
   "item.edit.item-mapper.notifications.remove.error.content": "Se produjeron errores en la eliminación de la asignación a {{ amount }} colecciones.",
 
   // "item.edit.item-mapper.notifications.remove.error.forbidden.head": "Permission denied",
-  // TODO New key - Add a translation
-  "item.edit.item-mapper.notifications.remove.error.forbidden.head": "Permission denied",
+  "item.edit.item-mapper.notifications.remove.error.forbidden.head": "Permiso denegado",
 
   // "item.edit.item-mapper.notifications.remove.error.forbidden.content": "You do not have permission to remove this item from a collection.",
-  // TODO New key - Add a translation
-  "item.edit.item-mapper.notifications.remove.error.forbidden.content": "You do not have permission to remove this item from a collection.",
+  "item.edit.item-mapper.notifications.remove.error.forbidden.content": "No tiene permiso para eliminar este ítem de una colección.",
 
   // "item.edit.item-mapper.notifications.remove.error.head": "Removal of mapping errors",
   "item.edit.item-mapper.notifications.remove.error.head": "Eliminación de errores de mapeo",
@@ -3899,7 +3863,7 @@
   "item.edit.metadata.edit.buttons.unedit": "Dejar de editar",
 
   // "item.edit.metadata.edit.buttons.virtual": "This is a virtual metadata value, i.e. a value inherited from a related entity. It can’t be modified directly. Add or remove the corresponding relationship in the \"Relationships\" tab",
-  "item.edit.metadata.edit.buttons.virtual": "Este es un valor de metadato virtual, es decir, un valor heredado de una entidad relacionada. Este no pude ser modificado directamente. Agregue o remueva la relación correspondiente en la pestaña \"Relaciones\"",
+  "item.edit.metadata.edit.buttons.virtual": "Este es un valor de metadato virtual, es decir, un valor heredado de una entidad relacionada. Este no puede ser modificado directamente. Agregue o elimine la relación correspondiente en la pestaña \"Relaciones\"",
 
   // "item.edit.metadata.empty": "The item currently doesn't contain any metadata. Click Add to start adding a metadata value.",
   "item.edit.metadata.empty": "Actualmente, el ítem no contiene metadatos. Haga clic en Agregar para comenzar a agregar un valor de metadatos.",
@@ -3926,7 +3890,7 @@
   "item.edit.metadata.metadatafield.invalid": "Por favor, escoja un campo de metadatos valido",
 
   // "item.edit.metadata.notifications.discarded.content": "Your changes were discarded. To reinstate your changes click the 'Undo' button",
-  "item.edit.metadata.notifications.discarded.content": "Tus cambios fueron descartados. ",
+  "item.edit.metadata.notifications.discarded.content": "Sus cambios fueron descartados. ",
 
   // "item.edit.metadata.notifications.discarded.title": "Changes discarded",
   "item.edit.metadata.notifications.discarded.title": "Cambios descartados",
@@ -3935,13 +3899,13 @@
   "item.edit.metadata.notifications.error.title": "Ocurrió un error",
 
   // "item.edit.metadata.notifications.invalid.content": "Your changes were not saved. Please make sure all fields are valid before you save.",
-  "item.edit.metadata.notifications.invalid.content": "Tus cambios no se guardaron. Asegúrese de que todos los campos sean válidos antes de guardar.",
+  "item.edit.metadata.notifications.invalid.content": "Sus cambios no se guardaron. Asegúrese de que todos los campos sean válidos antes de guardar.",
 
   // "item.edit.metadata.notifications.invalid.title": "Metadata invalid",
   "item.edit.metadata.notifications.invalid.title": "Metadatos inválidos",
 
   // "item.edit.metadata.notifications.outdated.content": "The item you're currently working on has been changed by another user. Your current changes are discarded to prevent conflicts",
-  "item.edit.metadata.notifications.outdated.content": "Otro usuario ha cambiado el ítem en el que está trabajando actualmente. Tus cambios han sido descartados para evitar conflictos",
+  "item.edit.metadata.notifications.outdated.content": "Otro usuario ha cambiado el ítem en el que está trabajando actualmente. Sus cambios han sido descartados para evitar conflictos",
 
   // "item.edit.metadata.notifications.outdated.title": "Changes outdated",
   "item.edit.metadata.notifications.outdated.title": "Cambios desactualizados",
@@ -4274,20 +4238,16 @@
   "item.page.description": "Descripción",
 
   // "item.page.org-unit": "Organizational Unit",
-  // TODO New key - Add a translation
-  "item.page.org-unit": "Organizational Unit",
+  "item.page.org-unit": "Unidad organizativa",
 
   // "item.page.org-units": "Organizational Units",
-  // TODO New key - Add a translation
-  "item.page.org-units": "Organizational Units",
+  "item.page.org-units": "Unidades organizativas",
 
   // "item.page.project": "Research Project",
-  // TODO New key - Add a translation
-  "item.page.project": "Research Project",
+  "item.page.project": "Proyecto de investigación",
 
   // "item.page.projects": "Research Projects",
-  // TODO New key - Add a translation
-  "item.page.projects": "Research Projects",
+  "item.page.projects": "Proyectos de investigación",
 
   // "item.page.publication": "Publications",
   // TODO New key - Add a translation
@@ -4314,20 +4274,16 @@
   "item.page.journals": "Journals",
 
   // "item.page.journal-issue": "Journal Issue",
-  // TODO New key - Add a translation
-  "item.page.journal-issue": "Journal Issue",
+  "item.page.journal-issue": "Número de revista",
 
   // "item.page.journal-issues": "Journal Issues",
-  // TODO New key - Add a translation
-  "item.page.journal-issues": "Journal Issues",
+  "item.page.journal-issues": "Números de revista",
 
   // "item.page.journal-volume": "Journal Volume",
-  // TODO New key - Add a translation
-  "item.page.journal-volume": "Journal Volume",
+  "item.page.journal-volume": "Volumen de revista",
 
   // "item.page.journal-volumes": "Journal Volumes",
-  // TODO New key - Add a translation
-  "item.page.journal-volumes": "Journal Volumes",
+  "item.page.journal-volumes": "Volúmenes de revista",
 
   // "item.page.journal-issn": "Journal ISSN",
   "item.page.journal-issn": "ISSN de la revista",
@@ -4360,32 +4316,28 @@
   "item.truncatable-part.show-less": "Contraer",
 
   // "item.qa-event-notification.check.notification-info.singular": "There is {{num}} pending suggestion related to your account",
-  // TODO New key - Add a translation
-  "item.qa-event-notification.check.notification-info.singular": "There is {{num}} pending suggestion related to your account",
+  "item.qa-event-notification.check.notification-info.singular": "Hay {{num}} sugerencia pendiente relacionada con su cuenta",
 
   // "item.qa-event-notification.check.notification-info.plural": "There are {{num}} pending suggestions related to your account",
-  // TODO New key - Add a translation
-  "item.qa-event-notification.check.notification-info.plural": "There are {{num}} pending suggestions related to your account",
+  "item.qa-event-notification.check.notification-info.plural": "Hay {{num}} sugerencias pendientes relacionadas con su cuenta",
 
   // "item.qa-event-notification-info.check.button": "View",
   "item.qa-event-notification-info.check.button": "Ver",
 
   // "mydspace.qa-event-notification.check.notification-info.singular": "There is {{num}} pending suggestion related to your account",
-  // TODO New key - Add a translation
-  "mydspace.qa-event-notification.check.notification-info.singular": "There is {{num}} pending suggestion related to your account",
+  "mydspace.qa-event-notification.check.notification-info.singular": "Hay {{num}} sugerencia pendiente relacionada con su cuenta",
 
   // "mydspace.qa-event-notification.check.notification-info.plural": "There are {{num}} pending suggestions related to your account",
-  // TODO New key - Add a translation
-  "mydspace.qa-event-notification.check.notification-info.plural": "There are {{num}} pending suggestions related to your account",
+  "mydspace.qa-event-notification.check.notification-info.plural": "Hay {{num}} sugerencias pendientes relacionadas con su cuenta",
 
   // "mydspace.qa-event-notification-info.check.button": "View",
   "mydspace.qa-event-notification-info.check.button": "Ver",
 
   // "workflow-item.search.result.delete-supervision.modal.header": "Delete Supervision Order",
-  "workflow-item.search.result.delete-supervision.modal.header": "Borrar Orden de Supervisión",
+  "workflow-item.search.result.delete-supervision.modal.header": "Borrar orden de supervisión",
 
   // "workflow-item.search.result.delete-supervision.modal.info": "Are you sure you want to delete Supervision Order",
-  "workflow-item.search.result.delete-supervision.modal.info": "Esta seguro de querer borrar la Orden de Supervisión",
+  "workflow-item.search.result.delete-supervision.modal.info": "¿Está seguro de que desea borrar la orden de supervisión?",
 
   // "workflow-item.search.result.delete-supervision.modal.cancel": "Cancel",
   "workflow-item.search.result.delete-supervision.modal.cancel": "Cancelar",
@@ -4497,12 +4449,10 @@
   "item.page.orcid.tooltip": "Abrir la página de ajustes de ORCID",
 
   // "item.page.orcid-ico": "ORCID icon",
-  // TODO New key - Add a translation
-  "item.page.orcid-ico": "ORCID icon",
+  "item.page.orcid-ico": "Icono de ORCID",
 
   // "item.page.orcid-profile": "ORCID Profile",
-  // TODO New key - Add a translation
-  "item.page.orcid-profile": "ORCID Profile",
+  "item.page.orcid-profile": "Perfil ORCID",
 
   // "item.page.person.search.title": "Articles by this author",
   "item.page.person.search.title": "Ítems de este autor/a",
@@ -4565,7 +4515,7 @@
   "item.page.claim.button": "Reclamar",
 
   // "item.page.claim.tooltip": "Claim this item as profile",
-  "item.page.claim.tooltip": "Reclame este item como perfil",
+  "item.page.claim.tooltip": "Reclame este ítem como perfil",
 
   // "item.page.image.alt.ROR": "ROR logo",
   "item.page.image.alt.ROR": "Logotipo de ROR",
@@ -4577,7 +4527,7 @@
   "item.preview.dc.contributor.author": "Autores/as:",
 
   // "item.preview.dc.date.issued": "Published date:",
-  "item.preview.dc.date.issued": "Fecha de Publicación:",
+  "item.preview.dc.date.issued": "Fecha de publicación:",
 
   // "item.preview.dc.description": "Description:",
   "item.preview.dc.description": "Descripción:",
@@ -4619,12 +4569,10 @@
   "item.preview.oaire.citation.endPage": "Página final de la cita",
 
   // "item.preview.dc.relation.hasversion": "Has version",
-  // TODO New key - Add a translation
-  "item.preview.dc.relation.hasversion": "Has version",
+  "item.preview.dc.relation.hasversion": "Tiene versión",
 
   // "item.preview.dc.relation.ispartofseries": "Is part of series",
-  // TODO New key - Add a translation
-  "item.preview.dc.relation.ispartofseries": "Is part of series",
+  "item.preview.dc.relation.ispartofseries": "Forma parte de la serie",
 
   // "item.preview.dc.rights": "Rights",
   // TODO New key - Add a translation
@@ -4644,7 +4592,7 @@
   "item.preview.dc.identifier": "Identificador:",
 
   // "item.preview.dc.relation.ispartof": "Journal or Series",
-  "item.preview.dc.relation.ispartof": "Revista o Serie",
+  "item.preview.dc.relation.ispartof": "Revista o serie",
 
   // "item.preview.dc.identifier.doi": "DOI",
   "item.preview.dc.identifier.doi": "DOI",
@@ -5134,7 +5082,7 @@
   "iiifviewer.fullscreen.notice": "Para una mejor visualización, use el modo pantalla completa.",
 
   // "iiif.listelement.badge": "Image Media",
-  "iiif.listelement.badge": "Image Media",
+  "iiif.listelement.badge": "Imagen",
 
   // "iiif.page.titleprefix": "Image: ",
   "iiif.page.titleprefix": "Imagen: ",
@@ -5206,13 +5154,13 @@
   "login.form.email": "Correo electrónico",
 
   // "login.form.forgot-password": "Have you forgotten your password?",
-  "login.form.forgot-password": "¿Has olvidado tu contraseña?",
+  "login.form.forgot-password": "¿Ha olvidado su contraseña?",
 
   // "login.form.header": "Please log in to DSpace",
   "login.form.header": "Inicie sesión en DSpace",
 
   // "login.form.new-user": "New user? Click here to register.",
-  "login.form.new-user": "¿Nuevo Usuario? Pulse aquí para registrarse",
+  "login.form.new-user": "¿Nuevo usuario? Pulse aquí para registrarse",
 
   // "login.form.oidc": "Log in with OIDC",
   "login.form.oidc": "Iniciar sesión con OIDC",
@@ -5371,10 +5319,10 @@
   "menu.section.icon.admin_search": "Sección del menú de búsqueda de administrador",
 
   // "menu.section.icon.control_panel": "Control Panel menu section",
-  "menu.section.icon.control_panel": "Sección del menú del Panel de control",
+  "menu.section.icon.control_panel": "Sección del menú del panel de control",
 
   // "menu.section.icon.curation_tasks": "Curation Task menu section",
-  "menu.section.icon.curation_tasks": "Sección del menú de Tareas de curación",
+  "menu.section.icon.curation_tasks": "Sección del menú de tareas de curación",
 
   // "menu.section.icon.edit": "Edit menu section",
   "menu.section.icon.edit": "Sección del menú de edición",
@@ -5386,7 +5334,7 @@
   "menu.section.icon.find": "Sección de menú de búsqueda",
 
   // "menu.section.icon.health": "Health check menu section",
-  "menu.section.icon.health": "Sección de menú de Chequeos",
+  "menu.section.icon.health": "Sección de menú de comprobaciones",
 
   // "menu.section.icon.import": "Import menu section",
   "menu.section.icon.import": "Sección de menú de importación",
@@ -5449,7 +5397,7 @@
   "menu.section.processes": "Procesos",
 
   // "menu.section.health": "Health",
-  "menu.section.health": "Chequeo",
+  "menu.section.health": "Comprobación",
 
   // "menu.section.registries": "Registries",
   "menu.section.registries": "Registros",
@@ -5473,31 +5421,31 @@
   "menu.section.toggle.reports": "Alternar sección de informes",
 
   // "menu.section.toggle.control_panel": "Toggle Control Panel section",
-  "menu.section.toggle.control_panel": "Alternar la sección del Panel de control",
+  "menu.section.toggle.control_panel": "Alternar la sección del panel de control",
 
   // "menu.section.toggle.curation_task": "Toggle Curation Task section",
-  "menu.section.toggle.curation_task": "Alternar la sección Tareas de curación",
+  "menu.section.toggle.curation_task": "Alternar la sección de tareas de curación",
 
   // "menu.section.toggle.edit": "Toggle Edit section",
-  "menu.section.toggle.edit": "Alternar sección de Edición",
+  "menu.section.toggle.edit": "Alternar sección de edición",
 
   // "menu.section.toggle.export": "Toggle Export section",
-  "menu.section.toggle.export": "Alternar sección de Exportación",
+  "menu.section.toggle.export": "Alternar sección de exportación",
 
   // "menu.section.toggle.find": "Toggle Find section",
-  "menu.section.toggle.find": "Alternar sección de Búsqueda",
+  "menu.section.toggle.find": "Alternar sección de búsqueda",
 
   // "menu.section.toggle.import": "Toggle Import section",
-  "menu.section.toggle.import": "Alternar sección de Importación",
+  "menu.section.toggle.import": "Alternar sección de importación",
 
   // "menu.section.toggle.new": "Toggle New section",
-  "menu.section.toggle.new": "Alternar sección de Creación",
+  "menu.section.toggle.new": "Alternar sección de creación",
 
   // "menu.section.toggle.registries": "Toggle Registries section",
-  "menu.section.toggle.registries": "Alternar sección de Registros",
+  "menu.section.toggle.registries": "Alternar sección de registros",
 
   // "menu.section.toggle.statistics_task": "Toggle Statistics Task section",
-  "menu.section.toggle.statistics_task": "Alternar sección de Tarea de estadísticas",
+  "menu.section.toggle.statistics_task": "Alternar sección de tarea de estadísticas",
 
   // "menu.section.workflow": "Administer Workflow",
   "menu.section.workflow": "Administrar flujo de trabajo",
@@ -5521,7 +5469,7 @@
   "mydspace.messages.controller-help": "Seleccione esta opción para enviar un mensaje al remitente del ítem.",
 
   // "mydspace.messages.description-placeholder": "Insert your message here...",
-  "mydspace.messages.description-placeholder": "Inserta tu mensaje aquí...",
+  "mydspace.messages.description-placeholder": "Escriba su mensaje aquí...",
 
   // "mydspace.messages.hide-msg": "Hide message",
   "mydspace.messages.hide-msg": "Ocultar mensaje",
@@ -5566,7 +5514,7 @@
   "mydspace.new-submission-external-short": "Importar metadatos",
 
   // "mydspace.results.head": "Your submissions",
-  "mydspace.results.head": "Tus envíos",
+  "mydspace.results.head": "Sus envíos",
 
   // "mydspace.results.no-abstract": "No Abstract",
   "mydspace.results.no-abstract": "Sin resumen",
@@ -5605,8 +5553,7 @@
   "mydspace.show.supervisedWorkspace": "Ítems supervisados",
 
   // "mydspace.status": "My DSpace status:",
-  // TODO New key - Add a translation
-  "mydspace.status": "My DSpace status:",
+  "mydspace.status": "Estado en Mi DSpace:",
 
   // "mydspace.status.mydspaceArchived": "Archived",
   "mydspace.status.mydspaceArchived": "Archivado",
@@ -5705,8 +5652,7 @@
   "nav.user.description": "Barra de perfil de usuario",
 
   // "listelement.badge.dso-type": "Item type:",
-  // TODO New key - Add a translation
-  "listelement.badge.dso-type": "Item type:",
+  "listelement.badge.dso-type": "Tipo de ítem:",
 
   // "none.listelement.badge": "Item",
   "none.listelement.badge": "Ítem",
@@ -6015,7 +5961,7 @@
   "person.page.orcid": "ORCID",
 
   // "person.page.staffid": "Staff ID",
-  "person.page.staffid": "Identificación de Personal",
+  "person.page.staffid": "Identificación de personal",
 
   // "person.page.titleprefix": "Person: ",
   "person.page.titleprefix": "Persona: ",
@@ -6066,8 +6012,7 @@
   "process.new.parameter.file.required": "Por favor seleccione un archivo",
 
   // "process.new.parameter.integer.required": "Parameter value is required",
-  // TODO New key - Add a translation
-  "process.new.parameter.integer.required": "Parameter value is required",
+  "process.new.parameter.integer.required": "El valor del parámetro es obligatorio",
 
   // "process.new.parameter.string.required": "Parameter value is required",
   "process.new.parameter.string.required": "Se requiere el valor del parámetro",
@@ -6271,16 +6216,14 @@
   "profile.breadcrumbs": "Actualización del perfil",
 
   // "profile.card.accessibility.content": "Accessibility settings can be configured on the accessibility settings page.",
-  // TODO New key - Add a translation
-  "profile.card.accessibility.content": "Accessibility settings can be configured on the accessibility settings page.",
+  "profile.card.accessibility.content": "La accesibilidad puede configurarse en la página de configuración de accesibilidad.",
 
   // "profile.card.accessibility.header": "Accessibility",
   // TODO New key - Add a translation
   "profile.card.accessibility.header": "Accessibility",
 
   // "profile.card.accessibility.link": "Go to Accessibility Settings Page",
-  // TODO New key - Add a translation
-  "profile.card.accessibility.link": "Go to Accessibility Settings Page",
+  "profile.card.accessibility.link": "Ir a la página de configuración de accesibilidad",
 
   // "profile.card.identify": "Identify",
   "profile.card.identify": "Identidad",
@@ -6367,10 +6310,10 @@
   "profile.title": "Actualización del perfil",
 
   // "profile.card.researcher": "Researcher Profile",
-  "profile.card.researcher": "Perfil de Investigador",
+  "profile.card.researcher": "Perfil de investigador",
 
   // "project.listelement.badge": "Research Project",
-  "project.listelement.badge": "Proyecto de Investigación",
+  "project.listelement.badge": "Proyecto de investigación",
 
   // "project.page.contributor": "Contributors",
   "project.page.contributor": "Colaboradores",
@@ -6400,7 +6343,7 @@
   "project.page.status": "Estado",
 
   // "project.page.titleprefix": "Research Project: ",
-  "project.page.titleprefix": "Proyecto de Investigación: ",
+  "project.page.titleprefix": "Proyecto de investigación: ",
 
   // "project.search.results.head": "Project Search Results",
   "project.search.results.head": "Resultados de búsqueda de proyectos",
@@ -6502,7 +6445,7 @@
   "suggestion.approveAndImport.success": "La sugerencia se ha importado correctamente. <a href='{{ url }}'>Ver.</a>",
 
   // "suggestion.approveAndImport.bulk": "Approve & import Selected",
-  "suggestion.approveAndImport.bulk": "Aprobar e importar Seleccionado",
+  "suggestion.approveAndImport.bulk": "Aprobar e importar seleccionado",
 
   // "suggestion.approveAndImport.bulk.success": "{{ count }} suggestions have been imported successfully ",
   "suggestion.approveAndImport.bulk.success": "{{ count }} las sugerencias se han importado correctamente ",
@@ -6571,13 +6514,13 @@
   "register-page.create-profile.identification.first-name": "Nombre *",
 
   // "register-page.create-profile.identification.first-name.error": "Please fill in a First Name",
-  "register-page.create-profile.identification.first-name.error": "Por favor introduzca el Nombre",
+  "register-page.create-profile.identification.first-name.error": "Por favor introduzca el nombre",
 
   // "register-page.create-profile.identification.last-name": "Last Name *",
   "register-page.create-profile.identification.last-name": "Apellidos *",
 
   // "register-page.create-profile.identification.last-name.error": "Please fill in a Last Name",
-  "register-page.create-profile.identification.last-name.error": "Por favor introduzca los Apellidos",
+  "register-page.create-profile.identification.last-name.error": "Por favor introduzca los apellidos",
 
   // "register-page.create-profile.identification.contact": "Contact Telephone",
   "register-page.create-profile.identification.contact": "Teléfono de contacto",
@@ -6658,7 +6601,7 @@
   "register-page.registration.error.recaptcha": "Error al intentar autenticar con recaptcha",
 
   // "register-page.registration.google-recaptcha.must-accept-cookies": "In order to register you must accept the <b>Registration and Password recovery</b> (Google reCaptcha) cookies.",
-  "register-page.registration.google-recaptcha.must-accept-cookies": "Para registrarse debe aceptar las cookies de <b>Registro y recuperación de contraseña</b> (Google reCaptcha).",
+  "register-page.registration.google-recaptcha.must-accept-cookies": "Para registrarse debe aceptar las cookies de <b>«Registro y recuperación de contraseña»</b> (Google reCaptcha).",
 
   // "register-page.registration.error.maildomain": "This email address is not on the list of domains who can register. Allowed domains are {{ domains }}",
   "register-page.registration.error.maildomain": "Este correo electrónico no esta en la lista de dominios que pueden registrarse. Los dominios permitidos son {{ domains }}",
@@ -6692,44 +6635,36 @@
   "relationships.Publication.isAuthorOfPublication.Person": "Authors (persons)",
 
   // "relationships.Publication.isProjectOfPublication.Project": "Research Projects",
-  // TODO New key - Add a translation
-  "relationships.Publication.isProjectOfPublication.Project": "Research Projects",
+  "relationships.Publication.isProjectOfPublication.Project": "Proyectos de investigación",
 
   // "relationships.Publication.isOrgUnitOfPublication.OrgUnit": "Organizational Units",
-  // TODO New key - Add a translation
-  "relationships.Publication.isOrgUnitOfPublication.OrgUnit": "Organizational Units",
+  "relationships.Publication.isOrgUnitOfPublication.OrgUnit": "Unidades organizativas",
 
   // "relationships.Publication.isAuthorOfPublication.OrgUnit": "Authors (organizational units)",
-  // TODO New key - Add a translation
-  "relationships.Publication.isAuthorOfPublication.OrgUnit": "Authors (organizational units)",
+  "relationships.Publication.isAuthorOfPublication.OrgUnit": "Autores (unidades organizativas)",
 
   // "relationships.Publication.isJournalIssueOfPublication.JournalIssue": "Journal Issue",
-  // TODO New key - Add a translation
-  "relationships.Publication.isJournalIssueOfPublication.JournalIssue": "Journal Issue",
+  "relationships.Publication.isJournalIssueOfPublication.JournalIssue": "Número de revista",
 
   // "relationships.Publication.isContributorOfPublication.Person": "Contributor",
   // TODO New key - Add a translation
   "relationships.Publication.isContributorOfPublication.Person": "Contributor",
 
   // "relationships.Publication.isContributorOfPublication.OrgUnit": "Contributor (organizational units)",
-  // TODO New key - Add a translation
-  "relationships.Publication.isContributorOfPublication.OrgUnit": "Contributor (organizational units)",
+  "relationships.Publication.isContributorOfPublication.OrgUnit": "Colaborador (unidades organizativas)",
 
   // "relationships.Person.isPublicationOfAuthor.Publication": "Publications",
   // TODO New key - Add a translation
   "relationships.Person.isPublicationOfAuthor.Publication": "Publications",
 
   // "relationships.Person.isProjectOfPerson.Project": "Research Projects",
-  // TODO New key - Add a translation
-  "relationships.Person.isProjectOfPerson.Project": "Research Projects",
+  "relationships.Person.isProjectOfPerson.Project": "Proyectos de investigación",
 
   // "relationships.Person.isOrgUnitOfPerson.OrgUnit": "Organizational Units",
-  // TODO New key - Add a translation
-  "relationships.Person.isOrgUnitOfPerson.OrgUnit": "Organizational Units",
+  "relationships.Person.isOrgUnitOfPerson.OrgUnit": "Unidades organizativas",
 
   // "relationships.Person.isPublicationOfContributor.Publication": "Publications (contributor to)",
-  // TODO New key - Add a translation
-  "relationships.Person.isPublicationOfContributor.Publication": "Publications (contributor to)",
+  "relationships.Person.isPublicationOfContributor.Publication": "Publicaciones (como colaborador)",
 
   // "relationships.Project.isPublicationOfProject.Publication": "Publications",
   // TODO New key - Add a translation
@@ -6740,40 +6675,33 @@
   "relationships.Project.isPersonOfProject.Person": "Authors",
 
   // "relationships.Project.isOrgUnitOfProject.OrgUnit": "Organizational Units",
-  // TODO New key - Add a translation
-  "relationships.Project.isOrgUnitOfProject.OrgUnit": "Organizational Units",
+  "relationships.Project.isOrgUnitOfProject.OrgUnit": "Unidades organizativas",
 
   // "relationships.Project.isFundingAgencyOfProject.OrgUnit": "Funder",
   // TODO New key - Add a translation
   "relationships.Project.isFundingAgencyOfProject.OrgUnit": "Funder",
 
   // "relationships.OrgUnit.isPublicationOfOrgUnit.Publication": "Organisation Publications",
-  // TODO New key - Add a translation
-  "relationships.OrgUnit.isPublicationOfOrgUnit.Publication": "Organisation Publications",
+  "relationships.OrgUnit.isPublicationOfOrgUnit.Publication": "Publicaciones de la organización",
 
   // "relationships.OrgUnit.isPersonOfOrgUnit.Person": "Authors",
   // TODO New key - Add a translation
   "relationships.OrgUnit.isPersonOfOrgUnit.Person": "Authors",
 
   // "relationships.OrgUnit.isProjectOfOrgUnit.Project": "Research Projects",
-  // TODO New key - Add a translation
-  "relationships.OrgUnit.isProjectOfOrgUnit.Project": "Research Projects",
+  "relationships.OrgUnit.isProjectOfOrgUnit.Project": "Proyectos de investigación",
 
   // "relationships.OrgUnit.isPublicationOfAuthor.Publication": "Authored Publications",
-  // TODO New key - Add a translation
-  "relationships.OrgUnit.isPublicationOfAuthor.Publication": "Authored Publications",
+  "relationships.OrgUnit.isPublicationOfAuthor.Publication": "Publicaciones como autor",
 
   // "relationships.OrgUnit.isPublicationOfContributor.Publication": "Publications (contributor to)",
-  // TODO New key - Add a translation
-  "relationships.OrgUnit.isPublicationOfContributor.Publication": "Publications (contributor to)",
+  "relationships.OrgUnit.isPublicationOfContributor.Publication": "Publicaciones (como colaborador)",
 
   // "relationships.OrgUnit.isProjectOfFundingAgency.Project": "Research Projects (funder of)",
-  // TODO New key - Add a translation
-  "relationships.OrgUnit.isProjectOfFundingAgency.Project": "Research Projects (funder of)",
+  "relationships.OrgUnit.isProjectOfFundingAgency.Project": "Proyectos de investigación (como financiador)",
 
   // "relationships.JournalIssue.isJournalVolumeOfIssue.JournalVolume": "Journal Volume",
-  // TODO New key - Add a translation
-  "relationships.JournalIssue.isJournalVolumeOfIssue.JournalVolume": "Journal Volume",
+  "relationships.JournalIssue.isJournalVolumeOfIssue.JournalVolume": "Volumen de revista",
 
   // "relationships.JournalIssue.isPublicationOfJournalIssue.Publication": "Publications",
   // TODO New key - Add a translation
@@ -6784,12 +6712,10 @@
   "relationships.JournalVolume.isJournalOfVolume.Journal": "Journals",
 
   // "relationships.JournalVolume.isIssueOfJournalVolume.JournalIssue": "Journal Issue",
-  // TODO New key - Add a translation
-  "relationships.JournalVolume.isIssueOfJournalVolume.JournalIssue": "Journal Issue",
+  "relationships.JournalVolume.isIssueOfJournalVolume.JournalIssue": "Número de revista",
 
   // "relationships.Journal.isVolumeOfJournal.JournalVolume": "Journal Volume",
-  // TODO New key - Add a translation
-  "relationships.Journal.isVolumeOfJournal.JournalVolume": "Journal Volume",
+  "relationships.Journal.isVolumeOfJournal.JournalVolume": "Volumen de revista",
 
   // "repository.image.logo": "Repository logo",
   "repository.image.logo": "Logotipo del repositorio",
@@ -6807,19 +6733,19 @@
   "resource-policies.add.for.": "Agregar una nueva política",
 
   // "resource-policies.add.for.bitstream": "Add a new Bitstream policy",
-  "resource-policies.add.for.bitstream": "Agregar una nueva política de Archivo",
+  "resource-policies.add.for.bitstream": "Agregar una nueva política de archivo",
 
   // "resource-policies.add.for.bundle": "Add a new Bundle policy",
   "resource-policies.add.for.bundle": "Agregar una nueva política de bloque",
 
   // "resource-policies.add.for.item": "Add a new Item policy",
-  "resource-policies.add.for.item": "Agregar una nueva política de Item",
+  "resource-policies.add.for.item": "Agregar una nueva política de ítem",
 
   // "resource-policies.add.for.community": "Add a new Community policy",
-  "resource-policies.add.for.community": "Agregar una nueva política de Comunidad",
+  "resource-policies.add.for.community": "Agregar una nueva política de comunidad",
 
   // "resource-policies.add.for.collection": "Add a new Collection policy",
-  "resource-policies.add.for.collection": "Agregar una nueva política de Colección",
+  "resource-policies.add.for.collection": "Agregar una nueva política de colección",
 
   // "resource-policies.create.page.heading": "Create new resource policy for ",
   "resource-policies.create.page.heading": "Crear una nueva política de recursos para ",
@@ -6973,7 +6899,7 @@
   "resource-policies.table.headers.policyType": "Tipo",
 
   // "resource-policies.table.headers.title.for.bitstream": "Policies for Bitstream",
-  "resource-policies.table.headers.title.for.bitstream": "Políticas para Archivos",
+  "resource-policies.table.headers.title.for.bitstream": "Políticas para archivos",
 
   // "resource-policies.table.headers.title.for.bundle": "Policies for Bundle",
   "resource-policies.table.headers.title.for.bundle": "Políticas para el bloque",
@@ -7145,7 +7071,7 @@
   "search.filters.filter.creativeWorkEditor.placeholder": "Editor",
 
   // "search.filters.filter.creativeWorkEditor.label": "Search editor",
-  "search.filters.filter.creativeWorkEditor.label": "Búsqueda de Editor",
+  "search.filters.filter.creativeWorkEditor.label": "Búsqueda de editor",
 
   // "search.filters.filter.creativeWorkKeywords.head": "Subject",
   "search.filters.filter.creativeWorkKeywords.head": "Materias",
@@ -7154,7 +7080,7 @@
   "search.filters.filter.creativeWorkKeywords.placeholder": "Materias",
 
   // "search.filters.filter.creativeWorkKeywords.label": "Search subject",
-  "search.filters.filter.creativeWorkKeywords.label": "Búsqueda de Materias",
+  "search.filters.filter.creativeWorkKeywords.label": "Búsqueda de materias",
 
   // "search.filters.filter.creativeWorkPublisher.head": "Publisher",
   "search.filters.filter.creativeWorkPublisher.head": "Editor",
@@ -7163,7 +7089,7 @@
   "search.filters.filter.creativeWorkPublisher.placeholder": "Editor",
 
   // "search.filters.filter.creativeWorkPublisher.label": "Search publisher",
-  "search.filters.filter.creativeWorkPublisher.label": "Búsqueda de Editor",
+  "search.filters.filter.creativeWorkPublisher.label": "Búsqueda de editor",
 
   // "search.filters.filter.dateIssued.head": "Date",
   "search.filters.filter.dateIssued.head": "Fecha",
@@ -7187,7 +7113,7 @@
   "search.filters.filter.dateSubmitted.placeholder": "Fecha de envío",
 
   // "search.filters.filter.dateSubmitted.label": "Search date submitted",
-  "search.filters.filter.dateSubmitted.label": "Búsqueda de Fecha de envío",
+  "search.filters.filter.dateSubmitted.label": "Búsqueda por fecha de envío",
 
   // "search.filters.filter.discoverable.head": "Non-discoverable",
   "search.filters.filter.discoverable.head": "Privado",
@@ -7238,7 +7164,7 @@
   "search.filters.filter.itemtype.placeholder": "Tipo",
 
   // "search.filters.filter.itemtype.label": "Search type",
-  "search.filters.filter.itemtype.label": "Búsqueda de Tipo",
+  "search.filters.filter.itemtype.label": "Búsqueda por tipo",
 
   // "search.filters.filter.jobTitle.head": "Job Title",
   "search.filters.filter.jobTitle.head": "Puesto de trabajo",
@@ -7265,7 +7191,7 @@
   "search.filters.filter.namedresourcetype.placeholder": "Estado",
 
   // "search.filters.filter.namedresourcetype.label": "Search status",
-  "search.filters.filter.namedresourcetype.label": "Búsqueda por Estado",
+  "search.filters.filter.namedresourcetype.label": "Búsqueda por estado",
 
   // "search.filters.filter.objectpeople.head": "People",
   "search.filters.filter.objectpeople.head": "Personas",
@@ -7274,7 +7200,7 @@
   "search.filters.filter.objectpeople.placeholder": "Personas",
 
   // "search.filters.filter.objectpeople.label": "Search people",
-  "search.filters.filter.objectpeople.label": "Búsqueda de Personas",
+  "search.filters.filter.objectpeople.label": "Búsqueda de personas",
 
   // "search.filters.filter.organizationAddressCountry.head": "Country",
   "search.filters.filter.organizationAddressCountry.head": "País",
@@ -7283,7 +7209,7 @@
   "search.filters.filter.organizationAddressCountry.placeholder": "País",
 
   // "search.filters.filter.organizationAddressCountry.label": "Search country",
-  "search.filters.filter.organizationAddressCountry.label": "Búsqueda de País",
+  "search.filters.filter.organizationAddressCountry.label": "Búsqueda por país",
 
   // "search.filters.filter.organizationAddressLocality.head": "City",
   "search.filters.filter.organizationAddressLocality.head": "Ciudad",
@@ -7301,7 +7227,7 @@
   "search.filters.filter.organizationFoundingDate.placeholder": "Fecha de fundación",
 
   // "search.filters.filter.organizationFoundingDate.label": "Search date founded",
-  "search.filters.filter.organizationFoundingDate.label": "Búsqueda por Fecha de fundación",
+  "search.filters.filter.organizationFoundingDate.label": "Búsqueda por fecha de fundación",
 
   // "search.filters.filter.organizationFoundingDate.min.label": "Start",
   // TODO New key - Add a translation
@@ -7354,13 +7280,13 @@
   "search.filters.filter.funding.placeholder": "Financiación",
 
   // "search.filters.filter.supervisedBy.head": "Supervised By",
-  "search.filters.filter.supervisedBy.head": "Supervisado Por",
+  "search.filters.filter.supervisedBy.head": "Supervisado por",
 
   // "search.filters.filter.supervisedBy.placeholder": "Supervised By",
-  "search.filters.filter.supervisedBy.placeholder": "Supervisado Por",
+  "search.filters.filter.supervisedBy.placeholder": "Supervisado por",
 
   // "search.filters.filter.supervisedBy.label": "Search Supervised By",
-  "search.filters.filter.supervisedBy.label": "Búsqueda Supervisada Por",
+  "search.filters.filter.supervisedBy.label": "Búsqueda supervisada por",
 
   // "search.filters.filter.access_status.head": "Access type",
   "search.filters.filter.access_status.head": "Tipo de acceso",
@@ -7513,7 +7439,7 @@
   "search.sidebar.settings.sort-by": "Ordenar por",
 
   // "search.sidebar.advanced-search.title": "Advanced Search",
-  "search.sidebar.advanced-search.title": "Búsqueda Avanzada",
+  "search.sidebar.advanced-search.title": "Búsqueda avanzada",
 
   // "search.sidebar.advanced-search.filter-by": "Filter by",
   "search.sidebar.advanced-search.filter-by": "Filtrar por",
@@ -7555,10 +7481,10 @@
   "sorting.DESC": "Descendente",
 
   // "sorting.dc.title.ASC": "Title Ascending",
-  "sorting.dc.title.ASC": "Título Ascendente",
+  "sorting.dc.title.ASC": "Título ascendente",
 
   // "sorting.dc.title.DESC": "Title Descending",
-  "sorting.dc.title.DESC": "Título Descendente",
+  "sorting.dc.title.DESC": "Título descendente",
 
   // "sorting.score.ASC": "Least Relevant",
   "sorting.score.ASC": "Menos relevante",
@@ -7567,40 +7493,40 @@
   "sorting.score.DESC": "Lo más relevante",
 
   // "sorting.dc.date.issued.ASC": "Date Issued Ascending",
-  "sorting.dc.date.issued.ASC": "Fecha de publicación Ascendente",
+  "sorting.dc.date.issued.ASC": "Fecha de publicación ascendente",
 
   // "sorting.dc.date.issued.DESC": "Date Issued Descending",
-  "sorting.dc.date.issued.DESC": "Fecha de publicación Descendente",
+  "sorting.dc.date.issued.DESC": "Fecha de publicación descendente",
 
   // "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
-  "sorting.dc.date.accessioned.ASC": "Fecha de envío Ascendente",
+  "sorting.dc.date.accessioned.ASC": "Fecha de envío ascendente",
 
   // "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
-  "sorting.dc.date.accessioned.DESC": "Fecha de envío Descendente",
+  "sorting.dc.date.accessioned.DESC": "Fecha de envío descendente",
 
   // "sorting.lastModified.ASC": "Last modified Ascending",
-  "sorting.lastModified.ASC": "Última modificación Ascendente",
+  "sorting.lastModified.ASC": "Última modificación ascendente",
 
   // "sorting.lastModified.DESC": "Last modified Descending",
-  "sorting.lastModified.DESC": "Última modificación Descendente",
+  "sorting.lastModified.DESC": "Última modificación descendente",
 
   // "sorting.person.familyName.ASC": "Surname Ascending",
-  "sorting.person.familyName.ASC": "Apellido Ascendente",
+  "sorting.person.familyName.ASC": "Apellido ascendente",
 
   // "sorting.person.familyName.DESC": "Surname Descending",
-  "sorting.person.familyName.DESC": "Apellido Descendente",
+  "sorting.person.familyName.DESC": "Apellido descendente",
 
   // "sorting.person.givenName.ASC": "Name Ascending",
-  "sorting.person.givenName.ASC": "Nombre Ascendente",
+  "sorting.person.givenName.ASC": "Nombre ascendente",
 
   // "sorting.person.givenName.DESC": "Name Descending",
-  "sorting.person.givenName.DESC": "Nombre Descendente",
+  "sorting.person.givenName.DESC": "Nombre descendente",
 
   // "sorting.person.birthDate.ASC": "Birth Date Ascending",
-  "sorting.person.birthDate.ASC": "Fecha de nacimiento Ascendente",
+  "sorting.person.birthDate.ASC": "Fecha de nacimiento ascendente",
 
   // "sorting.person.birthDate.DESC": "Birth Date Descending",
-  "sorting.person.birthDate.DESC": "Fecha de nacimiento Descendente",
+  "sorting.person.birthDate.DESC": "Fecha de nacimiento descendente",
 
   // "statistics.title": "Statistics",
   "statistics.title": "Estadísticas",
@@ -7762,7 +7688,7 @@
   "submission.import-external.source.vufind": "VuFind",
 
   // "submission.import-external.source.wos": "Web Of Science",
-  "submission.import-external.source.wos": "Web Of Science",
+  "submission.import-external.source.wos": "Web of Science",
 
   // "submission.import-external.source.orcidWorks": "ORCID",
   "submission.import-external.source.orcidWorks": "ORCID",
@@ -7798,7 +7724,7 @@
   "submission.import-external.source.pubmed": "Pubmed",
 
   // "submission.import-external.source.pubmedeu": "Pubmed Europe",
-  "submission.import-external.source.pubmedeu": "Pubmed Europe",
+  "submission.import-external.source.pubmedeu": "Europe PMC",
 
   // "submission.import-external.source.lcname": "Library of Congress Names",
   "submission.import-external.source.lcname": "Nombres de la Biblioteca del Congreso",
@@ -7810,7 +7736,7 @@
   "submission.import-external.source.openalexPublication": "Búsqueda OpenAlex por título",
 
   // "submission.import-external.source.openalexPublicationByAuthorId": "OpenAlex Search by Author ID",
-  "submission.import-external.source.openalexPublicationByAuthorId": "Búsqueda OpenAlex por Id de autor/a",
+  "submission.import-external.source.openalexPublicationByAuthorId": "Búsqueda OpenAlex por ID de autor/a",
 
   // "submission.import-external.source.openalexPublicationByDOI": "OpenAlex Search by DOI",
   "submission.import-external.source.openalexPublicationByDOI": "Búsqueda OpenAlex por DOI",
@@ -7819,7 +7745,7 @@
   "submission.import-external.source.openalexPerson": "Búsqueda OpenAlex por nombre",
 
   // "submission.import-external.source.openalexJournal": "OpenAlex Journals",
-  "submission.import-external.source.openalexJournal": "revistas OpenAlex",
+  "submission.import-external.source.openalexJournal": "Revistas OpenAlex",
 
   // "submission.import-external.source.openalexInstitution": "OpenAlex Institutions",
   "submission.import-external.source.openalexInstitution": "Instituciones OpenAlex",
@@ -7834,22 +7760,22 @@
   "submission.import-external.preview.title": "Vista previa del ítem",
 
   // "submission.import-external.preview.title.Publication": "Publication Preview",
-  "submission.import-external.preview.title.Publication": "Previsualización de Publicación",
+  "submission.import-external.preview.title.Publication": "Previsualización de publicación",
 
   // "submission.import-external.preview.title.none": "Item Preview",
-  "submission.import-external.preview.title.none": "Previsualización de Ítem",
+  "submission.import-external.preview.title.none": "Previsualización de ítem",
 
   // "submission.import-external.preview.title.Journal": "Journal Preview",
-  "submission.import-external.preview.title.Journal": "Previsualización de Revista",
+  "submission.import-external.preview.title.Journal": "Previsualización de revista",
 
   // "submission.import-external.preview.title.OrgUnit": "Organizational Unit Preview",
-  "submission.import-external.preview.title.OrgUnit": "Previsualización de Unidad organizativa",
+  "submission.import-external.preview.title.OrgUnit": "Previsualización de unidad organizativa",
 
   // "submission.import-external.preview.title.Person": "Person Preview",
-  "submission.import-external.preview.title.Person": "Previsualización de Persona",
+  "submission.import-external.preview.title.Person": "Previsualización de persona",
 
   // "submission.import-external.preview.title.Project": "Project Preview",
-  "submission.import-external.preview.title.Project": "Previsualización de Proyecto",
+  "submission.import-external.preview.title.Project": "Previsualización de proyecto",
 
   // "submission.import-external.preview.subtitle": "The metadata below was imported from an external source. It will be pre-filled when you start the submission.",
   "submission.import-external.preview.subtitle": "Los siguientes metadatos se importaron de una fuente externa. Se añadirán cuando inicie el envío.",
@@ -7981,7 +7907,7 @@
   "submission.sections.describe.relationship-lookup.external-source.import-modal.import": "Importar",
 
   // "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal.title": "Import Remote Journal",
-  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal.title": "Importación remota de Revista",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal.title": "Importación remota de revista",
 
   // "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal.added.local-entity": "Successfully added local journal to the selection",
   "submission.sections.describe.relationship-lookup.external-source.import-modal.Journal.added.local-entity": "Revista local agregada con éxito a la selección",
@@ -8080,8 +8006,7 @@
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.JournalIssue": "Números de revista locales  ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalVolumeOfIssue": "Local Journal Volumes ({{ count }})",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalVolumeOfIssue": "Local Journal Volumes ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalVolumeOfIssue": "Volúmenes de revista locales ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalVolumeOfPublication": "Local Journal Volumes ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isJournalVolumeOfPublication": "Volúmenes de revista locales ({{ count }})",
@@ -8120,10 +8045,10 @@
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.scopus": "Scopus ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.openaire": "OpenAIRE Search by Authors ({{ count }})",
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openaire": "OpenAIRE Search by Authors ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openaire": "Búsqueda OpenAIRE por autores ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.openaireTitle": "OpenAIRE Search by Title ({{ count }})",
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openaireTitle": "OpenAIRE Search by Title ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openaireTitle": "Búsqueda OpenAIRE por título ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.openaireFunding": "OpenAIRE Search by Funder ({{ count }})",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.openaireFunding": "Búsqueda por financiador OpenAIRE ({{ count }})",
@@ -8136,20 +8061,16 @@
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexPerson": "OpenAlex ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexInstitution": "OpenAlex Search by Institution ({{ count }})",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexInstitution": "OpenAlex Search by Institution ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexInstitution": "Búsqueda OpenAlex por institución ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexPublisher": "OpenAlex Search by Publisher ({{ count }})",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexPublisher": "OpenAlex Search by Publisher ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexPublisher": "Búsqueda OpenAlex por editorial ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexFunder": "OpenAlex Search by Funder ({{ count }})",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexFunder": "OpenAlex Search by Funder ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.openalexFunder": "Búsqueda OpenAlex por financiador ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.dataciteProject": "DataCite Search by Project ({{ count }})",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.dataciteProject": "DataCite Search by Project ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.dataciteProject": "Búsqueda DataCite por proyecto ({{ count }})",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfPublication": "Search for Funding Agencies",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfPublication": "Búsqueda de agencias de financiación",
@@ -8164,17 +8085,16 @@
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProjectOfPublication": "Proyectos",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfProject": "Funder of the Project",
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfProject": "Financiador del Proyecto",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isFundingAgencyOfProject": "Financiador del proyecto",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfAuthor": "Publication of the Author",
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfAuthor": "Publicación del Autor/a",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfAuthor": "Publicación del autor/a",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitOfProject": "OrgUnit of the Project",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitOfProject": "Unidad organizativa del proyecto",
 
   // "submission.sections.describe.relationship-lookup.search-tab.tab-title.opfJournal": "Jisc Open policy finder of Journal",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.search-tab.tab-title.opfJournal": "Jisc Open policy finder of Journal",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.opfJournal": "Jisc Open Policy Finder de la revista",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.isProjectOfPublication": "Project",
   "submission.sections.describe.relationship-lookup.selection-tab.title.isProjectOfPublication": "Proyecto",
@@ -8183,11 +8103,10 @@
   "submission.sections.describe.relationship-lookup.title.isProjectOfPublication": "Proyectos",
 
   // "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfProject": "Funder of the Project",
-  "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfProject": "Financiador del Proyecto",
+  "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfProject": "Financiador del proyecto",
 
   // "submission.sections.describe.relationship-lookup.title.isPersonOfProject": "Person of the Project",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.title.isPersonOfProject": "Person of the Project",
+  "submission.sections.describe.relationship-lookup.title.isPersonOfProject": "Persona del proyecto",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.search-form.placeholder": "Search...",
   "submission.sections.describe.relationship-lookup.selection-tab.search-form.placeholder": "Buscar...",
@@ -8205,8 +8124,7 @@
   "submission.sections.describe.relationship-lookup.title.JournalIssue": "Números de revista",
 
   // "submission.sections.describe.relationship-lookup.title.isJournalVolumeOfIssue": "Journal Volumes",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.title.isJournalVolumeOfIssue": "Journal Volumes",
+  "submission.sections.describe.relationship-lookup.title.isJournalVolumeOfIssue": "Volúmenes de revista",
 
   // "submission.sections.describe.relationship-lookup.title.isJournalVolumeOfPublication": "Journal Volumes",
   "submission.sections.describe.relationship-lookup.title.isJournalVolumeOfPublication": "Volúmenes de la revista",
@@ -8272,8 +8190,7 @@
   "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalOfPublication": "Revistas seleccionadas",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalVolumeOfIssue": "Selected Journal Volume",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalVolumeOfIssue": "Selected Journal Volume",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalVolumeOfIssue": "Volumen de revista seleccionado",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalVolumeOfPublication": "Selected Journal Volume",
   "submission.sections.describe.relationship-lookup.selection-tab.title.isJournalVolumeOfPublication": "Volumen de revista seleccionada",
@@ -8282,7 +8199,7 @@
   "submission.sections.describe.relationship-lookup.selection-tab.title.Project": "Proyectos seleccionados",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.Publication": "Selected Publications",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.Publication": "Publicaciones Seleccionadas",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.Publication": "Publicaciones seleccionadas",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.Person": "Selected Authors",
   "submission.sections.describe.relationship-lookup.selection-tab.title.Person": "Autores/as seleccionados",
@@ -8366,28 +8283,22 @@
   "submission.sections.describe.relationship-lookup.selection-tab.title.ror": "Resultados de la búsqueda",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.openalexPerson": "Search Results",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.selection-tab.title.openalexPerson": "Search Results",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.openalexPerson": "Resultados de búsqueda",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.openalexInstitution": "Search Results",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.selection-tab.title.openalexInstitution": "Search Results",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.openalexInstitution": "Resultados de búsqueda",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.openalexPublisher": "Search Results",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.selection-tab.title.openalexPublisher": "Search Results",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.openalexPublisher": "Resultados de búsqueda",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.openalexFunder": "Search Results",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.selection-tab.title.openalexFunder": "Search Results",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.openalexFunder": "Resultados de búsqueda",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.dataciteProject": "Search Results",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.selection-tab.title.dataciteProject": "Search Results",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.dataciteProject": "Resultados de búsqueda",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.opfJournal": "Search Results",
-  // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.selection-tab.title.opfJournal": "Search Results",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.opfJournal": "Resultados de búsqueda",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title": "Search Results",
   "submission.sections.describe.relationship-lookup.selection-tab.title": "Resultados de la búsqueda",
@@ -8637,7 +8548,7 @@
   "submission.sections.upload.header.policy.default.withlist": "Tenga en cuenta que los archivos cargados en la colección {{ collectionName }} serán accesibles, además de lo que se decida explícitamente para el fichero, para los siguientes grupos:",
 
   // "submission.sections.upload.info": "Here you will find all the files currently in the item. You can update the file metadata and access conditions or <strong>upload additional files by dragging & dropping them anywhere on the page.</strong>",
-  "submission.sections.upload.info": "Aquí encontrará todos los archivos que se encuentran actualmente en el ítem.  Puede actualizar los metadatos del fichero y las condiciones de acceso e <strong> incluir ficheros adicionales simplemente arrastrando-y-soltando en cualquier lugar de la página</strong>",
+  "submission.sections.upload.info": "Aquí encontrará todos los archivos que se encuentran actualmente en el ítem. Puede actualizar los metadatos del fichero y las condiciones de acceso e <strong> incluir ficheros adicionales simplemente arrastrando-y-soltando en cualquier lugar de la página</strong>",
 
   // "submission.sections.upload.no-entry": "No",
   "submission.sections.upload.no-entry": "No",
@@ -8724,7 +8635,7 @@
   "submission.sections.license.notgranted": "Debe aceptar la licencia",
 
   // "submission.sections.jisc.publication.information": "Publication information",
-  "submission.sections.jisc.publication.information": "Información de la Publicación",
+  "submission.sections.jisc.publication.information": "Información de la publicación",
 
   // "submission.sections.jisc.publication.information.title": "Title",
   "submission.sections.jisc.publication.information.title": "Título",
@@ -8748,10 +8659,10 @@
   "submission.sections.jisc.publisher.policy": "Política editorial",
 
   // "submission.sections.jisc.publisher.policy.description": "The below information was found via Jisc Open policy finder. Based on the policies of your publisher, it provides advice regarding whether an embargo may be necessary and/or which files you are allowed to upload. If you have questions, please contact your site administrator via the feedback form in the footer.",
-  "submission.sections.jisc.publisher.policy.description": "La siguiente informacióm se encontró vía Open Policy Finder. En base a esas políticas, se proporcionan consejos sobre las necesidad de un embargo y de aquellos ficheros que puede utilizar. Si tiene dudas, por favor, contacte con el administrador del repositorio mediante el formulario de sugerencias.",
+  "submission.sections.jisc.publisher.policy.description": "La siguiente información se encontró vía Open Policy Finder. Con base en esas políticas, se proporcionan consejos sobre la necesidad de un embargo y de aquellos ficheros que puede utilizar. Si tiene dudas, por favor, contacte con el administrador del repositorio mediante el formulario de sugerencias.",
 
   // "submission.sections.jisc.publisher.policy.openaccess": "Open Access pathways permitted by this journal's policy are listed below by article version. Click on a pathway for a more detailed view",
-  "submission.sections.jisc.publisher.policy.openaccess": "Los caminos hacia el Acceso Abierto que esta revista permite se relacionan, por versión de artículo, abajo. Pulse en un camino para una visión mas detallada",
+  "submission.sections.jisc.publisher.policy.openaccess": "Los caminos hacia el acceso abierto que esta revista permite se relacionan, por versión de artículo, abajo. Pulse en un camino para una visión más detallada",
 
   // "submission.sections.jisc.publisher.policy.more.information": "For more information, please see the following links:",
   "submission.sections.jisc.publisher.policy.more.information": "Para más información, por favor, siga los siguientes enlaces:",
@@ -8763,7 +8674,7 @@
   "submission.sections.jisc.publisher.policy.embargo": "Embargo",
 
   // "submission.sections.jisc.publisher.policy.noembargo": "No Embargo",
-  "submission.sections.jisc.publisher.policy.noembargo": "Sin Embargo",
+  "submission.sections.jisc.publisher.policy.noembargo": "Sin periodo de embargo",
 
   // "submission.sections.jisc.publisher.policy.nolocation": "None",
   "submission.sections.jisc.publisher.policy.nolocation": "Ninguno",
@@ -9005,7 +8916,7 @@
   "subscriptions.table.subscription_type": "Tipo de suscripción",
 
   // "subscriptions.table.subscription_frequency": "Subscription Frequency",
-  "subscriptions.table.subscription_frequency": "Frecuencia de Suscripción",
+  "subscriptions.table.subscription_frequency": "Frecuencia de suscripción",
 
   // "subscriptions.table.action": "Action",
   "subscriptions.table.action": "Acción",
@@ -9023,7 +8934,7 @@
   "subscriptions.table.not-available-message": "El ítem suscrito ha sido eliminado, o actualmente usted no tiene permisos suficiente para poder visualizarlo.",
 
   // "subscriptions.table.empty.message": "You do not have any subscriptions at this time. To subscribe to email updates for a community or collection, use the subscription button on the object's page.",
-  "subscriptions.table.empty.message": "Usted no tiene suscripciones. Para subscribirse a las actualizaciones por correo electrónico de una Comunidad o Colección, utilice el botón de suscripción en la página del objeto.",
+  "subscriptions.table.empty.message": "Usted no tiene suscripciones. Para suscribirse a las actualizaciones por correo electrónico de una comunidad o colección, utilice el botón de suscripción en la página del objeto.",
 
   // "thumbnail.default.alt": "Thumbnail Image",
   "thumbnail.default.alt": "Miniatura",
@@ -9038,10 +8949,10 @@
   "thumbnail.project.placeholder": "Imagen del proyecto en el marcador de posición",
 
   // "thumbnail.orgunit.alt": "OrgUnit Logo",
-  "thumbnail.orgunit.alt": "Logotipo de Unidad Organizativa",
+  "thumbnail.orgunit.alt": "Logotipo de unidad organizativa",
 
   // "thumbnail.orgunit.placeholder": "OrgUnit Placeholder Image",
-  "thumbnail.orgunit.placeholder": "Imagen de Unidad Organizativa en el marcador de posición",
+  "thumbnail.orgunit.placeholder": "Imagen de unidad organizativa en el marcador de posición",
 
   // "thumbnail.person.alt": "Profile Picture",
   "thumbnail.person.alt": "Foto de perfil",
@@ -9077,7 +8988,7 @@
   "vocabulary-treeview.tree.description.srsc": "Categorías de temas de investigación",
 
   // "vocabulary-treeview.info": "Select a subject to add as search filter",
-  "vocabulary-treeview.info": "Selecciona un tema para agregar como filtro de búsqueda",
+  "vocabulary-treeview.info": "Seleccione un tema para agregar como filtro de búsqueda",
 
   // "uploader.browse": "browse",
   "uploader.browse": "examinar",
@@ -9314,10 +9225,10 @@
   "researcher.profile.status": "Estado:",
 
   // "researcherprofile.claim.not-authorized": "You are not authorized to claim this item. For more details contact the administrator(s).",
-  "researcherprofile.claim.not-authorized": "No está autorizado pare reclamar este ítem. Contacte con el administrador para mas detalles.",
+  "researcherprofile.claim.not-authorized": "No está autorizado para reclamar este ítem. Contacte con el administrador para más detalles.",
 
   // "researcherprofile.error.claim.body": "An error occurred while claiming the profile, please try again later",
-  "researcherprofile.error.claim.body": "Hubo un error reclamando el perfil, por favor, inténtelo mas tarde",
+  "researcherprofile.error.claim.body": "Hubo un error reclamando el perfil, por favor, inténtelo más tarde",
 
   // "researcherprofile.error.claim.title": "Error",
   "researcherprofile.error.claim.title": "Error",
@@ -9458,7 +9369,7 @@
   "person.page.orcid.sync-queue.description.qualification": "Cualificaciones",
 
   // "person.page.orcid.sync-queue.description.researcher_urls": "Researcher urls",
-  "person.page.orcid.sync-queue.description.researcher_urls": "URLs del Investigador",
+  "person.page.orcid.sync-queue.description.researcher_urls": "URL del investigador",
 
   // "person.page.orcid.sync-queue.description.keywords": "Keywords",
   "person.page.orcid.sync-queue.description.keywords": "Palabras clave",
@@ -9584,19 +9495,19 @@
   "person.page.orcid.synchronization-mode": "Modo sincronización",
 
   // "person.page.orcid.synchronization-mode.batch": "Batch",
-  "person.page.orcid.synchronization-mode.batch": "Batch",
+  "person.page.orcid.synchronization-mode.batch": "Por lotes",
 
   // "person.page.orcid.synchronization-mode.label": "Synchronization mode",
   "person.page.orcid.synchronization-mode.label": "Modo sincronización",
 
   // "person.page.orcid.synchronization-mode-message": "Please select how you would like synchronization to ORCID to occur. The options include \"Manual\" (you must send your data to ORCID manually), or \"Batch\" (the system will send your data to ORCID via a scheduled script).",
-  "person.page.orcid.synchronization-mode-message": "Seleccione cómo prefiere realizar la sincronización con ORCID. Puede escoger \"Manual\" (usted envía los datos a ORCID manualmente), o \"Batch\" (el sistema enviará sus datos a ORCID vía un programa planificado).",
+  "person.page.orcid.synchronization-mode-message": "Seleccione cómo prefiere realizar la sincronización con ORCID. Puede escoger \"Manual\" (usted envía los datos a ORCID manualmente), o \"Por lotes\" (el sistema enviará sus datos a ORCID vía un programa planificado).",
 
   // "person.page.orcid.synchronization-mode-funding-message": "Select whether to send your linked Project entities to your ORCID record's list of funding information.",
-  "person.page.orcid.synchronization-mode-funding-message": "Seleccione si enviará información de sus entidades conectadas de tipo Proyecto a la información de financiación de ORCID.",
+  "person.page.orcid.synchronization-mode-funding-message": "Seleccione si enviará información de sus entidades conectadas de tipo «Proyecto» a la información de financiación de ORCID.",
 
   // "person.page.orcid.synchronization-mode-publication-message": "Select whether to send your linked Publication entities to your ORCID record's list of works.",
-  "person.page.orcid.synchronization-mode-publication-message": "Seleccione si enviará información de sus entidades conectadas de tipo Publicación a la información de trabajos de ORCID.",
+  "person.page.orcid.synchronization-mode-publication-message": "Seleccione si enviará información de sus entidades conectadas de tipo «Publicación» a la información de trabajos de ORCID.",
 
   // "person.page.orcid.synchronization-mode-profile-message": "Select whether to send your biographical data or personal identifiers to your ORCID record.",
   "person.page.orcid.synchronization-mode-profile-message": "Seleccione si enviará información de sus datos biográficos o identificadores personales a ORCID",
@@ -9614,7 +9525,7 @@
   "person.page.orcid.scope.authenticate": "Obtenga su ORCID iD",
 
   // "person.page.orcid.scope.read-limited": "Read your information with visibility set to Trusted Parties",
-  "person.page.orcid.scope.read-limited": "Lea su información con la visibilidad ajustada a Terceros Confiables",
+  "person.page.orcid.scope.read-limited": "Lea su información con la visibilidad ajustada a terceros de confianza",
 
   // "person.page.orcid.scope.activities-update": "Add/update your research activities",
   "person.page.orcid.scope.activities-update": "Añada/actualice sus actividades de investigación",
@@ -9665,10 +9576,10 @@
   "system-wide-alert-banner.countdown.minutes": "{{minutes}} minuto(s):",
 
   // "menu.section.system-wide-alert": "System-wide Alert",
-  "menu.section.system-wide-alert": "Alerta del Sistema",
+  "menu.section.system-wide-alert": "Alerta del sistema",
 
   // "system-wide-alert.form.header": "System-wide Alert",
-  "system-wide-alert.form.header": "Alerta del Sistema",
+  "system-wide-alert.form.header": "Alerta del sistema",
 
   // "system-wide-alert-form.retrieval.error": "Something went wrong retrieving the system-wide alert",
   "system-wide-alert-form.retrieval.error": "Algo salió mal al recuperar la alerta del sistema",
@@ -9785,7 +9696,7 @@
   "access-control-execute": "Ejecutar",
 
   // "access-control-add-more": "Add more",
-  "access-control-add-more": "Añadir mas",
+  "access-control-add-more": "Añadir más",
 
   // "access-control-remove": "Remove access condition",
   "access-control-remove": "Eliminar condición de acceso",
@@ -9848,10 +9759,10 @@
   "coar-notify-support.message-moderation.feedback-form": " Formulario de comentarios.",
 
   // "service.overview.delete.header": "Delete Service",
-  "service.overview.delete.header": "Eliminar Servicio",
+  "service.overview.delete.header": "Eliminar servicio",
 
   // "ldn-registered-services.title": "Registered Services",
-  "ldn-registered-services.title": "Servicios Registrados",
+  "ldn-registered-services.title": "Servicios registrados",
   // "ldn-registered-services.table.name": "Name",
   "ldn-registered-services.table.name": "Nombre",
   // "ldn-registered-services.table.description": "Description",
@@ -9863,7 +9774,7 @@
   // "ldn-registered-services.new": "NEW",
   "ldn-registered-services.new": "NUEVO",
   // "ldn-registered-services.new.breadcrumbs": "Registered Services",
-  "ldn-registered-services.new.breadcrumbs": "Servicios Registrados",
+  "ldn-registered-services.new.breadcrumbs": "Servicios registrados",
 
   // "ldn-service.overview.table.enabled": "Enabled",
   "ldn-service.overview.table.enabled": "Habilitado",
@@ -9875,11 +9786,11 @@
   "ldn-service.overview.table.clickToDisable": "Haga clic para deshabilitar",
 
   // "ldn-edit-registered-service.title": "Edit Service",
-  "ldn-edit-registered-service.title": "Editar Servicio",
+  "ldn-edit-registered-service.title": "Editar servicio",
   // "ldn-create-service.title": "Create service",
   "ldn-create-service.title": "Crear servicio",
   // "service.overview.create.modal": "Create Service",
-  "service.overview.create.modal": "Crear Servicio",
+  "service.overview.create.modal": "Crear servicio",
   // "service.overview.create.body": "Please confirm the creation of this service.",
   "service.overview.create.body": "Por favor confirme la creación de este servicio.",
   // "ldn-service-status": "Status",
@@ -9897,13 +9808,13 @@
   // "ldn-new-service.form.label.description": "Description",
   "ldn-new-service.form.label.description": "Descripción",
   // "ldn-new-service.form.label.url": "Service URL",
-  "ldn-new-service.form.label.url": "URL del Servicio",
+  "ldn-new-service.form.label.url": "URL del servicio",
   // "ldn-new-service.form.label.ip-range": "Service IP range",
-  "ldn-new-service.form.label.ip-range": "Rango de IP del Servicio",
+  "ldn-new-service.form.label.ip-range": "Rango de IP del servicio",
   // "ldn-new-service.form.label.score": "Level of trust",
   "ldn-new-service.form.label.score": "Nivel de confianza",
   // "ldn-new-service.form.label.ldnUrl": "LDN Inbox URL",
-  "ldn-new-service.form.label.ldnUrl": "URL del Buzón LDN",
+  "ldn-new-service.form.label.ldnUrl": "URL del buzón LDN",
   // "ldn-new-service.form.placeholder.name": "Please provide service name",
   "ldn-new-service.form.placeholder.name": "Por favor proporcione el nombre del servicio",
   // "ldn-new-service.form.placeholder.description": "Please provide a description regarding your service",
@@ -9915,7 +9826,7 @@
   // "ldn-new-service.form.placeholder.upperIp": "IPv4 range upper bound",
   "ldn-new-service.form.placeholder.upperIp": "Límite superior del rango IPv4",
   // "ldn-new-service.form.placeholder.ldnUrl": "Please specify the URL of the LDN Inbox",
-  "ldn-new-service.form.placeholder.ldnUrl": "Por favor especifique la URL del Buzón LDN",
+  "ldn-new-service.form.placeholder.ldnUrl": "Por favor especifique la URL del buzón LDN",
   // "ldn-new-service.form.placeholder.score": "Please enter a value between 0 and 1. Use the “.” as decimal separator",
   "ldn-new-service.form.placeholder.score": "Por favor ingrese un valor entre 0 y 1. Use el “.” como separador decimal",
   // "ldn-service.form.label.placeholder.default-select": "Select a pattern",
@@ -9936,7 +9847,7 @@
   "ldn-service.form.pattern.ack-reject.category": "Reconocimientos",
 
   // "ldn-service.form.pattern.ack-tentative-accept.label": "Acknowledge and Tentatively Accept",
-  "ldn-service.form.pattern.ack-tentative-accept.label": "Reconocer y Aceptar Tentativamente",
+  "ldn-service.form.pattern.ack-tentative-accept.label": "Reconocer y aceptar tentativamente",
   // "ldn-service.form.pattern.ack-tentative-accept.description": "This pattern is used to acknowledge and tentatively accept a request (offer). It implies an intention to act, which may change.",
   "ldn-service.form.pattern.ack-tentative-accept.description": "Este patrón se usa para reconocer y aceptar tentativamente una solicitud (oferta). Implica una intención de actuar, que puede cambiar.",
   // "ldn-service.form.pattern.ack-tentative-accept.category": "Acknowledgements",
@@ -10025,7 +9936,7 @@
   // "ldn-new-service.form.error.ipRange": "Please enter a valid IP range",
   "ldn-new-service.form.error.ipRange": "Por favor, ingrese un rango de IP válido",
   // "ldn-new-service.form.hint.ipRange": "Please enter a valid IpV4 in both range bounds (note: for single IP, please enter the same value in both fields)",
-  "ldn-new-service.form.hint.ipRange": "Por favor, ingrese un IpV4 válido en ambos límites del rango (nota: para una sola IP, ingrese el mismo valor en ambos campos)",
+  "ldn-new-service.form.hint.ipRange": "Por favor, ingrese un IPv4 válido en ambos límites del rango (nota: para una sola IP, ingrese el mismo valor en ambos campos)",
   // "ldn-new-service.form.error.ldnurl": "LDN URL is required",
   "ldn-new-service.form.error.ldnurl": "Se requiere la URL de LDN",
   // "ldn-new-service.form.error.patterns": "At least a pattern is required",
@@ -10148,7 +10059,7 @@
   "item.page.supplemented": "Complementado por",
 
   // "menu.section.icon.ldn_services": "LDN Services overview",
-  "menu.section.icon.ldn_services": "Visión general de Servicios LDN",
+  "menu.section.icon.ldn_services": "Visión general de servicios LDN",
 
   // "menu.section.services": "LDN Services",
   "menu.section.services": "Servicios LDN",
@@ -10298,7 +10209,7 @@
   "ldn-service-usesActorEmailId-description": "Si se habilita esta opción, las notificaciones iniciales enviadas incluirán el correo electrónico del remitente en lugar de la URL del repositorio. Esto suele ocurrir con los servicios de recomendación o revisión.",
 
   // "a-common-or_statement.label": "Item type is Journal Article or Dataset",
-  "a-common-or_statement.label": "El tipo de ítem es Artículo de revista o Dataset",
+  "a-common-or_statement.label": "El tipo de ítem es artículo de revista o conjunto de datos",
 
   // "always_true_filter.label": "Always true",
   "always_true_filter.label": "Siempre verdadero",
@@ -10340,28 +10251,28 @@
   "title-starts-with-pattern_condition.label": "El título comienza con el patrón",
 
   // "type-equals-dataset_condition.label": "Type equals Dataset",
-  "type-equals-dataset_condition.label": "El tipo es igual a Dataset",
+  "type-equals-dataset_condition.label": "El tipo es igual a conjunto de datos",
 
   // "type-equals-journal-article_condition.label": "Type equals Journal Article",
-  "type-equals-journal-article_condition.label": "El tipo es igual a Artículo de Revista",
+  "type-equals-journal-article_condition.label": "El tipo es igual a artículo de revista",
 
   // "ldn.no-filter.label": "None",
   "ldn.no-filter.label": "Ninguno",
 
   // "admin.notify.dashboard": "Dashboard",
-  "admin.notify.dashboard": "Dashboard",
+  "admin.notify.dashboard": "Panel",
 
   // "menu.section.notify_dashboard": "Dashboard",
-  "menu.section.notify_dashboard": "Dashboard",
+  "menu.section.notify_dashboard": "Panel",
 
   // "menu.section.coar_notify": "COAR Notify",
   "menu.section.coar_notify": "COAR Notify",
 
   // "admin-notify-dashboard.title": "Notify Dashboard",
-  "admin-notify-dashboard.title": "Dashboard de Notificaciones",
+  "admin-notify-dashboard.title": "Panel de notificaciones",
 
   // "admin-notify-dashboard.description": "The Notify dashboard monitor the general usage of the COAR Notify protocol across the repository. In the “Metrics” tab are statistics about usage of the COAR Notify protocol. In the “Logs/Inbound” and “Logs/Outbound” tabs it’s possible to search and check the individual status of each LDN message, either received or sent.",
-  "admin-notify-dashboard.description": "El dashboard de Notificaciones monitorea el uso general del protocolo COAR Notify en todo el repositorio. En la pestaña “Métricas” hay estadísticas sobre el uso del protocolo COAR Notify. En las pestañas “Logs/Entrantes” y “Logs/Salientes” es posible buscar y verificar el estado individual de cada mensaje LDN, ya sea recibido o enviado.",
+  "admin-notify-dashboard.description": "El panel de notificaciones monitorea el uso general del protocolo COAR Notify en todo el repositorio. En la pestaña “Métricas” hay estadísticas sobre el uso del protocolo COAR Notify. En las pestañas “Registros/Entrantes” y “Registros/Salientes” es posible buscar y verificar el estado individual de cada mensaje LDN, ya sea recibido o enviado.",
 
   // "admin-notify-dashboard.metrics": "Metrics",
   "admin-notify-dashboard.metrics": "Métricas",
@@ -10463,13 +10374,13 @@
   "admin-notify-dashboard.NOTIFY.outgoing.involvedItems.description": "Ítems relacionados con notificaciones salientes",
 
   // "admin.notify.dashboard.breadcrumbs": "Dashboard",
-  "admin.notify.dashboard.breadcrumbs": "Dashboard",
+  "admin.notify.dashboard.breadcrumbs": "Panel",
 
   // "admin.notify.dashboard.inbound": "Inbound messages",
   "admin.notify.dashboard.inbound": "Mensajes entrantes",
 
   // "admin.notify.dashboard.inbound-logs": "Logs/Inbound",
-  "admin.notify.dashboard.inbound-logs": "Logs/Entrantes",
+  "admin.notify.dashboard.inbound-logs": "Registros/Entrantes",
 
   // "admin.notify.dashboard.filter": "Filter: ",
   "admin.notify.dashboard.filter": "Filtro: ",
@@ -10481,13 +10392,13 @@
   "search.filters.applied.f.ldn_service": "Servicio LDN",
 
   // "search.filters.applied.f.notifyReview": "Notify Review",
-  "search.filters.applied.f.notifyReview": "Notificación de Revisión",
+  "search.filters.applied.f.notifyReview": "Notificación de revisión",
 
   // "search.filters.applied.f.notifyEndorsement": "Notify Endorsement",
-  "search.filters.applied.f.notifyEndorsement": "Notificación de Aprobación",
+  "search.filters.applied.f.notifyEndorsement": "Notificación de aprobación",
 
   // "search.filters.applied.f.notifyRelation": "Notify Relation",
-  "search.filters.applied.f.notifyRelation": "Notificación de Relación",
+  "search.filters.applied.f.notifyRelation": "Notificación de relación",
 
   // "search.filters.applied.f.access_status": "Access type",
   "search.filters.applied.f.access_status": "Tipo de acceso",
@@ -10511,7 +10422,7 @@
   "admin.notify.dashboard.outbound": "Mensajes salientes",
 
   // "admin.notify.dashboard.outbound-logs": "Logs/Outbound",
-  "admin.notify.dashboard.outbound-logs": "Logs/Salientes",
+  "admin.notify.dashboard.outbound-logs": "Registros/Salientes",
 
   // "NOTIFY.incoming.search.results.head": "Incoming",
   "NOTIFY.incoming.search.results.head": "Entrantes",
@@ -10535,7 +10446,7 @@
   "search.filters.filter.activity_stream_type.head": "Tipo de flujo de actividad",
 
   // "search.filters.filter.coar_notify_type.head": "COAR Notify type",
-  "search.filters.filter.coar_notify_type.head": "COAR Tipo de notificación",
+  "search.filters.filter.coar_notify_type.head": "Tipo de notificación COAR",
 
   // "search.filters.filter.notification_type.head": "Notification type",
   "search.filters.filter.notification_type.head": "Tipo de notificación",
@@ -10589,7 +10500,7 @@
   "search.filters.applied.f.notification_type": "Tipo de notificación",
 
   // "search.filters.filter.coar_notify_type.label": "Search COAR Notify type",
-  "search.filters.filter.coar_notify_type.label": "Buscar por Tipo de notificación COAR",
+  "search.filters.filter.coar_notify_type.label": "Buscar por tipo de notificación COAR",
 
   // "search.filters.filter.notification_type.label": "Search notification type",
   "search.filters.filter.notification_type.label": "Buscar por tipo de notificación",
@@ -10619,7 +10530,7 @@
   "search.filters.filter.activity_stream_type.placeholder": "Tipo de flujo de actividad",
 
   // "search.filters.filter.coar_notify_type.placeholder": "COAR Notify type",
-  "search.filters.filter.coar_notify_type.placeholder": "COAR Tipo de notificación",
+  "search.filters.filter.coar_notify_type.placeholder": "Tipo de notificación COAR",
 
   // "search.filters.filter.notification_type.placeholder": "Notification",
   "search.filters.filter.notification_type.placeholder": "Notificación",
@@ -10637,7 +10548,7 @@
   "search.filters.filter.notifyReview.head": "Notificación de revisión",
 
   // "search.filters.filter.notifyReview.label": "Search Notify Review",
-  "search.filters.filter.notifyReview.label": "Buscar por notificación de Revisión",
+  "search.filters.filter.notifyReview.label": "Buscar por notificación de revisión",
 
   // "search.filters.filter.notifyReview.placeholder": "Notify Review",
   "search.filters.filter.notifyReview.placeholder": "Notificación de revisión",
@@ -10885,10 +10796,10 @@
 
   // "live-region.ordering.status": "{{ itemName }}, grabbed. Current position in list: {{ index }} of {{ length }}. Press up and down arrow keys to change position, SpaceBar to drop, Escape to cancel.",
   // TODO Source message changed - Revise the translation
-  "live-region.ordering.status": "{{ itemName }}, obtenido. Posición actual en la lista: {{ index }} de  {{ length }}. Use las teclas de flecha arriba y abajo para cambiar la posición, la Barra espaciadora para soltar, Escape para cancelar",
+  "live-region.ordering.status": "{{ itemName }}, obtenido. Posición actual en la lista: {{ index }} de {{ length }}. Use las teclas de flecha arriba y abajo para cambiar la posición, la barra espaciadora para soltar, Escape para cancelar",
 
   // "live-region.ordering.moved": "{{ itemName }}, moved to position {{ index }} of {{ length }}. Press up and down arrow keys to change position, SpaceBar to drop, Escape to cancel.",
-  "live-region.ordering.moved": "{{ itemName }}, movido a la posición {{ index }} de {{ length }}. Use las teclas de flecha arriba y abajo para cambiar la posición, la Barra espaciadora para soltar, Escape para cancelar.",
+  "live-region.ordering.moved": "{{ itemName }}, movido a la posición {{ index }} de {{ length }}. Use las teclas de flecha arriba y abajo para cambiar la posición, la barra espaciadora para soltar, Escape para cancelar.",
 
   // "live-region.ordering.dropped": "{{ itemName }}, dropped at position {{ index }} of {{ length }}.",
   "live-region.ordering.dropped": "{{ itemName }}, colocado en la posición {{ index }} de {{ length }}.",
@@ -10969,13 +10880,13 @@
   "review-account-info.merge-data.notification.error": "Algo salió mal al actualizar la información de su cuenta",
 
   // "review-account-info.alert.error.content": "Something went wrong. Please try again later.",
-  "review-account-info.alert.error.content": "Algo salió mal. Por favor, inténtelo de nuevo mas tarde.",
+  "review-account-info.alert.error.content": "Algo salió mal. Por favor, inténtelo de nuevo más tarde.",
 
   // "external-login-page.provide-email.notifications.error": "Something went wrong.Email address was omitted or the operation is not valid.",
   "external-login-page.provide-email.notifications.error": "Algo salió mal. No se proporcionó dirección de correo electrónico o la operación no es válida.",
 
   // "external-login.error.notification": "There was an error while processing your request. Please try again later.",
-  "external-login.error.notification": "Ocurrió un error al procesar su solicitud. Inténtelo de nuevo mas tarde.",
+  "external-login.error.notification": "Ocurrió un error al procesar su solicitud. Inténtelo de nuevo más tarde.",
 
   // "external-login.connect-to-existing-account.label": "Connect to an existing user",
   "external-login.connect-to-existing-account.label": "Conectar con un usuario existente",
@@ -11047,12 +10958,10 @@
   "embargo.listelement.badge": "Embargo hasta {{ date }}",
 
   // "metadata-export-search.submit.error.limit-exceeded": "Only the first {{limit}} items will be exported",
-  // TODO New key - Add a translation
-  "metadata-export-search.submit.error.limit-exceeded": "Only the first {{limit}} items will be exported",
+  "metadata-export-search.submit.error.limit-exceeded": "Solo se exportarán los primeros {{limit}} ítems",
 
   // "file-download-link.request-copy": "Request a copy of ",
-  // TODO New key - Add a translation
-  "file-download-link.request-copy": "Request a copy of ",
+  "file-download-link.request-copy": "Solicitar una copia de ",
 
   // "item.preview.organization.url": "URL",
   // TODO New key - Add a translation
@@ -11063,8 +10972,8 @@
   "item.preview.organization.address.addressLocality": "City",
 
   // "item.preview.organization.alternateName": "Alternative name",
-  // TODO New key - Add a translation
-  "item.preview.organization.alternateName": "Alternative name",
+  "item.preview.organization.alternateName": "Nombre alternativo",
+ 
   "home.recent-submissions.subhead":"Lo más nuevo",
 
 
