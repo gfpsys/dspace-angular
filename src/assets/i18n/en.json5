@@ -31,7 +31,7 @@
 
   "error-page.description.404": "Page not found",
 
-  "error-page.orcid.generic-error": "An error occurred during login via ORCID. Make sure you have shared your ORCID account email address with DSpace. If the error persists, contact the administrator",
+  "error-page.orcid.generic-error": "An error occurred during login via ORCID. Make sure you have shared your ORCID account email address with this repository. If the error persists, contact the administrator",
 
   "listelement.badge.access-status": "Access status:",
 
@@ -1797,7 +1797,7 @@
 
   "dso-selector.set-scope.community.head": "Select a search scope",
 
-  "dso-selector.set-scope.community.button": "Search all of DSpace",
+  "dso-selector.set-scope.community.button": "Search all of repository",
 
   "dso-selector.set-scope.community.or-divider": "or",
 
@@ -2219,7 +2219,7 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in DSpace",
+  "home.top-level-communities.head": "Communities",
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
@@ -3421,7 +3421,7 @@
 
   "login.form.forgot-password": "Have you forgotten your password?",
 
-  "login.form.header": "Please log in to DSpace",
+  "login.form.header": "Please log",
 
   "login.form.new-user": "New user? Click here to register.",
 
@@ -3441,7 +3441,7 @@
 
   "login.breadcrumbs": "Login",
 
-  "logout.form.header": "Log out from DSpace",
+  "logout.form.header": "Log out",
 
   "logout.form.submit": "Log out",
 
@@ -3481,7 +3481,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "All of DSpace",
+  "menu.section.browse_global": "Browse",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -3623,7 +3623,7 @@
 
   "metadata-export-search.submit.error": "Starting the export has failed",
 
-  "mydspace.breadcrumbs": "MyDSpace",
+  "mydspace.breadcrumbs": "My Repository",
 
   "mydspace.description": "",
 
@@ -3685,7 +3685,7 @@
 
   "mydspace.show.supervisedWorkspace": "Supervised items",
 
-  "mydspace.status": "My DSpace status:",
+  "mydspace.status": "My Repository status:",
 
   "mydspace.status.mydspaceArchived": "Archived",
 
@@ -3697,7 +3697,7 @@
 
   "mydspace.status.mydspaceWorkspace": "Workspace",
 
-  "mydspace.title": "MyDSpace",
+  "mydspace.title": "My Repository",
 
   "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
 
@@ -3733,7 +3733,7 @@
 
   "nav.main.description": "Main navigation bar",
 
-  "nav.mydspace": "MyDSpace",
+  "nav.mydspace": "My Repository",
 
   "nav.profile": "Profile",
 
@@ -4357,7 +4357,7 @@
 
   "register-page.registration.header": "New user registration",
 
-  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
+  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items.",
 
   "register-page.registration.email": "Email Address *",
 
@@ -4455,9 +4455,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title": "DSpace Repository",
+  "repository.title": "Repository",
 
-  "repository.title.prefix": "DSpace Repository :: ",
+  "repository.title.prefix": "Repository :: ",
 
   "resource-policies.add.button": "Add",
 
@@ -4898,7 +4898,7 @@
 
   "search.form.search_dspace": "All repository",
 
-  "search.form.scope.all": "All of DSpace",
+  "search.form.scope.all": "All repository",
 
   "search.results.head": "Search Results",
 
