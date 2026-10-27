@@ -49,7 +49,7 @@
   "error-page.description.404": "Página no encontrada",
 
   // "error-page.orcid.generic-error": "An error occurred during login via ORCID. Make sure you have shared your ORCID account email address with DSpace. If the error persists, contact the administrator",
-  "error-page.orcid.generic-error": "Hubo un error en el inicio de sesión vía ORCID. Asegúrese de que ha compartido el correo electrónico de su cuenta ORCID con DSpace. Si el error persiste, contacte con el administrador",
+  "error-page.orcid.generic-error": "Hubo un error en el inicio de sesión vía ORCID. Asegúrese de que ha compartido el correo electrónico de su cuenta ORCID con este Repositorio. Si el error persiste, contacte con el administrador",
 
   // "listelement.badge.access-status": "Access status:",
   "listelement.badge.access-status": "Estado de acceso:",
@@ -1693,7 +1693,7 @@
   "browse.taxonomy.button": "Examinar",
 
   // "browse.title": "Browsing by {{ field }}{{ startsWith }} {{ value }}",
-  "browse.title": "Examinando por {{ field }} {{ value }}",
+  "browse.title": "Navegar por {{ field }} {{ value }}",
 
   // "browse.taxonomy.show_next_results": "Show next results",
   "browse.taxonomy.show_next_results": "Mostrar resultados siguientes",
@@ -2704,7 +2704,7 @@
   "dso-selector.set-scope.community.head": "Seleccione un ámbito de búsqueda",
 
   // "dso-selector.set-scope.community.button": "Search all of DSpace",
-  "dso-selector.set-scope.community.button": "Buscar en todo DSpace",
+  "dso-selector.set-scope.community.button": "Buscar en todo el repositorio",
 
   // "dso-selector.set-scope.community.or-divider": "or",
   "dso-selector.set-scope.community.or-divider": "o",
@@ -3340,7 +3340,7 @@
   "home.title": "Inicio",
 
   // "home.top-level-communities.head": "Communities in DSpace",
-  "home.top-level-communities.head": "Comunidades en DSpace",
+  "home.top-level-communities.head": "Comunidades",
 
   // "home.top-level-communities.help": "Select a community to browse its collections.",
   "home.top-level-communities.help": "Seleccione una comunidad para explorar sus colecciones.",
@@ -5157,7 +5157,7 @@
   "login.form.forgot-password": "¿Ha olvidado su contraseña?",
 
   // "login.form.header": "Please log in to DSpace",
-  "login.form.header": "Inicie sesión en DSpace",
+  "login.form.header": "Inicie sesión",
 
   // "login.form.new-user": "New user? Click here to register.",
   "login.form.new-user": "¿Nuevo usuario? Pulse aquí para registrarse",
@@ -5187,7 +5187,7 @@
   "login.breadcrumbs": "Inicio de sesión",
 
   // "logout.form.header": "Log out from DSpace",
-  "logout.form.header": "Cerrar sesión en DSpace",
+  "logout.form.header": "Cerrar sesión",
 
   // "logout.form.submit": "Log out",
   "logout.form.submit": "Cerrar sesión",
@@ -5247,7 +5247,7 @@
   "menu.section.browse_community_by_title": "Por titulo",
 
   // "menu.section.browse_global": "All of DSpace",
-  "menu.section.browse_global": "Todo DSpace",
+  "menu.section.browse_global": "Navegar",
 
   // "menu.section.browse_global_by_author": "By Author",
   "menu.section.browse_global_by_author": "Por autor/a",
@@ -5460,7 +5460,7 @@
   "metadata-export-search.submit.error": "Ha fallado el comienzo de la exportación",
 
   // "mydspace.breadcrumbs": "MyDSpace",
-  "mydspace.breadcrumbs": "Mi DSpace",
+  "mydspace.breadcrumbs": "Mi Repositorio",
 
   // "mydspace.description": "",
   "mydspace.description": "",
@@ -5553,7 +5553,7 @@
   "mydspace.show.supervisedWorkspace": "Ítems supervisados",
 
   // "mydspace.status": "My DSpace status:",
-  "mydspace.status": "Estado en Mi DSpace:",
+  "mydspace.status": "Estado en Mi Repositorio:",
 
   // "mydspace.status.mydspaceArchived": "Archived",
   "mydspace.status.mydspaceArchived": "Archivado",
@@ -5571,7 +5571,7 @@
   "mydspace.status.mydspaceWorkspace": "Espacio de trabajo",
 
   // "mydspace.title": "MyDSpace",
-  "mydspace.title": "Mi DSpace",
+  "mydspace.title": "Mi Repositorio",
 
   // "mydspace.upload.upload-failed": "Error creating new workspace. Please verify the content uploaded before retry.",
   "mydspace.upload.upload-failed": "Error al crear un nuevo espacio de trabajo. Verifique el contenido cargado antes de volver a intentarlo.",
@@ -5625,7 +5625,7 @@
   "nav.main.description": "Barra de navegación principal",
 
   // "nav.mydspace": "MyDSpace",
-  "nav.mydspace": "Mi DSpace",
+  "nav.mydspace": "Mi Repositorio",
 
   // "nav.profile": "Profile",
   "nav.profile": "Perfil",
@@ -6565,7 +6565,7 @@
   "register-page.registration.header": "Registro de nuevo usuario",
 
   // "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
-  "register-page.registration.info": "Registre una cuenta para suscribirse a colecciones y recibir actualizaciones por correo electrónico, así como enviar nuevos ítems a DSpace.",
+  "register-page.registration.info": "Registre una cuenta para suscribirse a colecciones y recibir actualizaciones por correo electrónico, así como enviar nuevos ítems.",
 
   // "register-page.registration.email": "Email Address *",
   "register-page.registration.email": "Dirección de correo electrónico *",
@@ -6721,10 +6721,10 @@
   "repository.image.logo": "Logotipo del repositorio",
 
   // "repository.title": "DSpace Repository",
-  "repository.title": "Repositorio DSpace",
+  "repository.title": "Repositorio institucional",
 
   // "repository.title.prefix": "DSpace Repository :: ",
-  "repository.title.prefix": "Repositorio DSpace :: ",
+  "repository.title.prefix": "Repositorio :: ",
 
   // "resource-policies.add.button": "Add",
   "resource-policies.add.button": "Agregar",
@@ -7391,7 +7391,7 @@
   "search.form.search_dspace": "Todo el repositorio",
 
   // "search.form.scope.all": "All of DSpace",
-  "search.form.scope.all": "Todo DSpace",
+  "search.form.scope.all": "Todo el repositorio",
 
   // "search.results.head": "Search Results",
   "search.results.head": "Resultados de la búsqueda",
