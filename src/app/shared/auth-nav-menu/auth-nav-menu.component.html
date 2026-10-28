@@ -7,7 +7,8 @@
         class="nav-item"
         (click)="$event.stopPropagation();">
         <div ngbDropdown #loginDrop="ngbDropdown" display="dynamic" placement="bottom-right" class="d-inline-block" @fadeInOut>
-          <button class="dropdownLogin btn btn-link px-0" [attr.aria-label]="'nav.login' |translate"
+          <!-- Botón de Login actualizado -->
+          <button class="dropdownLogin btn dspace-login-pill" [attr.aria-label]="'nav.login' |translate"
                   (click)="$event.preventDefault()" [attr.data-test]="'login-menu' | dsBrowserOnly"
                   role="button"
                   tabindex="0"
@@ -15,6 +16,7 @@
                   aria-controls="loginDropdownMenu"
                   [attr.aria-expanded]="loginDrop.isOpen()"
                   ngbDropdownToggle>
+            <i class="far fa-user"></i>
             {{ 'nav.login' | translate }}
           </button>
           <div id="loginDropdownMenu" [ngClass]="{'ps-3 pe-3': (loading | async)}" ngbDropdownMenu
@@ -56,11 +58,12 @@
         <span class="sr-only">(current)</span>
       </a>
     } @else {
-      <a routerLink="/login" routerLinkActive="active" class="loginLink px-0" role="link" tabindex="0">
+      <!-- Enlace de Login Móvil actualizado -->
+      <a routerLink="/login" routerLinkActive="active" class="loginLink dspace-login-pill mt-2 mb-2" role="link" tabindex="0">
+        <i class="far fa-user"></i>
         {{ 'nav.login' | translate }}<span class="sr-only">(current)</span>
       </a>
     }
   </div>
 }
-
 <!-- Do not use ul/li in this menu as it breaks e2e accessibility tests -->

@@ -1,7 +1,22 @@
-.request-a-copy-access-icon {
-  color: var(--bs-success);
+.dspace-download-pill {
+  background-color: #24528a; /* Azul similar al de la imagen */
+  color: #ffffff !important;
+  border-radius: 50px; /* Borde tipo píldora */
+  padding: 10px 24px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+  border: transparent 1px solid;
 }
 
-.btn-download{
-  width: fit-content;
+.dspace-download-pill:hover,
+.dspace-download-pill:focus {
+  background-color: #1a3c66; /* Azul más oscuro al pasar el cursor */
+  color: #ffffff;
+}
+
+/* Asegura un margen entre el icono y el texto proyectado */
+.dspace-download-pill i {
+  margin-right: 6px;
+  font-size: 0.95rem;
 }

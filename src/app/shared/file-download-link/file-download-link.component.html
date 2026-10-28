@@ -1,7 +1,8 @@
 @if (showAccessStatusBadge) {
   <ds-access-status-badge [object]="bitstream"></ds-access-status-badge>
 }
-<a [routerLink]="(bitstreamPath$| async)?.routerLink" class="d-block dont-break-out mb-1"
+<a [routerLink]="(bitstreamPath$| async)?.routerLink" 
+  class="d-flex align-items-center justify-content-center dspace-download-pill dont-break-out mb-1"
   [queryParams]="(bitstreamPath$| async)?.queryParams"
   [target]="isBlank ? '_blank': '_self'"
   [ngClass]="cssClasses"
@@ -9,8 +10,9 @@
   [title]="getDownloadLinkTitle(canDownload$ | async, canDownloadWithToken$ | async, dsoNameService.getName(bitstream))"
   role="link"
   tabindex="0">
+  
   @if ((canDownload$ | async) === false && (canDownloadWithToken$ | async) === false) {
-    <!-- If the user cannot download the file by auth or token, show a lock icon -->
+    <!-- Si el usuario no puede descargar el archivo, muestra un candado -->
     <span role="img"
     [attr.aria-label]="'file-download-link.restricted' | translate"
     [title]="'file-download-link.restricted' | translate"
@@ -18,7 +20,7 @@
       <i class="fas fa-lock"></i>
     </span>
   } @else if ((canDownloadWithToken$ | async) && (canDownload$ | async) === false) {
-    <!-- If the user can download the file by token, and NOT normally show a lock open icon -->
+    <!-- Si el usuario puede descargar con token, muestra candado abierto -->
     <span role="img"
     [attr.aria-label]="'file-download-link.secure-access' | translate"
     [title]="'file-download-link.secure-access' | translate"
@@ -28,6 +30,7 @@
   } @else if (showIcon) {
     <i class="fas fa-download d-inline"></i>
   }
+  
   <ng-container *ngTemplateOutlet="content"></ng-container>
 </a>
 

@@ -32,3 +32,30 @@
 .dropdown-toggle::after {
   margin-left: 0;
 }
+
+
+.dspace-login-pill {
+  background-color: #24528a; /* Azul de la imagen */
+  color: #ffffff !important;
+  border-radius: 50px;
+  padding: 8px 24px !important;
+  text-decoration: none;
+  font-weight: 500;
+  border: transparent 1px solid;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.dspace-login-pill:hover,
+.dspace-login-pill:focus {
+  background-color: #1a3c66;
+  color: #ffffff;
+}
+
+/* Espaciado para el icono de usuario */
+.dspace-login-pill i {
+  margin-right: 8px;
+  font-size: 1rem;
+}

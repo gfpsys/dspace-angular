@@ -1,18 +1,26 @@
 <form #form="ngForm" (ngSubmit)="onSubmit(form.value)" action="/search">
   <div>
-    <div class="mb-3 input-group">
+    <div class="mb-3 dspace-search-box">
       @if (showScopeSelector) {
-        <button class="scope-button btn btn-outline-secondary text-truncate"
+        <button class="scope-button btn dspace-scope-selector text-truncate pe-3 me-2"
           [ngbTooltip]="dsoNameService.getName(selectedScope | async)" type="button"
           (click)="openScopeModal()" role="button" tabindex="0">
           <i class="fa-solid fa-filter"></i>
           {{dsoNameService.getName(selectedScope | async) || ('search.form.scope.all' | translate)}}
         </button>
       }
-      <input type="text" [(ngModel)]="query" name="query" class="form-control"
+      
+      <!-- Icono de lupa posicionado a la izquierda del input -->
+      <i class="fas fa-search dspace-search-icon"></i>
+      
+      <input type="text" [(ngModel)]="query" name="query" class="form-control dspace-search-input"
         [attr.aria-label]="searchPlaceholder" [attr.data-test]="'search-box' | dsBrowserOnly"
         [placeholder]="searchPlaceholder" tabindex="0">
-      <button type="submit" class="search-button btn btn-{{brandColor}}" [attr.data-test]="'search-button' | dsBrowserOnly" role="button" tabindex="0"><i class="fas fa-search"></i> {{ ('search.form.search' | translate) }}</button>
+        
+      <!-- Botón de búsqueda encapsulado sin icono -->
+      <button type="submit" class="search-button btn dspace-search-btn" [attr.data-test]="'search-button' | dsBrowserOnly" role="button" tabindex="0">
+        {{ ('search.form.search' | translate) }}
+      </button>
     </div>
   </div>
 </form>

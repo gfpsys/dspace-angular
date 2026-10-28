@@ -7,3 +7,64 @@
 .scope-button {
   max-width: var(--ds-search-form-scope-max-width);
 }
+
+.dspace-search-box {
+  background: #ffffff;
+  border: 1px solid #e0e4e8; /* Borde gris claro */
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03); /* Sombra muy suave */
+  padding: 6px; /* Espaciado interno para encapsular el botón */
+  display: flex;
+  align-items: center;
+}
+
+.dspace-search-icon {
+  color: #9aa0a6; /* Color gris para la lupa */
+  padding-left: 16px;
+  padding-right: 8px;
+  font-size: 1.1rem;
+}
+
+.dspace-search-input {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: transparent;
+  flex-grow: 1;
+  padding-left: 8px;
+  color: #495057;
+}
+
+.dspace-search-input:focus {
+  box-shadow: none;
+  border-color: transparent;
+  background: transparent;
+}
+
+.dspace-search-input::placeholder {
+  color: #838d96;
+}
+
+.dspace-search-btn {
+  background-color: #24528a; /* Azul institucional */
+  color: #ffffff !important;
+  border-radius: 50px;
+  padding: 8px 32px;
+  font-weight: 500;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.dspace-search-btn:hover,
+.dspace-search-btn:focus {
+  background-color: #1a3c66;
+}
+
+/* Ajuste opcional para que el selector de ámbito (si está activo) no rompa el diseño */
+.dspace-scope-selector {
+  border: none;
+  border-right: 1px solid #e0e4e8;
+  border-radius: 0;
+  color: #6c757d;
+  background: transparent;
+}
