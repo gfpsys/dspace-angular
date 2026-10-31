@@ -1,10 +1,7 @@
-@if (showBackButton$ | async) {
-  <ds-results-back-button [back]="back"></ds-results-back-button>
-}
 @if (iiifEnabled) {
   <div class="row">
     <div class="col-12">
-      <ds-mirador-viewer id="iiif-viewer"
+      <ds-mirador-viewer  id="iiif-viewer"
         [object]="object"
         [searchable]="iiifSearchEnabled"
         [query]="iiifQuery$ | async">
@@ -12,14 +9,50 @@
     </div>
   </div>
 }
-
-<div class="d-flex flex-row">
-  <ds-item-page-title-field [item]="object" class="me-auto">
-  </ds-item-page-title-field>
-  <ds-dso-edit-menu></ds-dso-edit-menu>
+<div class="row header-item">
+  @if (showBackButton$ | async) {
+  <div class="d-flex flex-row">
+    <ds-results-back-button [back]="back"></ds-results-back-button>
+  </div>
+  }
+  <div class="d-flex flex-row">
+    <div class="p-2 type-pill">
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.type']"
+        [label]="''">
+      </ds-generic-item-page-field>
+    </div>
+    <div class="p-2 version-pill">
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.type.publicationversion']"
+        [label]="''">
+      </ds-generic-item-page-field>
+    </div>
+    <div class="p-2 access-level-pill">
+      <ds-generic-item-page-field [item]="object"
+        [fields]="['dc.rights.accesslevel']"
+        [label]="''">
+      </ds-generic-item-page-field>
+    </div>
+  </div>
+  <div class="d-flex flex-row">
+    <ds-item-page-title-field [item]="object" class="me-auto">
+    </ds-item-page-title-field>
+  </div>
+  <div class="d-flex flex-row subtitle-pill">
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.title.alternative']"
+      [label]="''">
+    </ds-generic-item-page-field>
+  </div>
+  <div class="d-flex flex-row-reverse">
+    <div class="p-2">
+          <ds-dso-edit-menu></ds-dso-edit-menu>
+    </div>
+  </div>
 </div>
 <div class="row">
-  <div class="col-12 col-md-4">
+  <div class="col-12 col-md-3">
     @if (!(mediaViewer.image || mediaViewer.video)) {
       <ds-metadata-field-wrapper [hideIfNoTextContent]="false">
         <ds-thumbnail [thumbnail]="object?.thumbnail | async"></ds-thumbnail>
@@ -31,55 +64,54 @@
       </div>
     }
     <ds-item-page-file-section [item]="object"></ds-item-page-file-section>
-    <ds-item-page-date-field [item]="object"></ds-item-page-date-field>
     <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
       [parentItem]="object"
       [itemType]="'Person'"
-      [metadataFields]="['dc.contributor.author', 'dc.creator']"
+      [metadataFields]="['dc.creator']"
       [label]="'item.page.authors' | translate">
     </ds-metadata-representation-list>
+    <ds-item-page-date-field [item]="object"></ds-item-page-date-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['journal.title']"
-      [label]="'item.page.journal-title'">
+      [label]="'publication.page.journal-title'">
     </ds-generic-item-page-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['journal.identifier.issn']"
-      [label]="'item.page.journal-issn'">
+      [label]="'publication.page.journal-issn'">
     </ds-generic-item-page-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['journalvolume.identifier.name']"
-      [label]="'item.page.volume-title'">
+      [label]="'publication.page.volume-title'">
     </ds-generic-item-page-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.publisher']"
-      [label]="'item.page.publisher'">
+      [label]="'publication.page.publisher'">
     </ds-generic-item-page-field>
   </div>
-  <div class="col-12 col-md-6">
+  <div class="col-12 col-md-9">
     <ds-item-page-abstract-field [item]="object"></ds-item-page-abstract-field>
-    <ds-generic-item-page-field [item]="object"
-      [fields]="['dc.description']"
-      [label]="'item.page.description'">
+    <ds-generic-item-page-field class="link-pill" [item]="object"
+      [fields]="['dc.subject']"
+      [separator]="' '"
+      [label]="'dc.subject'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field class="citation-field" [item]="object"
+      [fields]="['dc.bibliographicCitation']"
+      [label]="'dc.bibliographicCitation'"
+      [enableMarkdown]="true">
+    </ds-generic-item-page-field>
+    <ds-item-page-geocoverage [item]="object"></ds-item-page-geocoverage>
+    <ds-generic-item-page-field class="link-pill" [item]="object"
+      [fields]="['dc.audience']"
+      [separator]="' '"
+      [label]="'dc.audience'">
     </ds-generic-item-page-field>
 
     <ds-generic-item-page-field [item]="object"
-      [fields]="['dc.subject']"
-      [separator]="', '"
-      [label]="'item.page.subject'">
+      [fields]="['dc.description.notes']"
+      [label]="'dc.description.notes'">
     </ds-generic-item-page-field>
-    <ds-generic-item-page-field [item]="object"
-      [fields]="['dc.identifier.citation']"
-      [label]="'item.page.citation'">
-    </ds-generic-item-page-field>
-    @if (geospatialItemPageFieldsEnabled) {
-      <ds-geospatial-item-page-field [item]="object"
-                                     [label]="'item.page.places'"
-                                     [pointFields]="['dcterms.spatial']"
-                                     [bboxFields]="['dcterms.spatial']"
-                                     [cluster]="true"
-      >
-      </ds-geospatial-item-page-field>
-    }
+    <div class="d-flex flex-row border-recent mb-4 pb-4 "></div>
     <ds-item-page-uri-field [item]="object"
       [fields]="['dc.identifier.uri']"
       [label]="'item.page.uri'">
@@ -101,10 +133,17 @@
       [fields]="['datacite.relation.isReferencedBy']"
       [label]="'item.page.referenced'">
     </ds-item-page-uri-field>
-    <ds-item-page-cc-license-field [item]="object" [variant]="'full'">
-    </ds-item-page-cc-license-field>
+    @if (geospatialItemPageFieldsEnabled) {
+      <ds-geospatial-item-page-field [item]="object"
+                                     [label]="'item.page.places'"
+                                     [pointFields]="['dcterms.spatial']"
+                                     [bboxFields]="['dcterms.spatial']"
+                                     [cluster]="true"
+      >
+      </ds-geospatial-item-page-field>
+    }
     <div>
-      <a class="btn btn-outline-primary" [routerLink]="[itemPageRoute + '/full']" role="button" role="button" tabindex="0">
+      <a class="btn btn-outline-primary" role="button" [routerLink]="[itemPageRoute + '/full']" role="button" tabindex="0">
         <i class="fas fa-info-circle"></i> {{"item.page.link.full" | translate}}
       </a>
     </div>
