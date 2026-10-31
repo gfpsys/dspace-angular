@@ -23,6 +23,7 @@ import { GeospatialItemPageFieldComponent } from '../../field-components/specifi
 import { ThemedItemPageTitleFieldComponent } from '../../field-components/specific-field/title/themed-item-page-field.component';
 import { ItemPageUriFieldComponent } from '../../field-components/specific-field/uri/item-page-uri-field.component';
 import { ThemedMetadataRepresentationListComponent } from '../../metadata-representation-list/themed-metadata-representation-list.component';
+import { ItemPageGeoCoverageComponent  } from '../../field-components/specific-field/geo-coverage/item-page-geocoverage';
 import { RelatedItemsComponent } from '../../related-items/related-items-component';
 import { ItemComponent } from '../shared/item.component';
 
@@ -56,6 +57,7 @@ import { ItemComponent } from '../shared/item.component';
     ThemedResultsBackButtonComponent,
     ThemedThumbnailComponent,
     TranslateModule,
+    ItemPageGeoCoverageComponent,
   ],
 })
 export class PublicationComponent extends ItemComponent {

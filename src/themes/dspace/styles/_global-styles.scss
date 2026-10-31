@@ -54,6 +54,7 @@ div#search-page-sidebar-content {
   background-color: #f4f6fa;
   border-radius: 20px;
   margin-top: 10px;
+  margin-right: 1.5rem;
 }
 
 
@@ -66,4 +67,8 @@ ds-view-mode-switch.d-none.d-md-block.ng-star-inserted {
 .badge.bg-secondary{
   background-color: #E7F4EC !important;
   color: #3F8258;
+}
+
+.simple-view-element-header {
+  color: #0b3a7e;
 }

@@ -1,0 +1,19 @@
+ @if(item.allMetadataValues(['dc.coverage.countryfocus', 'dc.coverage.other']).length > 0) {  
+    <div class="item-page-field">
+        <h2 class="simple-view-element-header">{{"item.page.geocoverage" | translate}}</h2>
+        @if (item.allMetadataValues(['dc.coverage.countryfocus']).length > 0) {
+            <span> {{"dc.coverage.countryfocus" | translate}} </span>
+            <ds-generic-item-page-field class="link-pill" [item]="item"
+            [fields]="['dc.coverage.countryfocus']"
+            [label]="''">
+            </ds-generic-item-page-field>
+        }
+        @if (item.allMetadataValues(['dc.coverage.other']).length > 0) {
+            <span> {{"dc.coverage.other" | translate}} </span>
+            <ds-generic-item-page-field class="link-pill" [item]="item"
+            [fields]="['dc.coverage.other']"
+            [label]="''">
+            </ds-generic-item-page-field>
+        }
+    </div>
+ }

@@ -54,5 +54,4 @@ export class GenericItemPageFieldComponent extends ItemPageFieldComponent {
    */
   @Input() urlRegex?: string;
 
-
 }

@@ -7242,4 +7242,23 @@
 
   "item.preview.organization.alternateName": "Alternative name",
   "home.recent-submissions.subhead":"More new",
+  "dc.bibliographicCitation": "Bibliographic citation",
+  "item.page.geocoverage": "Geographic coverage",
+  "dc.coverage.countryfocus":"Country focus",
+  "dc.coverage.other":"Other geographic coverage",
+  "dc.audience":"Intended audience",
+  "dc.description.notes":"Notes",
+  "dc.subject":"Keywords",
+  "browse.comcol.by.countryfocus": "Country focus",
+  "browse.metadata.countryfocus": "By Country focus",
+  "browse.metadata.countryfocus.breadcrumbs": "Browse By Country focus",
+  "menu.section.browse_global_by_countryfocus": "By Country focus",
+  "browse.metadata.othercoverage":"Country focus",
+  "browse.metadata.othercoverage.breadcrumbs":"Browse By Country focus",
+  "browse.comcol.by.othercoverage":"By Other Geographic Coverage",
+  "menu.section.browse_global_by_othercoverage":"By Other Geographic Coverage",
+  "browse.comcol.by.audience":"By Intended Audience",
+  "browse.metadata.audience":"Intended Audience",
+  "browse.metadata.audience.breadcrumbs":"Browse By Intended Audience",
+  "menu.section.browse_global_by_audience":"By Intended Audience"
 }

@@ -1,2 +1,191 @@
 @import '../../../../../styles/variables.scss';
 
+.header-item {
+  background-color: #f3f5f9;
+
+  // Extiende el fondo a todo el ancho de la pantalla
+  box-shadow: 0 0 0 100vmax #f3f5f9;
+  clip-path: inset(0 -100vmax); // recorta arriba/abajo: solo se extiende a los lados
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem; // separación con el resto de la página
+  margin-top: -1.5rem;
+}
+// Las etiquetas internas (span, .simple-view-element, h1) se generan en
+// componentes hijos, por eso hace falta ::ng-deep para atravesar el encapsulamiento.
+:host ::ng-deep {
+
+  /* ---------- Fila de pills ---------- */
+  .header-item > .d-flex:first-child {
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .type-pill,
+  .version-pill,
+  .access-level-pill {
+    padding: 0 !important; // anula el .p-2 de Bootstrap (usa !important)
+
+    .item-page-field,
+    .simple-view-element {
+      margin-bottom: 0 !important;
+    }
+
+    .simple-view-element-body span {
+      display: inline-block;
+      padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      line-height: 1.2;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+  }
+
+  // 1er pill: azul marino
+  .type-pill .simple-view-element-body span {
+    background-color: #0b2a5b;
+    color: #ffffff;
+  }
+
+  // 2do pill: azul tenue
+  .version-pill .simple-view-element-body span {
+    background-color: #e8f0fb;
+    color: #1a56a6;
+  }
+
+  // 3er pill: verde
+  .access-level-pill .simple-view-element-body span {
+    background-color: #e6f4ea;
+    color: #2e7d32;
+  }
+
+  /* ---------- Título principal ---------- */
+  .item-page-title-field {
+    color: #0b3a7e;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-bottom: 0.35rem;
+
+    // Oculta el prefijo "Publication:" (opcional, ver nota abajo)
+    > .d-inline {
+      display: none;
+    }
+  }
+
+  /* ---------- Subtítulo ---------- */
+  .subtitle-pill {
+    .item-page-field,
+    .simple-view-element {
+      margin-bottom: 0 !important;
+    }
+
+    .simple-view-element-body span {
+      color: #6c757d;
+      font-style: italic;
+      font-size: 0.95rem;
+    }
+  }
+
+.link-pill {
+
+    /* ---------- Encabezado ("Palabras clave") ---------- */
+    .simple-view-element-header {
+      color: #0b3a7e;
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin-bottom: 0.75rem;
+    }
+
+    /* ---------- Contenedor de los pills ---------- */
+    .simple-view-element-body {
+      display: flex;
+      flex-wrap: wrap;   // si no caben, bajan a la siguiente línea
+      gap: 0.5rem;
+    }
+
+    // Oculta el separador (el espacio entre valores)
+    .separator {
+      display: none;
+    }
+
+    /* ---------- Cada pill ---------- */
+    a.ds-browse-link {
+      display: inline-block;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;      // forma de cápsula
+      background-color: #eaf0fa;
+      color: #1f2d3d;
+      font-size: 0.75rem;
+      font-weight: 600;
+      line-height: 1.2;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background-color 0.15s ease, color 0.15s ease;
+
+      &:hover,
+      &:focus {
+        background-color: #0b3a7e;
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      &:focus-visible {
+        outline: 2px solid #1a56a6;
+        outline-offset: 2px;
+      }
+    }
+  }
+
+  .citation-field {
+
+    .simple-view-element-header {
+      margin-bottom: 0.75rem;
+    }
+
+    /* ---------- Caja de la cita ---------- */
+    .simple-view-element-body {
+      background-color: #f5f6f8;
+      border: 1px solid #e3e6eb;
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+
+      // El span que envuelve el valor (texto plano o markdown)
+      > span {
+        display: block;
+        color: #333a44;
+        font-size: 0.875rem;
+        line-height: 1.6;
+      }
+
+      /* ---------- Contenido generado por markdown ---------- */
+      p {
+        margin-bottom: 0.5rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      em {
+        font-style: italic;
+      }
+
+      a {
+        color: #1a56a6;
+        text-decoration: underline;
+
+        &:hover {
+          color: #0b3a7e;
+        }
+      }
+    }
+  }
+  .border-recent {
+    border-bottom: 3px solid #0b3a7e;
+  }
+}

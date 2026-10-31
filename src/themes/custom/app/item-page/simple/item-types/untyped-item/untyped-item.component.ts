@@ -27,6 +27,8 @@ import { MetadataFieldWrapperComponent } from '../../../../../../../app/shared/m
 import { listableObjectComponent } from '../../../../../../../app/shared/object-collection/shared/listable-object/listable-object.decorator';
 import { ThemedResultsBackButtonComponent } from '../../../../../../../app/shared/results-back-button/themed-results-back-button.component';
 import { ThemedThumbnailComponent } from '../../../../../../../app/thumbnail/themed-thumbnail.component';
+import { ItemPageGeoCoverageComponent  } from '../../../../../../../app/item-page/simple/field-components/specific-field/geo-coverage/item-page-geocoverage';
+
 
 @listableObjectComponent(Item, ViewMode.StandalonePage, Context.Any, 'custom')
 @Component({
@@ -58,6 +60,7 @@ import { ThemedThumbnailComponent } from '../../../../../../../app/thumbnail/the
     ThemedResultsBackButtonComponent,
     ThemedThumbnailComponent,
     TranslateModule,
+    ItemPageGeoCoverageComponent,
   ],
 })
 export class UntypedItemComponent extends BaseComponent {

@@ -10976,5 +10976,27 @@
  
   "home.recent-submissions.subhead":"Lo más nuevo",
 
+  "dc.bibliographicCitation": "Cita bibliográfica",
+  "item.page.geocoverage": "Cobertura geográfica",
+  "dc.coverage.countryfocus":"País de estudio",
+  "dc.coverage.other":"Otra cobertura geográfica",
+
+  "dc.audience":"Público destinatario",
+  "dc.description.notes":"Notas",
+  "dc.subject":"Palabras clave",
+
+  "browse.metadata.countryfocus": "país de estudio",
+  "browse.metadata.countryfocus.breadcrumbs": "Examinar por país de estudio",
+  "browse.comcol.by.countryfocus": "Por país de estudio",
+  "menu.section.browse_global_by_countryfocus":"Por país de estudio",
+  "browse.metadata.othercoverage":"otra cobertura geográfica",
+  "browse.metadata.othercoverage.breadcrumbs":"Examinar por otra cobertura geográfica",
+  "browse.comcol.by.othercoverage":"Por otra cobertura geográfica",
+  "menu.section.browse_global_by_othercoverage":"Por otra cobertura geográfica",
+  "browse.metadata.audience":"público destinatario",
+  "browse.metadata.audience.breadcrumbs":"Examinar por público destinatario",
+  "browse.comcol.by.audience":"Por público destinatario",
+  "menu.section.browse_global_by_audience":"Por público destinatario",
+
 
 }
