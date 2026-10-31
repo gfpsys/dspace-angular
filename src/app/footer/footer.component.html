@@ -30,10 +30,10 @@
         <nav class="cmq-footer__col" aria-labelledby="cmq-footer-enlaces">
           <h2 id="cmq-footer-enlaces" class="cmq-footer__title">Enlaces</h2>
           <ul class="cmq-footer__list">
-            <li><a href="#">Intranet</a></li>
-            <li><a href="#">Correo electrónico</a></li>
-            <li><a href="#">Directorio</a></li>
-            <li><a href="#">Calendario</a></li>
+            <li><a href="http://www2.cmq.edu.mx/intranet" target="_blank" rel="noopener noreferrer">Intranet</a></li>
+            <li><a href="https://mail.google.com/a/cmq.edu.mx" target="_blank" rel="noopener noreferrer">Correo electrónico</a></li>
+            <li><a href="https://www.cmq.edu.mx/index.php/inicio-5a2/conocenos/directorio" target="_blank" rel="noopener noreferrer">Directorio</a></li>
+            <li><a href="hhttps://www.cmq.edu.mx/images/stories/pdf_s/administracion/calendario_2026.pdf" target="_blank" rel="noopener noreferrer">Calendario</a></li>
           </ul>
         </nav>
 
@@ -55,10 +55,10 @@
         <nav class="cmq-footer__col" aria-labelledby="cmq-footer-explora">
           <h2 id="cmq-footer-explora" class="cmq-footer__title">Explora CMQ</h2>
           <ul class="cmq-footer__list">
-            <li><a href="#">Actividades académicas</a></li>
-            <li><a href="#">Portal Informativo Archivístico</a></li>
-            <li><a href="#">Transparencia</a></li>
-            <li><a href="#">Buscar</a></li>
+            <li><a href="https://www.cmq.edu.mx/index.php/difusion/agenda-dif" target="_blank" rel="noopener noreferrer">Actividades académicas</a></li>
+            <li><a href="https://www.cmq.edu.mx/index.php/component/content/article/1146-portal-informativo-archivistico-pia-cmq" target="_blank" rel="noopener noreferrer">Portal Informativo Archivístico</a></li>
+            <li><a href="https://www.cmq.edu.mx/index.php/inicio-4/transparencia" target="_blank" rel="noopener noreferrer">Transparencia</a></li>
+            <li><a href="/search?spc.page=1" target="_blank" rel="noopener noreferrer">Buscar</a></li>
           </ul>
         </nav>
 
@@ -67,9 +67,9 @@
       <!-- Redes sociales + decoración -->
       <div class="cmq-footer__grid cmq-footer__social-row">
         <ul class="cmq-footer__social" aria-label="Redes sociales">
-          <li><a class="cmq-footer__pill" href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-          <li><a class="cmq-footer__pill" href="#" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-          <li><a class="cmq-footer__pill" href="#" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+          <li><a class="cmq-footer__pill" href="https://www.facebook.com/ElColegioMexiquenseAC/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a class="cmq-footer__pill" href="https://www.youtube.com/@colmexiq" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+          <li><a class="cmq-footer__pill" href="https://x.com/col_mexiquense" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
           <li><a class="cmq-footer__pill" href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
         </ul>
         <div class="cmq-footer__lines" aria-hidden="true">
@@ -107,7 +107,9 @@
         @if (showPrivacyPolicy) {
           <li>
             <a class="btn text-white"
-            routerLink="info/privacy" role="link" tabindex="0">{{ 'footer.link.privacy-policy' | translate}}</a>
+            href="https://www.cmq.edu.mx/index.php/aviso-privacidad" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+              {{ 'footer.link.privacy-policy' | translate}}
+            </a>
           </li>
         }
         @if (showEndUserAgreement) {
