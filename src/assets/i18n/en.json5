@@ -7260,5 +7260,7 @@
   "browse.comcol.by.audience":"By Intended Audience",
   "browse.metadata.audience":"Intended Audience",
   "browse.metadata.audience.breadcrumbs":"Browse By Intended Audience",
-  "menu.section.browse_global_by_audience":"By Intended Audience"
+  "menu.section.browse_global_by_audience":"By Intended Audience",
+  "item.page.filelabel": "Download PDF",
+  "dc.identifier.doi": "DOI"
 }

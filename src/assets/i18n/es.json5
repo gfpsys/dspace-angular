@@ -10997,6 +10997,8 @@
   "browse.metadata.audience.breadcrumbs":"Examinar por público destinatario",
   "browse.comcol.by.audience":"Por público destinatario",
   "menu.section.browse_global_by_audience":"Por público destinatario",
+  "item.page.filelabel": "Descargar PDF",
+  "dc.identifier.doi": "DOI"
 
 
 }

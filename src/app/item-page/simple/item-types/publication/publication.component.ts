@@ -22,9 +22,11 @@ import { GenericItemPageFieldComponent } from '../../field-components/specific-f
 import { GeospatialItemPageFieldComponent } from '../../field-components/specific-field/geospatial/geospatial-item-page-field.component';
 import { ThemedItemPageTitleFieldComponent } from '../../field-components/specific-field/title/themed-item-page-field.component';
 import { ItemPageUriFieldComponent } from '../../field-components/specific-field/uri/item-page-uri-field.component';
+import { ItemPageUriCompoundFieldComponent } from '../../field-components/specific-field/uri-compound/item-page-uri-compound-field.component';
 import { ThemedMetadataRepresentationListComponent } from '../../metadata-representation-list/themed-metadata-representation-list.component';
 import { ItemPageGeoCoverageComponent  } from '../../field-components/specific-field/geo-coverage/item-page-geocoverage';
 import { RelatedItemsComponent } from '../../related-items/related-items-component';
+import { ItemPageCcLicenseFieldComponent } from '../../field-components/specific-field/cc-license/item-page-cc-license-field.component';
 import { ItemComponent } from '../shared/item.component';
 
 /**
@@ -58,6 +60,8 @@ import { ItemComponent } from '../shared/item.component';
     ThemedThumbnailComponent,
     TranslateModule,
     ItemPageGeoCoverageComponent,
+    ItemPageUriCompoundFieldComponent,
+    ItemPageCcLicenseFieldComponent,
   ],
 })
 export class PublicationComponent extends ItemComponent {

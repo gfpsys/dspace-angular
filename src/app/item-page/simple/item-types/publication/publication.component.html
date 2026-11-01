@@ -52,7 +52,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-12 col-md-3">
+  <div class="col-12 col-md-3 details-column">
     @if (!(mediaViewer.image || mediaViewer.video)) {
       <ds-metadata-field-wrapper [hideIfNoTextContent]="false">
         <ds-thumbnail [thumbnail]="object?.thumbnail | async"></ds-thumbnail>
@@ -63,13 +63,15 @@
         <ds-media-viewer [item]="object"></ds-media-viewer>
       </div>
     }
-    <ds-item-page-file-section [item]="object"></ds-item-page-file-section>
+    <ds-item-page-file-section [item]="object" [fileLabel]="'item.page.filelabel' | translate"></ds-item-page-file-section>
+    <div class="d-flex flex-row border-recent mb-4 pb-4 "></div>
     <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
       [parentItem]="object"
       [itemType]="'Person'"
       [metadataFields]="['dc.creator']"
       [label]="'item.page.authors' | translate">
     </ds-metadata-representation-list>
+    <div class="d-flex flex-row border-fields"></div>
     <ds-item-page-date-field [item]="object"></ds-item-page-date-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['journal.title']"
@@ -83,9 +85,24 @@
       [fields]="['journalvolume.identifier.name']"
       [label]="'publication.page.volume-title'">
     </ds-generic-item-page-field>
+    <div class="d-flex flex-row border-fields"></div>
+    <ds-item-page-uri-field [item]="object"
+      [fields]="['dc.identifier.doi']"
+      [label]="'dc.identifier.doi'">
+    </ds-item-page-uri-field>
+    <div class="d-flex flex-row border-fields"></div>
+    <ds-item-page-cc-license-field 
+      [item]="object" [variant]="'small'" [ccLicenseUriField]="'dcterms.license.uri'" [ccLicenseNameField]="'dcterms.license'" >
+    </ds-item-page-cc-license-field>
+    <div class="d-flex flex-row border-fields"></div>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.publisher']"
       [label]="'publication.page.publisher'">
+    </ds-generic-item-page-field>
+    <div class="d-flex flex-row border-fields"></div>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.language']"
+      [label]="'dc.language'">
     </ds-generic-item-page-field>
   </div>
   <div class="col-12 col-md-9">

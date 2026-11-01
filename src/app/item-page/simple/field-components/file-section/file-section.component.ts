@@ -66,6 +66,8 @@ export class FileSectionComponent implements OnInit {
 
   pageSize: number;
 
+  fileLabel: string;
+
   primaryBitstreamId: string;
 
   constructor(

@@ -15,14 +15,16 @@ export class ThemedFileSectionComponent extends ThemedComponent<FileSectionCompo
 
     @Input() item: Item;
 
-    protected inAndOutputNames: (keyof FileSectionComponent & keyof this)[] = ['item'];
+    @Input() fileLabel: string;
+
+    protected inAndOutputNames: (keyof FileSectionComponent & keyof this)[] = ['item', 'fileLabel'];
 
     protected getComponentName(): string {
       return 'FileSectionComponent';
     }
 
     protected importThemedComponent(themeName: string): Promise<any> {
-      return import(`../../../../../themes/${themeName}/app/item-page/simple/field-components/file-section/file-section.component`);
+      return import(`./file-section.component`);
     }
 
     protected importUnthemedComponent(): Promise<any> {

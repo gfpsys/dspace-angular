@@ -27,6 +27,8 @@ import { listableObjectComponent } from '../../../../../../../app/shared/object-
 import { ThemedResultsBackButtonComponent } from '../../../../../../../app/shared/results-back-button/themed-results-back-button.component';
 import { ThemedThumbnailComponent } from '../../../../../../../app/thumbnail/themed-thumbnail.component';
 import { ItemPageGeoCoverageComponent  } from '../../../../../../../app/item-page/simple/field-components/specific-field/geo-coverage/item-page-geocoverage';
+import { ItemPageUriCompoundFieldComponent } from '../../../../../../../app/item-page/simple/field-components/specific-field/uri-compound/item-page-uri-compound-field.component';
+import { ItemPageCcLicenseFieldComponent } from '../../../../../../../app/item-page/simple/field-components/specific-field/cc-license/item-page-cc-license-field.component';
 
 @listableObjectComponent('Publication', ViewMode.StandalonePage, Context.Any, 'custom')
 @Component({
@@ -57,6 +59,8 @@ import { ItemPageGeoCoverageComponent  } from '../../../../../../../app/item-pag
     ThemedThumbnailComponent,
     TranslateModule,
     ItemPageGeoCoverageComponent,
+    ItemPageUriCompoundFieldComponent,
+    ItemPageCcLicenseFieldComponent,
   ],
 })
 export class PublicationComponent extends BaseComponent {

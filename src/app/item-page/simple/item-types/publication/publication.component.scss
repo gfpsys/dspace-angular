@@ -92,7 +92,6 @@
   }
 
 .link-pill {
-
     /* ---------- Encabezado ("Palabras clave") ---------- */
     .simple-view-element-header {
       color: #0b3a7e;
@@ -188,4 +187,13 @@
   .border-recent {
     border-bottom: 3px solid #0b3a7e;
   }
+
+  .details-column {
+    h2{
+      font-size: 1rem !important;
+      color: #6c757d;
+      font-weight: bold;
+    }
+  }
+
 }
