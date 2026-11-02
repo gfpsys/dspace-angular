@@ -2913,7 +2913,7 @@
 
   "item.page.author": "Author",
 
-  "item.page.authors": "Authors",
+  "item.page.authors": "Author(s)",
 
   "item.page.citation": "Citation",
 
@@ -7242,6 +7242,7 @@
 
   "item.preview.organization.alternateName": "Alternative name",
   "home.recent-submissions.subhead":"More new",
+  "dc.language": "Language",
   "dc.bibliographicCitation": "Bibliographic citation",
   "item.page.geocoverage": "Geographic coverage",
   "dc.coverage.countryfocus":"Country focus",

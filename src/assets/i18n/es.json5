@@ -4388,11 +4388,11 @@
   "item.page.abstract": "Resumen",
 
   // "item.page.author": "Author",
-  "item.page.author": "Autores/as",
+  "item.page.author": "Autor(es)",
 
   // "item.page.authors": "Authors",
   // TODO New key - Add a translation
-  "item.page.authors": "Authors",
+  "item.page.authors": "Autor(es)",
 
   // "item.page.citation": "Citation",
   "item.page.citation": "Citación",
@@ -10980,7 +10980,7 @@
   "item.page.geocoverage": "Cobertura geográfica",
   "dc.coverage.countryfocus":"País de estudio",
   "dc.coverage.other":"Otra cobertura geográfica",
-
+  "dc.language": "Idioma del recurso",
   "dc.audience":"Público destinatario",
   "dc.description.notes":"Notas",
   "dc.subject":"Palabras clave",
