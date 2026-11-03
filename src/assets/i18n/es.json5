@@ -3164,15 +3164,18 @@
 
   // "form.number-picker.label.Year": "Year",
   // TODO New key - Add a translation
-  "form.number-picker.label.Year": "Year",
+  "form.number-picker.label.Year": "Año",
+  "form.number-picker.label.Año": "Año",
 
   // "form.number-picker.label.Month": "Month",
   // TODO New key - Add a translation
-  "form.number-picker.label.Month": "Month",
+  "form.number-picker.label.Month": "Mes",
+  "form.number-picker.label.Mes": "Mes",
 
   // "form.number-picker.label.Day": "Day",
   // TODO New key - Add a translation
-  "form.number-picker.label.Day": "Day",
+  "form.number-picker.label.Day": "Día",
+  "form.number-picker.label.Día": "Día",
 
   // "form.repeatable.sort.tip": "Drop the item in the new position",
   "form.repeatable.sort.tip": "Suelte el ítem en la nueva posición",
