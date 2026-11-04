@@ -71,7 +71,6 @@
       [metadataFields]="['dc.creator']"
       [label]="'item.page.authors' | translate">
     </ds-metadata-representation-list>
-    <div class="d-flex flex-row border-fields"></div>
     <ds-item-page-date-field [item]="object"></ds-item-page-date-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['journal.title']"
@@ -85,21 +84,27 @@
       [fields]="['journalvolume.identifier.name']"
       [label]="'publication.page.volume-title'">
     </ds-generic-item-page-field>
-    <div class="d-flex flex-row border-fields"></div>
-    <ds-item-page-uri-field [item]="object"
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.source.journal', 'dc.source.volume', 'dc.source.elocator']"
+      [separator]="', '"
+      [label]="'publication.page.source'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.source.issn']"
+      [separator]="', '"
+      [label]="''">
+    </ds-generic-item-page-field>
+    <ds-item-page-uri-field class="border-fields" [item]="object"
       [fields]="['dc.identifier.doi']"
       [label]="'dc.identifier.doi'">
     </ds-item-page-uri-field>
-    <div class="d-flex flex-row border-fields"></div>
     <ds-item-page-cc-license-field 
       [item]="object" [variant]="'small'" [ccLicenseUriField]="'dcterms.license.uri'" [ccLicenseNameField]="'dcterms.license'" >
     </ds-item-page-cc-license-field>
-    <div class="d-flex flex-row border-fields"></div>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.publisher']"
       [label]="'publication.page.publisher'">
     </ds-generic-item-page-field>
-    <div class="d-flex flex-row border-fields"></div>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.language']"
       [label]="'dc.language'">

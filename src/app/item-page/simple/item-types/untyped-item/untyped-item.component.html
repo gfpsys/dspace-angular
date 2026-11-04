@@ -85,6 +85,11 @@
       [fields]="['journalvolume.identifier.name']"
       [label]="'publication.page.volume-title'">
     </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.source.journal', 'dc.source.volume', 'dc.source.elocator']"
+      [separator]="', '"
+      [label]="'publication.page.source'">
+    </ds-generic-item-page-field>
     <div class="d-flex flex-row border-fields"></div>
     <ds-item-page-uri-field [item]="object"
       [fields]="['dc.identifier.doi']"

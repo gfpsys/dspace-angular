@@ -7263,5 +7263,6 @@
   "browse.metadata.audience.breadcrumbs":"Browse By Intended Audience",
   "menu.section.browse_global_by_audience":"By Intended Audience",
   "item.page.filelabel": "Download PDF",
-  "dc.identifier.doi": "DOI"
+  "dc.identifier.doi": "DOI",
+  "publication.page.source":"SOURCE", 
 }
