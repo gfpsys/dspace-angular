@@ -8,6 +8,7 @@
 import { buildMenuStructure } from './shared/menu/menu.structure';
 import { MenuID } from './shared/menu/menu-id.model';
 import { MenuRoute } from './shared/menu/menu-route.model';
+import { AboutMenuProvider } from './shared/menu/providers/about.menu';
 import { AccessControlMenuProvider } from './shared/menu/providers/access-control.menu';
 import { AdminSearchMenuProvider } from './shared/menu/providers/admin-search.menu';
 import { BrowseMenuProvider } from './shared/menu/providers/browse.menu';
@@ -55,6 +56,7 @@ export const MENUS = buildMenuStructure({
     CommunityListMenuProvider,
     BrowseMenuProvider,
     StatisticsMenuProvider,
+    AboutMenuProvider, // "Acerca de" drop-down (last = right-most position)
   ],
   [MenuID.ADMIN]: [
     NewMenuProvider,

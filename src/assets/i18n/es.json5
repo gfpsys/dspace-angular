@@ -5414,6 +5414,25 @@
   // "menu.section.statistics": "Statistics",
   "menu.section.statistics": "Estadísticas",
 
+  // ---- Menú "Acerca de" (navbar público) ----
+  // "menu.section.about": "About",
+  "menu.section.about": "Acerca de",
+
+  // "menu.section.about_repository": "About this repository",
+  "menu.section.about_repository": "Acerca del repositorio",
+
+  // "menu.section.about_policies": "Policies",
+  "menu.section.about_policies": "Políticas",
+
+  // "menu.section.about_end_user_agreement": "End User Agreement",
+  "menu.section.about_end_user_agreement": "Acuerdo de usuario final",
+
+  // "menu.section.about_privacy": "Privacy Statement",
+  "menu.section.about_privacy": "Declaración de privacidad",
+
+  // "menu.section.about_contact": "Contact us",
+  "menu.section.about_contact": "Contacto",
+
   // "menu.section.statistics_task": "Statistics Task",
   "menu.section.statistics_task": "Tarea de estadísticas",
 

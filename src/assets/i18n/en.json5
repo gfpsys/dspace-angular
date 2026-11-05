@@ -3591,6 +3591,19 @@
 
   "menu.section.statistics": "Statistics",
 
+  // ---- "About" menu (public navbar) ----
+  "menu.section.about": "About",
+
+  "menu.section.about_repository": "About this repository",
+
+  "menu.section.about_policies": "Policies",
+
+  "menu.section.about_end_user_agreement": "End User Agreement",
+
+  "menu.section.about_privacy": "Privacy Statement",
+
+  "menu.section.about_contact": "Contact us",
+
   "menu.section.statistics_task": "Statistics Task",
 
   "menu.section.toggle.access_control": "Toggle Access Control section",
