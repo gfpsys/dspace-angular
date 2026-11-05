@@ -48,6 +48,10 @@
           height: var(--ds-footer-n-coar-height);
           margin-bottom: 8.5px;
         }
+        
+        p.m-0 {
+          color: $cmq-text-legal;
+        }
 
         @media screen and (min-width: map-get($grid-breakpoints, md))  {
           position: absolute;
@@ -77,7 +81,6 @@
           &:not(:last-child) {
             &:after {
               content: '';
-              border-right: 1px var(--bs-secondary) solid;
             }
 
           }
@@ -123,7 +126,7 @@
     &__container {
       max-width: 1440px;
       margin: 0 auto;
-      padding: 0 2.25rem;
+      padding: 0 4rem;
     }
 
     // ---------- Parte superior ----------
@@ -134,7 +137,7 @@
     // Columna 1 más ancha; 2, 3 y 4 iguales (misma rejilla en la fila de redes)
     &__grid {
       display: grid;
-      grid-template-columns: 1.25fr 1fr 1fr 1fr;
+      grid-template-columns: 3.25fr 2.25fr 1.25fr;
       column-gap: 0;
     }
 
@@ -217,6 +220,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 0.6rem;
+      padding-left: 0;
     }
 
     &__pill {
@@ -230,12 +234,32 @@
       font-size: 0.875rem;
       font-weight: 700;
       line-height: 1;
-
       &:hover,
       &:focus-visible {
         text-decoration: none !important;
         background-color: rgba(255, 255, 255, 0.08);
         border-color: $cmq-white;
+      }
+    }
+
+    &__pill_white {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 2.6rem;
+      padding: 0 1.5rem;
+      background-color: #ffffff;
+      color: $cmq-navy-dark !important;
+      border: 1px solid $cmq-navy-dark;
+      border-radius: 999px;
+      font-size: 0.875rem;
+      font-weight: 700;
+      line-height: 1;
+      &:hover,
+      &:focus-visible {
+        text-decoration: none !important;
+        background-color: $cmq-navy;
+        color: $cmq-white !important;
       }
     }
 
@@ -294,6 +318,32 @@
         color: $cmq-white;
         text-decoration: underline;
         text-underline-offset: 3px;
+      }
+    }
+
+    &__licence {
+      border-top: 1px solid rgba(255, 255, 255, 0.42);
+      padding-top: 1rem;
+      margin-top: 2.5rem;
+      gap: 0.75rem;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: $cmq-text-legal;
+      display: inline-flex;
+      a{
+        color: $cmq-white;
+        text-decoration: underline;
+        &:hover,
+        &:focus-visible {
+          color: $cmq-white;
+          text-decoration: none;
+          text-underline-offset: 3px;
+        }
+      }
+      .cc-image {
+        height: 3.25rem;
+        width: auto;
+        flex-shrink: 0;
       }
     }
   }

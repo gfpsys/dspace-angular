@@ -20,23 +20,9 @@
             <span class="cmq-footer__brand-name">El Colegio<br>Mexiquense, A.C.</span>
           </a>
           <p class="cmq-footer__description">
-            El Colegio Mexiquense desarrolla estudios, diagnósticos y propuestas de políticas
-            públicas, además de contribuir a la formación educativa y a la difusión de la
-            ciencia y la cultura.
+            <a class="cmq-footer__pill_white" href="https://ns4.cmq.edu.mx/index.php/inicio-4" target="_blank" rel="noopener noreferrer">Ir al sitio de El Colegio Mexiquense &#x2197;</a>
           </p>
         </div>
-
-        <!-- Columna 2: Enlaces -->
-        <nav class="cmq-footer__col" aria-labelledby="cmq-footer-enlaces">
-          <h2 id="cmq-footer-enlaces" class="cmq-footer__title">Enlaces</h2>
-          <ul class="cmq-footer__list">
-            <li><a href="http://www2.cmq.edu.mx/intranet" target="_blank" rel="noopener noreferrer">Intranet</a></li>
-            <li><a href="https://mail.google.com/a/cmq.edu.mx" target="_blank" rel="noopener noreferrer">Correo electrónico</a></li>
-            <li><a href="https://www.cmq.edu.mx/index.php/inicio-5a2/conocenos/directorio" target="_blank" rel="noopener noreferrer">Directorio</a></li>
-            <li><a href="hhttps://www.cmq.edu.mx/images/stories/pdf_s/administracion/calendario_2026.pdf" target="_blank" rel="noopener noreferrer">Calendario</a></li>
-          </ul>
-        </nav>
-
         <!-- Columna 3: Contacto -->
         <div class="cmq-footer__col">
           <h2 class="cmq-footer__title">Contacto</h2>
@@ -76,7 +62,10 @@
           <span></span><span></span><span></span>
         </div>
       </div>
-
+      <div aria-hidden="true" class="cmq-footer__licence justify-content-center align-items-center">
+        <img class="cc-image" src="assets/images/cc-licenses/by-nc-nd.png" alt="CC BY-NC-ND 4.0" />
+        <p class="cmq-footer__decorative">Salvo cuando se indique lo contrario, todo el contenido de este repositorio está sujeto a una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" rel="nofollow" target="_blank">Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)</a>. El Colegio Mexiquense, A.C.</p>
+      </div>
     </div>
   </div>
 
@@ -84,15 +73,8 @@
 
   <!-- Copyright -->
   <div class="bottom-footer p-1 d-flex flex-column flex-md-row justify-content-center align-items-center text-white">
-    <div class="content-container align-self-center">
-      <p class="m-0">
-        <a class="text-white"
-        href="http://www.dspace.org/" role="link" tabindex="0">{{ 'footer.link.dspace' | translate}}</a>
-        {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }}
-        <a class="text-white"
-        href="https://www.lyrasis.org/" role="link" tabindex="0">{{ 'footer.link.lyrasis' | translate}}</a>
-      </p>
-      <ul class="footer-info list-unstyled d-flex justify-content-center mb-0">
+    <div class="container">
+      <ul class="footer-info list-unstyled mb-0">
         @if (showCookieSettings) {
         <li>
           <button class="btn btn-link text-white" type="button" (click)="openCookieSettings()" role="button" tabindex="0">
@@ -125,6 +107,10 @@
           </li>
         }
       </ul>
+      <p class="m-0">
+        {{ 'footer.copyright' | translate:{year: dateObj | date:'y'} }}
+      </p>
+
     </div>
     @if (coarLdnEnabled$ | async) {
       <div class="notify-enabled text-white align-self-end">

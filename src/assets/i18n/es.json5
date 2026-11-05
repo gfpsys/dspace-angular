@@ -2956,7 +2956,7 @@
   "file-section.error.header": "Error al obtener archivos para este ítem",
 
   // "footer.copyright": "copyright © 2002-{{ year }}",
-  "footer.copyright": "copyright © 2002-{{ year }}",
+  "footer.copyright": "{{ year }} El Colegio Mexiquense, A.C. Todos los derechos reservados",
 
   // "footer.link.accessibility": "Accessibility settings",
   "footer.link.accessibility": "Configuración de accesibilidad",
