@@ -4671,11 +4671,11 @@
 
   "search.filters.filter.title.label": "Search Title",
 
-  "search.filters.filter.author.head": "Author",
+  "search.filters.filter.author.head": "Author / Creator",
 
-  "search.filters.filter.author.placeholder": "Author name",
+  "search.filters.filter.author.placeholder": "Author / Creator name",
 
-  "search.filters.filter.author.label": "Search author name",
+  "search.filters.filter.author.label": "Search Author / Creator",
 
   "search.filters.filter.birthDate.head": "Birth Date",
 
@@ -4819,11 +4819,11 @@
 
   "search.filters.filter.show-more": "Show more",
 
-  "search.filters.filter.subject.head": "Subject",
+  "search.filters.filter.subject.head": "Keywords",
 
-  "search.filters.filter.subject.placeholder": "Subject",
+  "search.filters.filter.subject.placeholder": "Keywords",
 
-  "search.filters.filter.subject.label": "Search subject",
+  "search.filters.filter.subject.label": "Search keywords",
 
   "search.filters.filter.submitter.head": "Submitter",
 
@@ -4906,6 +4906,36 @@
   "search.filters.operator.notcontains.text": "Not Contains",
 
   "search.filters.operator.query.text": "Query",
+
+
+  "search.filters.filter.sourceJournal.head": "Journal title",
+"search.filters.filter.sourceJournal.placeholder": "Journal title",
+"search.filters.filter.sourceJournal.label": "Search by journal title",
+
+"search.filters.filter.coverageCountryFocus.head": "Country focus",
+"search.filters.filter.coverageCountryFocus.placeholder": "Country focus",
+"search.filters.filter.coverageCountryFocus.label": "Search by country focus",
+
+"search.filters.filter.language.head": "Language",
+"search.filters.filter.language.placeholder": "Language",
+"search.filters.filter.language.label": "Search by language",
+
+"search.filters.filter.researchLine.head": "Research seminars",
+"search.filters.filter.researchLine.placeholder": "Research seminar",
+"search.filters.filter.researchLine.label": "Search by research seminar",
+
+"search.filters.filter.program.head": "Educational Programs / Postgraduate Studies",
+"search.filters.filter.program.placeholder": "Educational program",
+"search.filters.filter.program.label": "Search by educational program",
+
+"search.filters.filter.accessLevel.head": "Access level",
+"search.filters.filter.accessLevel.placeholder": "Access level",
+"search.filters.filter.accessLevel.label": "Search by access level",
+
+"search.filters.filter.type.head": "Resource type",
+"search.filters.filter.type.placeholder": "Resource type",
+"search.filters.filter.type.label": "Search by resource type",
+
 
   "search.form.search": "Search",
 
