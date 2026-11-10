@@ -6907,6 +6907,21 @@
 
   "search.filters.applied.f.access_status": "Access type",
 
+  // en.json5
+  "search.filters.applied.f.author": "Author / Creator",
+  "search.filters.applied.f.subject": "Keyword",
+  "search.filters.applied.f.type": "Resource type",
+  "search.filters.applied.f.sourceJournal": "Journal title",
+  "search.filters.applied.f.dateIssued.min": "Start date",
+  "search.filters.applied.f.dateIssued.max": "End date",
+  "search.filters.applied.f.coverageCountryFocus": "Country focus",
+  "search.filters.applied.f.language": "Language",
+  "search.filters.applied.f.researchLine": "Research seminar",
+  "search.filters.applied.f.program": "Educational program",
+  "search.filters.applied.f.accessLevel": "Access level",
+  "search.filters.applied.f.entityType": "Entity type",
+  "search.filters.applied.f.has_content_in_original_bundle": "Has files",
+
   "search.filters.filter.queue_last_start_time.head": "Last processing time ",
 
   "search.filters.filter.queue_last_start_time.min.label": "Min range",

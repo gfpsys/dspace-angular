@@ -10455,6 +10455,22 @@
   // "search.filters.applied.f.access_status": "Access type",
   "search.filters.applied.f.access_status": "Tipo de acceso",
 
+  // es.json5
+  "search.filters.applied.f.author": "Autor / Creador",
+  "search.filters.applied.f.subject": "Palabra clave",
+  "search.filters.applied.f.type": "Tipo de documento",
+  "search.filters.applied.f.sourceJournal": "Título de la revista",
+  "search.filters.applied.f.dateIssued.min": "Fecha inicial",
+  "search.filters.applied.f.dateIssued.max": "Fecha final",
+  "search.filters.applied.f.coverageCountryFocus": "País de estudio",
+  "search.filters.applied.f.language": "Idioma del recurso",
+  "search.filters.applied.f.researchLine": "Seminario de Investigación",
+  "search.filters.applied.f.program": "Programa educativo",
+  "search.filters.applied.f.accessLevel": "Nivel de acceso",
+  "search.filters.applied.f.entityType": "Tipo de entidad",
+  "search.filters.applied.f.has_content_in_original_bundle": "Tiene archivos",
+
+
   // "search.filters.filter.queue_last_start_time.head": "Last processing time ",
   "search.filters.filter.queue_last_start_time.head": "Última hora de procesamiento ",
 
