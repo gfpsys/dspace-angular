@@ -7277,5 +7277,6 @@
   "menu.section.browse_global_by_audience":"By Intended Audience",
   "item.page.filelabel": "Download PDF",
   "dc.identifier.doi": "DOI",
-  "publication.page.source":"SOURCE", 
+  "publication.page.source":"SOURCE",
+  "info.about.breadcrumbs":"About The Repository",
 }

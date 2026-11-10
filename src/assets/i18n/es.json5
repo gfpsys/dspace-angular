@@ -11021,7 +11021,8 @@
   "menu.section.browse_global_by_audience":"Por público destinatario",
   "item.page.filelabel": "Descargar PDF",
   "dc.identifier.doi": "DOI",
-  "publication.page.source":"FUENTE", 
+  "publication.page.source":"FUENTE",
+  "info.about.breadcrumbs":"Acerca del repositorio",
 
 
 }

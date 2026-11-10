@@ -82,7 +82,7 @@ export class AboutMenuProvider extends AbstractExpandableMenuProvider {
           model: {
             type: MenuItemType.EXTERNAL,
             text: 'menu.section.about_repository',
-            href: 'https://www.example.org/acerca-del-repositorio',
+            href: './info/about',
           } as ExternalLinkMenuItemModel,
         },
         // 2. Repository policies (external page).
@@ -92,7 +92,7 @@ export class AboutMenuProvider extends AbstractExpandableMenuProvider {
           model: {
             type: MenuItemType.EXTERNAL,
             text: 'menu.section.about_policies',
-            href: 'https://www.example.org/politicas-del-repositorio',
+            href: 'https://www.cmq.edu.mx/index.php/aviso-privacidad',
           } as ExternalLinkMenuItemModel,
         },
         // 3. Built-in DSpace End User Agreement page (/info/end-user-agreement).
