@@ -194,9 +194,28 @@
       color: #6c757d;
       font-weight: bold;
     }
-    .item-page-field{
-      border-bottom: 1px solid #e3e6eb;
+    /* Línea gris arriba de cada campo que va después de la línea azul */
+    .border-recent ~ * .simple-view-element {
+      border-top: 1px solid #e3e6eb;
+      padding-top: 0.85rem;
+      margin-bottom: 0.85rem;
+    }
+
+    /* El primer campo (Autores) no lleva línea: ya tiene la azul arriba */
+    .border-recent + * .simple-view-element {
+      border-top: none;
+      padding-top: 0;
+    }
+
+    /* El ISSN se une al bloque de Fuente: sin línea y pegado arriba */
+    .field-continuation .simple-view-element {
+      border-top: none;
+      padding-top: 0;
+      margin-top: -0.6rem;
+    }
+    .cc-image {
+      max-width: 30%;
     }
   }
-
 }
+
