@@ -7049,13 +7049,13 @@
   "search.filters.filter.title.label": "Buscar por título",
 
   // "search.filters.filter.author.head": "Author",
-  "search.filters.filter.author.head": "Autor/a",
+  "search.filters.filter.author.head": "Autor / Creador",
 
   // "search.filters.filter.author.placeholder": "Author name",
-  "search.filters.filter.author.placeholder": "Nombre de autor/a",
+  "search.filters.filter.author.placeholder": "Nombre del Autor / Creador",
 
   // "search.filters.filter.author.label": "Search author name",
-  "search.filters.filter.author.label": "Buscar por nombre de autor/a",
+  "search.filters.filter.author.label": "Buscar por Autor / Creador",
 
   // "search.filters.filter.birthDate.head": "Birth Date",
   "search.filters.filter.birthDate.head": "Fecha de nacimiento",
@@ -7114,7 +7114,7 @@
   "search.filters.filter.creativeWorkPublisher.label": "Búsqueda de editor",
 
   // "search.filters.filter.dateIssued.head": "Date",
-  "search.filters.filter.dateIssued.head": "Fecha",
+  "search.filters.filter.dateIssued.head": "Fecha de publicación",
 
   // "search.filters.filter.dateIssued.max.placeholder": "Maximum Date",
   "search.filters.filter.dateIssued.max.placeholder": "Fecha máxima",
@@ -7275,13 +7275,13 @@
   "search.filters.filter.show-more": "Mostrar más",
 
   // "search.filters.filter.subject.head": "Subject",
-  "search.filters.filter.subject.head": "Materias",
+  "search.filters.filter.subject.head": "Palabras clave",
 
   // "search.filters.filter.subject.placeholder": "Subject",
-  "search.filters.filter.subject.placeholder": "Materias",
+  "search.filters.filter.subject.placeholder": "Palabras clave",
 
   // "search.filters.filter.subject.label": "Search subject",
-  "search.filters.filter.subject.label": "Búsqueda de materias",
+  "search.filters.filter.subject.label": "Búsqueda por Palabras clave",
 
   // "search.filters.filter.submitter.head": "Submitter",
   "search.filters.filter.submitter.head": "Remitente",
@@ -7405,6 +7405,36 @@
 
   // "search.filters.operator.query.text": "Query",
   "search.filters.operator.query.text": "Consulta",
+
+  "search.filters.filter.sourceJournal.head": "Título de la revista",
+"search.filters.filter.sourceJournal.placeholder": "Título de la revista",
+"search.filters.filter.sourceJournal.label": "Buscar por título de la revista",
+
+"search.filters.filter.coverageCountryFocus.head": "País de estudio",
+"search.filters.filter.coverageCountryFocus.placeholder": "País de estudio",
+"search.filters.filter.coverageCountryFocus.label": "Buscar por país de estudio",
+
+"search.filters.filter.language.head": "Idioma del recurso",
+"search.filters.filter.language.placeholder": "Idioma del recurso",
+"search.filters.filter.language.label": "Buscar por idioma del recurso",
+
+"search.filters.filter.researchLine.head": "Seminarios de Investigación",
+"search.filters.filter.researchLine.placeholder": "Seminario de Investigación",
+"search.filters.filter.researchLine.label": "Buscar por seminario de investigación",
+
+"search.filters.filter.program.head": "Programas Educativos",
+"search.filters.filter.program.placeholder": "Programa educativo",
+"search.filters.filter.program.label": "Buscar por programa educativo",
+
+"search.filters.filter.accessLevel.head": "Nivel de acceso",
+"search.filters.filter.accessLevel.placeholder": "Nivel de acceso",
+"search.filters.filter.accessLevel.label": "Buscar por nivel de acceso",
+
+"search.filters.filter.type.head": "Tipo de documento",
+"search.filters.filter.type.placeholder": "Tipo de documento",
+"search.filters.filter.type.label": "Buscar por tipo de documento",
+
+
 
   // "search.form.search": "Search",
   "search.form.search": "Buscar",
