@@ -10,6 +10,7 @@ import { ThemedTopLevelCommunityListComponent } from '../../../../app/home-page/
 import { SuggestionsPopupComponent } from '../../../../app/notifications/suggestions/popup/suggestions-popup.component';
 import { ThemedConfigurationSearchPageComponent } from '../../../../app/search-page/themed-configuration-search-page.component';
 import { ThemedSearchFormComponent } from '../../../../app/shared/search-form/themed-search-form.component';
+import { HomeResearchlineComponent } from '../../../../app/home-page/home-researchline/home-researchline.component';
 
 @Component({
   selector: 'ds-themed-home-page',
@@ -27,6 +28,7 @@ import { ThemedSearchFormComponent } from '../../../../app/shared/search-form/th
     ThemedSearchFormComponent,
     ThemedTopLevelCommunityListComponent,
     TranslateModule,
+    HomeResearchlineComponent,
   ],
 })
 export class HomePageComponent extends BaseComponent {

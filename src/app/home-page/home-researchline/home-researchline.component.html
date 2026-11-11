@@ -1,0 +1,26 @@
+@if (visibleTiles$ | async; as visibleTiles) {
+  @if (visibleTiles.length > 0) {
+    <section class="home-researchline py-4" aria-labelledby="home-researchline-title">
+      <div class="container">
+        <h2 id="home-researchline-title" class="home-researchline-title">{{ title }}</h2>
+        <ul class="home-researchline-grid">
+          @for (tile of visibleTiles; track tile.name) {
+            <li>
+              <a class="home-researchline-tile"
+                 [routerLink]="searchRoute"
+                 [queryParams]="getQueryParams(tile)">
+                <img [src]="getImage(tile)"
+                     [attr.srcset]="getImageSrcset(tile)"
+                     sizes="(min-width: 992px) 33vw, (min-width: 576px) 50vw, 100vw"
+                     width="380"
+                     height="150"
+                     loading="lazy"
+                     [alt]="tile.name">
+              </a>
+            </li>
+          }
+        </ul>
+      </div>
+    </section>
+  }
+}

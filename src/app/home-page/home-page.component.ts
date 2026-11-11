@@ -21,6 +21,7 @@ import { HomeCoarComponent } from './home-coar/home-coar.component';
 import { ThemedHomeNewsComponent } from './home-news/themed-home-news.component';
 import { RecentItemListComponent } from './recent-item-list/recent-item-list.component';
 import { ThemedTopLevelCommunityListComponent } from './top-level-community-list/themed-top-level-community-list.component';
+import { HomeResearchlineComponent } from './home-researchline/home-researchline.component';
 
 @Component({
   selector: 'ds-base-home-page',
@@ -36,6 +37,7 @@ import { ThemedTopLevelCommunityListComponent } from './top-level-community-list
     ThemedSearchFormComponent,
     ThemedTopLevelCommunityListComponent,
     TranslateModule,
+    HomeResearchlineComponent,
   ],
 })
 export class HomePageComponent implements OnInit {
