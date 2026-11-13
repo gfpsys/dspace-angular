@@ -5555,6 +5555,45 @@
 
   "submission.sections.describe.relationship-lookup.name-variant.notification.decline": "Use only for this submission",
 
+    // ===================== CM: Thesis advisor =====================
+  "submission.sections.describe.relationship-lookup.title.isAdvisorOfPublication": "Thesis advisors",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdvisorOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isAdvisorOfPublication": "Selected Advisors",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isAdvisorOfPublication": "Import remote advisor",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAdvisorOfPublication.title": "Import Remote Advisor",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAdvisorOfPublication.added.local-entity": "Successfully added local advisor to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAdvisorOfPublication.added.new-entity": "Successfully imported and added external advisor to the selection",
+  "relationships.Publication.isAdvisorOfPublication.Person": "Thesis advisors",
+  "item.page.relationships.isAdvisorOfPublication": "Advised theses",
+  "relationships.Person.isPublicationOfAdvisor.Publication": "Advised theses",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfAdvisor": "Advised theses",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfAdvisor": "Local Theses ({{ count }})",
+
+  // ===================== CM: Thesis reviewer =====================
+  "submission.sections.describe.relationship-lookup.title.isReviewerOfPublication": "Thesis reviewers",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isReviewerOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isReviewerOfPublication": "Selected Reviewers",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isReviewerOfPublication": "Import remote reviewer",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isReviewerOfPublication.title": "Import Remote Reviewer",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isReviewerOfPublication.added.local-entity": "Successfully added local reviewer to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isReviewerOfPublication.added.new-entity": "Successfully imported and added external reviewer to the selection",
+  "relationships.Publication.isReviewerOfPublication.Person": "Thesis reviewers",
+  "item.page.relationships.isReviewerOfPublication": "Reviewed theses",
+  "relationships.Person.isPublicationOfReviewer.Publication": "Reviewed theses",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfReviewer": "Reviewed theses",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfReviewer": "Local Theses ({{ count }})",
+
+  // ===================== CM: Search filters (discovery.xml) =====================
+  "search.filters.filter.advisor.head": "Thesis advisor",
+  "search.filters.filter.advisor.placeholder": "Advisor name",
+  "search.filters.filter.advisor.label": "Search advisor name",
+  "search.filters.applied.f.advisor": "Thesis advisor",
+  "search.filters.filter.reviewer.head": "Thesis reviewer",
+  "search.filters.filter.reviewer.placeholder": "Reviewer name",
+  "search.filters.filter.reviewer.label": "Search reviewer name",
+  "search.filters.applied.f.reviewer": "Thesis reviewer",
+  "search.filters.applied.f.isAuthorOfPublication": "Person",
+
   "submission.sections.ccLicense.type": "License Type",
 
   "submission.sections.ccLicense.select": "Select a license type…",

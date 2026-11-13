@@ -8365,6 +8365,45 @@
   // "submission.sections.describe.relationship-lookup.name-variant.notification.decline": "Use only for this submission",
   "submission.sections.describe.relationship-lookup.name-variant.notification.decline": "Usar solo para este envío",
 
+    // ===================== CM: Asesor(a) de tesis =====================
+  "submission.sections.describe.relationship-lookup.title.isAdvisorOfPublication": "Asesores/as de tesis",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdvisorOfPublication": "Personas locales ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isAdvisorOfPublication": "Asesores/as seleccionados",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isAdvisorOfPublication": "Importar asesor/a remoto",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAdvisorOfPublication.title": "Importar asesor/a remoto",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAdvisorOfPublication.added.local-entity": "Asesor/a local agregado a la selección",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isAdvisorOfPublication.added.new-entity": "Asesor/a externo importado y agregado a la selección",
+  "relationships.Publication.isAdvisorOfPublication.Person": "Asesores/as de tesis",
+  "item.page.relationships.isAdvisorOfPublication": "Tesis asesoradas",
+  "relationships.Person.isPublicationOfAdvisor.Publication": "Tesis asesoradas",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfAdvisor": "Tesis asesoradas",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfAdvisor": "Tesis locales ({{ count }})",
+
+  // ===================== CM: Revisor(a) / lector(a) de tesis =====================
+  "submission.sections.describe.relationship-lookup.title.isReviewerOfPublication": "Revisores/as de tesis",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isReviewerOfPublication": "Personas locales ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isReviewerOfPublication": "Revisores/as seleccionados",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isReviewerOfPublication": "Importar revisor/a remoto",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isReviewerOfPublication.title": "Importar revisor/a remoto",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isReviewerOfPublication.added.local-entity": "Revisor/a local agregado a la selección",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isReviewerOfPublication.added.new-entity": "Revisor/a externo importado y agregado a la selección",
+  "relationships.Publication.isReviewerOfPublication.Person": "Revisores/as de tesis",
+  "item.page.relationships.isReviewerOfPublication": "Tesis revisadas",
+  "relationships.Person.isPublicationOfReviewer.Publication": "Tesis revisadas",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfReviewer": "Tesis revisadas",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfReviewer": "Tesis locales ({{ count }})",
+
+  // ===================== CM: Filtros de búsqueda (discovery.xml) =====================
+  "search.filters.filter.advisor.head": "Asesor/a de tesis",
+  "search.filters.filter.advisor.placeholder": "Nombre del asesor/a",
+  "search.filters.filter.advisor.label": "Buscar por asesor/a",
+  "search.filters.applied.f.advisor": "Asesor/a de tesis",
+  "search.filters.filter.reviewer.head": "Revisor/a de tesis",
+  "search.filters.filter.reviewer.placeholder": "Nombre del revisor/a",
+  "search.filters.filter.reviewer.label": "Buscar por revisor/a",
+  "search.filters.applied.f.reviewer": "Revisor/a de tesis",
+  "search.filters.applied.f.isAuthorOfPublication": "Persona",
+
   // "submission.sections.ccLicense.type": "License Type",
   "submission.sections.ccLicense.type": "Tipo de licencia",
 
