@@ -21,8 +21,8 @@
   --ds-sidebar-z-index: 20;
 
   --ds-header-bg: #{$ds-header-bg};
-  --ds-header-logo-height: 50px;
-  --ds-header-logo-height-xs: 50px;
+  --ds-header-logo-height: 70px;
+  --ds-header-logo-height-xs: 70px;
   --ds-header-icon-color: #{$ds-header-icon-color};
   --ds-header-icon-color-hover: #{$ds-header-icon-color-hover};
 
@@ -50,10 +50,10 @@
   --ds-user-menu-dropdown-link-background-hover: #{$gray-200};
 
   @include media-breakpoint-up(md) {
-    --ds-header-logo-height: 50px;
+    --ds-header-logo-height: 70px;
   }
   @include media-breakpoint-down(sm) {
-    --ds-header-logo-height: 50px;
+    --ds-header-logo-height: 70px;
   }
 
   --ds-admin-sidebar-bg: #{$ds-admin-sidebar-bg};
