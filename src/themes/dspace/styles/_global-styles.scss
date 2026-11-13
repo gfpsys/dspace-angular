@@ -81,3 +81,45 @@ ds-view-mode-switch.d-none.d-md-block.ng-star-inserted {
   border-bottom: 1px solid #e3e6eb;
 }
 
+.background-element {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 2rem;
+}
+
+
+/* 1. El contenedor principal define el área superpuesta */
+.background-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;     /* Centra el contenido verticalmente */
+  justify-content: center;  /* Centra el contenido horizontalmente */
+  min-height: 450px;        /* Define aquí la altura deseada del banner */
+  overflow: hidden;
+  color: #ffffff;           /* Para asegurar contraste del texto */
+  margin-bottom: 2rem;
+}
+
+/* 2. El carrusel se envía al fondo ocupando todo el contenedor */
+.background-image-container picture.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;               /* Queda por detrás */
+}
+
+/* 3. El contenedor con el texto se coloca al frente y se centra libremente */
+.background-image-container > .container {
+  position: relative;
+  z-index: 2;               /* Queda por encima del carrusel */
+}
+
+ds-base-search-filters {
+  h2, h3 {
+    margin-left: 1rem;
+  }
+}

@@ -7324,4 +7324,8 @@
   "dc.identifier.doi": "DOI",
   "publication.page.source":"SOURCE",
   "info.about.breadcrumbs":"About The Repository",
+  "cm.researchline":"Research Seminars",
+  "menu.section.browse_global_by_researchline":"By Research Seminars",
+  "browse.metadata.researchline":"Research Seminars",
+  "browse.metadata.researchline.breadcrumbs":"Browse By seminario de investigación",
 }

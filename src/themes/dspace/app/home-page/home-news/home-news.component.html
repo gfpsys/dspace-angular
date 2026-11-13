@@ -10,6 +10,10 @@
     </div>
   </div>
   <picture class="background-image">
-    <img alt="" [src]="'assets/images/background_home.png'"/><!-- without the []="''" Firefox downloads both the fallback and the resolved image -->
+    <p-carousel [value]="backgrounds" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="10000" align="center">
+      <ng-template let-bg pTemplate="item">
+        <img [src]="'assets/images/header_backgrounds/' + bg" alt="Background image" class="w-100" class="background-element"/>
+      </ng-template>
+    </p-carousel>
   </picture>
 </div>

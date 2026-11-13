@@ -11069,6 +11069,9 @@
   "dc.identifier.doi": "DOI",
   "publication.page.source":"FUENTE",
   "info.about.breadcrumbs":"Acerca del repositorio",
-
+  "cm.researchline":"Seminarios de investigación",
+  "menu.section.browse_global_by_researchline":"Por seminarios de investigación",
+  "browse.metadata.researchline":"Seminarios de investigación",
+  "browse.metadata.researchline.breadcrumbs":"Buscar por seminarios de investigación",
 
 }

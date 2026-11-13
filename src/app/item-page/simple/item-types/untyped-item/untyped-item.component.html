@@ -113,6 +113,11 @@
   <div class="col-12 col-md-9">
     <ds-item-page-abstract-field [item]="object"></ds-item-page-abstract-field>
     <ds-generic-item-page-field class="link-pill" [item]="object"
+      [fields]="['cm.researchline']"
+      [separator]="' '"
+      [label]="'cm.researchline'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field class="link-pill" [item]="object"
       [fields]="['dc.subject']"
       [separator]="' '"
       [label]="'dc.subject'">
