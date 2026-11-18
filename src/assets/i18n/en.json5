@@ -7367,4 +7367,10 @@
   "menu.section.browse_global_by_researchline":"By Research Seminars",
   "browse.metadata.researchline":"Research Seminars",
   "browse.metadata.researchline.breadcrumbs":"Browse By seminario de investigación",
+  "dc.contributor.advisor":"Thesis advisor / supervisor",
+  "dc.contributor.reviewer":"Thesis reviewer / reader",
+  "cm.degree.name":"Grado académico",
+  "cm.degree.level":"Nivel del grado académico",
+  "dc.description.tableofcontents":"Research seminars",
+  "cm.program":"Academic programme",
 }

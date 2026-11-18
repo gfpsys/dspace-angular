@@ -11112,5 +11112,10 @@
   "menu.section.browse_global_by_researchline":"Por seminarios de investigación",
   "browse.metadata.researchline":"Seminarios de investigación",
   "browse.metadata.researchline.breadcrumbs":"Buscar por seminarios de investigación",
-
+  "dc.contributor.advisor":"Thesis advisor / supervisor",
+  "dc.contributor.reviewer":"Thesis reviewer / reader",
+  "cm.degree.name":"Grado académico",
+  "cm.degree.level":"Nivel del grado académico",
+  "dc.description.tableofcontents":"Tabla de contenido",
+  "cm.program":"Programa académico / Posgrado",
 }

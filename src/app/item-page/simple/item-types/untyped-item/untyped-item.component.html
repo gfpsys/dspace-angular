@@ -71,8 +71,28 @@
       [metadataFields]="['dc.creator']"
       [label]="'item.page.authors' | translate">
     </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.advisor']"
+      [label]="'dc.contributor.advisor' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.reviewer']"
+      [label]="'dc.contributor.reviewer' | translate">
+    </ds-metadata-representation-list>
     <div class="d-flex flex-row border-fields"></div>
     <ds-item-page-date-field [item]="object"></ds-item-page-date-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['cm.degree.name']"
+      [label]="'cm.degree.name'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['cm.degree.level']"
+      [label]="'cm.degree.level'">
+    </ds-generic-item-page-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['journal.title']"
       [label]="'publication.page.journal-title'">
@@ -95,6 +115,10 @@
       [fields]="['dc.identifier.doi']"
       [label]="'dc.identifier.doi'">
     </ds-item-page-uri-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.identifier.isbn']"
+      [label]="'dc.identifier.isbn'">
+    </ds-generic-item-page-field>
     <div class="d-flex flex-row border-fields"></div>
     <ds-item-page-cc-license-field 
       [item]="object" [variant]="'small'" [ccLicenseUriField]="'dcterms.license.uri'" [ccLicenseNameField]="'dcterms.license'" >
@@ -112,6 +136,11 @@
   </div>
   <div class="col-12 col-md-9">
     <ds-item-page-abstract-field [item]="object"></ds-item-page-abstract-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.description.tableofcontents']"
+      [separator]="' '"
+      [label]="'dc.description.tableofcontents'">
+    </ds-generic-item-page-field>
     <ds-generic-item-page-field class="link-pill" [item]="object"
       [fields]="['cm.researchline']"
       [separator]="' '"
