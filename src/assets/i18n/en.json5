@@ -4665,6 +4665,13 @@
 
   "search.filters.applied.f.point": "Coordinates",
 
+  // ===================== CM: Missing labels =====================
+  "search.filters.applied.f.isOrgUnitOfPerson": "Organization",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.opfPublisher": "Jisc Open Policy Finder of Publisher ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.cinii": "CiNii ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.datacite": "DataCite ({{ count }})",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.doi": "DOI ({{ count }})",
+
   "search.filters.filter.title.head": "Title",
 
   "search.filters.filter.title.placeholder": "Title",
@@ -5593,6 +5600,64 @@
   "search.filters.filter.reviewer.label": "Search reviewer name",
   "search.filters.applied.f.reviewer": "Thesis reviewer",
   "search.filters.applied.f.isAuthorOfPublication": "Person",
+
+
+  // ===================== CM: Illustrator =====================
+  "submission.sections.describe.relationship-lookup.title.isIllustratorOfPublication": "Illustrators",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isIllustratorOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isIllustratorOfPublication": "Selected Illustrators",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isIllustratorOfPublication": "Import remote illustrator",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isIllustratorOfPublication.title": "Import Remote Illustrator",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isIllustratorOfPublication.added.local-entity": "Successfully added local illustrator to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isIllustratorOfPublication.added.new-entity": "Successfully imported and added external illustrator to the selection",
+  "relationships.Publication.isIllustratorOfPublication.Person": "Illustrators",
+  "item.page.relationships.isIllustratorOfPublication": "Illustrated publications",
+  "relationships.Person.isPublicationOfIllustrator.Publication": "Illustrated publications",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfIllustrator": "Illustrated publications",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfIllustrator": "Local Publications ({{ count }})",
+
+  // ===================== CM: Editor =====================
+  "submission.sections.describe.relationship-lookup.title.isEditorOfPublication": "Editors",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isEditorOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isEditorOfPublication": "Selected Editors",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isEditorOfPublication": "Import remote editor",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isEditorOfPublication.title": "Import Remote Editor",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isEditorOfPublication.added.local-entity": "Successfully added local editor to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isEditorOfPublication.added.new-entity": "Successfully imported and added external editor to the selection",
+  "relationships.Publication.isEditorOfPublication.Person": "Editors",
+  "item.page.relationships.isEditorOfPublication": "Edited publications",
+  "relationships.Person.isPublicationOfEditor.Publication": "Edited publications",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfEditor": "Edited publications",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfEditor": "Local Publications ({{ count }})",
+
+  // ===================== CM: Coordinator =====================
+  "submission.sections.describe.relationship-lookup.title.isCoordinatorOfPublication": "Coordinators",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isCoordinatorOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isCoordinatorOfPublication": "Selected Coordinators",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isCoordinatorOfPublication": "Import remote coordinator",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isCoordinatorOfPublication.title": "Import Remote Coordinator",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isCoordinatorOfPublication.added.local-entity": "Successfully added local coordinator to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isCoordinatorOfPublication.added.new-entity": "Successfully imported and added external coordinator to the selection",
+  "relationships.Publication.isCoordinatorOfPublication.Person": "Coordinators",
+  "item.page.relationships.isCoordinatorOfPublication": "Coordinated publications",
+  "relationships.Person.isPublicationOfCoordinator.Publication": "Coordinated publications",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfCoordinator": "Coordinated publications",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfCoordinator": "Local Publications ({{ count }})",
+
+  // ===================== CM: Other contributor =====================
+  "submission.sections.describe.relationship-lookup.title.isOtherContributorOfPublication": "Other contributors",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isOtherContributorOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isOtherContributorOfPublication": "Selected Contributors",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isOtherContributorOfPublication": "Import remote contributor",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isOtherContributorOfPublication.title": "Import Remote Contributor",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isOtherContributorOfPublication.added.local-entity": "Successfully added local contributor to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isOtherContributorOfPublication.added.new-entity": "Successfully imported and added external contributor to the selection",
+  "relationships.Publication.isOtherContributorOfPublication.Person": "Other contributors",
+  "item.page.relationships.isOtherContributorOfPublication": "Other contributions",
+  "relationships.Person.isPublicationOfOtherContributor.Publication": "Other contributions",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfOtherContributor": "Other contributions",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfOtherContributor": "Local Publications ({{ count }})",
+
 
   "submission.sections.ccLicense.type": "License Type",
 
@@ -7347,6 +7412,8 @@
   "dc.audience":"Intended audience",
   "dc.description.notes":"Notes",
   "dc.subject":"Keywords",
+  "dc.identifier.isbn":"ISBN",
+
   "browse.comcol.by.countryfocus": "Country focus",
   "browse.metadata.countryfocus": "By Country focus",
   "browse.metadata.countryfocus.breadcrumbs": "Browse By Country focus",
