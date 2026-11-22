@@ -17,7 +17,7 @@
 
 </video>
 @if (medias?.length > 1) {
-  <div class="buttons">
+  <div class="buttons d-flex justify-content-center">
     <button
       class="btn btn-primary previous"
       [dsBtnDisabled]="currentIndex === 0"
@@ -32,14 +32,15 @@
       >
       {{ "media-viewer.next" | translate }}
     </button>
-    <div ngbDropdown class="d-inline-block">
-      <button
-        class="btn btn-outline-primary playlist"
-        id="dropdownBasic1"
-        ngbDropdownToggle
-        >
-        {{ "media-viewer.playlist" | translate }}
-      </button>
+  </div>
+  <div ngbDropdown class="d-inline-block d-flex justify-content-center" style="margin-top: 10px;">
+    <button
+      class="btn btn-outline-primary playlist"
+      id="dropdownBasic1"
+      ngbDropdownToggle
+      >
+      {{ "media-viewer.playlist" | translate }}
+    </button>
       <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
         @for (item of medias; track item; let indexOfelement = $index) {
           <button
@@ -51,6 +52,5 @@
           </button>
         }
       </div>
-    </div>
   </div>
 }

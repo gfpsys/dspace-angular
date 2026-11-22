@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule} from '@angular/common';
 import {
   Component,
   Inject,
@@ -66,9 +66,18 @@ export class FileSectionComponent implements OnInit {
 
   pageSize: number;
 
-  fileLabel: string;
+  /**
+   * Label shown instead of the file name, only for PDF bitstreams.
+   */
+  @Input() fileLabel: string;
 
   primaryBitstreamId: string;
+
+  /**
+   * Maximum number of characters shown for non-PDF file names (or PDFs without fileLabel),
+   * so each bitstream stays on a single line.
+   */
+  readonly maxFileNameLength = 15;
 
   constructor(
     protected bitstreamDataService: BitstreamDataService,
@@ -92,6 +101,35 @@ export class FileSectionComponent implements OnInit {
       }
       this.primaryBitstreamId = primaryBitstream?.id;
     });
+  }
+
+  /**
+   * Returns true when the bitstream is a PDF, based on its file name extension.
+   * @param file the bitstream to check
+   */
+  isPdf(file: Bitstream): boolean {
+    const name = this.dsoNameService.getName(file) ?? '';
+    return name.trim().toLowerCase().endsWith('.pdf');
+  }
+
+  /**
+   * Returns the text to display for a bitstream:
+   * - PDF with a fileLabel: the fileLabel.
+   * - Any other case: the file name truncated to maxFileNameLength characters.
+   * @param file the bitstream to display
+   */
+  getDisplayName(file: Bitstream): string {
+    if (this.isPdf(file) && hasValue(this.fileLabel) && this.fileLabel.trim().length > 0) {
+      return this.fileLabel;
+    }
+    return this.truncate(this.dsoNameService.getName(file) ?? '', this.maxFileNameLength);
+  }
+
+  /**
+   * Truncates a text to the given length, adding an ellipsis when it was cut.
+   */
+  private truncate(text: string, maxLength: number): string {
+    return text.length > maxLength ? `${text.substring(0, maxLength)}…` : text;
   }
 
   /**

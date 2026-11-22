@@ -8,12 +8,7 @@
             @if (primaryBitstreamId === file.id) {
               <span class="badge bg-primary">{{ 'item.page.bitstreams.primary' | translate }}</span>
             }
-            @if (fileLabel) {
-              {{ fileLabel }}
-            }
-            @else {
-              {{ dsoNameService.getName(file) }}
-            }
+            <span class="text-nowrap" [attr.title]="dsoNameService.getName(file)">{{ getDisplayName(file) }}</span>
           </span>
             <span>  [{{(file?.sizeBytes) | dsFileSize }}]</span>
             @if (!last) {
