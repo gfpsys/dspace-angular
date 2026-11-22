@@ -7373,4 +7373,10 @@
   "cm.degree.level":"Nivel del grado académico",
   "dc.description.tableofcontents":"Research seminars",
   "cm.program":"Academic programme",
+  "dc.contributor.coordinator":"Coordinator",
+  "dc.contributor.illustrator":"Illustrator",
+  "dc.contributor.editor":"Editor",
+  "dc.contributor.other":"Other",
+  "cm.library":"Library",
+  "dc.publisher.location":"Place of Publication"
 }

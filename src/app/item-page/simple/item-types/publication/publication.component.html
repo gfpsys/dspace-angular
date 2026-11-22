@@ -77,7 +77,31 @@
       [metadataFields]="['dc.contributor.advisor']"
       [label]="'dc.contributor.advisor' | translate">
     </ds-metadata-representation-list>
-        <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.coordinator']"
+      [label]="'dc.contributor.coordinator' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.illustrator']"
+      [label]="'dc.contributor.illustrator' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.editor']"
+      [label]="'dc.contributor.editor' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.other']"
+      [label]="'dc.contributor.other' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
       [parentItem]="object"
       [itemType]="'Person'"
       [metadataFields]="['dc.contributor.reviewer']"
@@ -182,7 +206,14 @@
       [separator]="' '"
       [label]="'dc.audience'">
     </ds-generic-item-page-field>
-
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['cm.library']"
+      [label]="'cm.library'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.publisher.location']"
+      [label]="'dc.publisher.location'">
+    </ds-generic-item-page-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.description.notes']"
       [label]="'dc.description.notes'">

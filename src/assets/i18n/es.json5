@@ -11118,4 +11118,10 @@
   "cm.degree.level":"Nivel del grado académico",
   "dc.description.tableofcontents":"Tabla de contenido",
   "cm.program":"Programa académico / Posgrado",
+  "dc.contributor.coordinator":"Coordinador(a)",
+  "dc.contributor.illustrator":"Ilustrador(a)",
+  "dc.contributor.editor":"Editor / editorial",
+  "dc.contributor.other":"Otro colaborador",
+  "cm.library":"Biblioteca",
+  "dc.publisher.location":"Lugar de publicación"
 }
