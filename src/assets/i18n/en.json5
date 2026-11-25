@@ -7414,6 +7414,8 @@
   "dc.subject":"Keywords",
   "dc.identifier.isbn":"ISBN",
 
+  "browse.comcol.by.researchline": "By Research Seminar",
+  "search.filters.applied.f.isOrgUnitOfProject": "Organization",
   "browse.comcol.by.countryfocus": "Country focus",
   "browse.metadata.countryfocus": "By Country focus",
   "browse.metadata.countryfocus.breadcrumbs": "Browse By Country focus",
