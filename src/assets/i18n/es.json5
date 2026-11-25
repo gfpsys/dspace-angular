@@ -11158,6 +11158,8 @@
   "dc.subject":"Palabras clave",
   "dc.identifier.isbn":"ISBN",
 
+  "browse.comcol.by.researchline": "Por seminarios de investigación",
+  "search.filters.applied.f.isOrgUnitOfProject": "Organización",
   "browse.metadata.countryfocus": "país de estudio",
   "browse.metadata.countryfocus.breadcrumbs": "Examinar por país de estudio",
   "browse.comcol.by.countryfocus": "Por país de estudio",
