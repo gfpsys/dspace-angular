@@ -5658,6 +5658,77 @@
   "submission.sections.describe.relationship-lookup.title.isPublicationOfOtherContributor": "Other contributions",
   "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfOtherContributor": "Local Publications ({{ count }})",
 
+    // ===================== CM: Host =====================
+  "submission.sections.describe.relationship-lookup.title.isHostOfPublication": "Hosts",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isHostOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isHostOfPublication": "Selected Hosts",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isHostOfPublication": "Import remote host",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isHostOfPublication.title": "Import Remote Host",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isHostOfPublication.added.local-entity": "Successfully added local host to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isHostOfPublication.added.new-entity": "Successfully imported and added external host to the selection",
+  "relationships.Publication.isHostOfPublication.Person": "Hosts",
+  "item.page.relationships.isHostOfPublication": "Hosted programs",
+  "relationships.Person.isPublicationOfHost.Publication": "Hosted programs",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfHost": "Hosted programs",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfHost": "Local Publications ({{ count }})",
+
+  // ===================== CM: Producer =====================
+  "submission.sections.describe.relationship-lookup.title.isProducerOfPublication": "Producers",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isProducerOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isProducerOfPublication": "Selected Producers",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isProducerOfPublication": "Import remote producer",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isProducerOfPublication.title": "Import Remote Producer",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isProducerOfPublication.added.local-entity": "Successfully added local producer to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isProducerOfPublication.added.new-entity": "Successfully imported and added external producer to the selection",
+  "relationships.Publication.isProducerOfPublication.Person": "Producers",
+  "item.page.relationships.isProducerOfPublication": "Productions",
+  "relationships.Person.isPublicationOfProducer.Publication": "Productions",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfProducer": "Productions",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfProducer": "Local Publications ({{ count }})",
+
+  // ===================== CM: Director =====================
+  "submission.sections.describe.relationship-lookup.title.isDirectorOfPublication": "Directors",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isDirectorOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isDirectorOfPublication": "Selected Directors",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isDirectorOfPublication": "Import remote director",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isDirectorOfPublication.title": "Import Remote Director",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isDirectorOfPublication.added.local-entity": "Successfully added local director to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isDirectorOfPublication.added.new-entity": "Successfully imported and added external director to the selection",
+  "relationships.Publication.isDirectorOfPublication.Person": "Directors",
+  "item.page.relationships.isDirectorOfPublication": "Directed works",
+  "relationships.Person.isPublicationOfDirector.Publication": "Directed works",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfDirector": "Directed works",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfDirector": "Local Publications ({{ count }})",
+
+  // ===================== CM: Guest =====================
+  "submission.sections.describe.relationship-lookup.title.isGuestOfPublication": "Guests",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isGuestOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isGuestOfPublication": "Selected Guests",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isGuestOfPublication": "Import remote guest",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isGuestOfPublication.title": "Import Remote Guest",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isGuestOfPublication.added.local-entity": "Successfully added local guest to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isGuestOfPublication.added.new-entity": "Successfully imported and added external guest to the selection",
+  "relationships.Publication.isGuestOfPublication.Person": "Guests",
+  "item.page.relationships.isGuestOfPublication": "Guest appearances",
+  "relationships.Person.isPublicationOfGuest.Publication": "Guest appearances",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfGuest": "Guest appearances",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfGuest": "Local Publications ({{ count }})",
+
+  // ===================== CM: Interviewee =====================
+  "submission.sections.describe.relationship-lookup.title.isIntervieweeOfPublication": "Interviewees",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isIntervieweeOfPublication": "Local People ({{ count }})",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.isIntervieweeOfPublication": "Selected Interviewees",
+  "submission.sections.describe.relationship-lookup.external-source.import-button-title.isIntervieweeOfPublication": "Import remote interviewee",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isIntervieweeOfPublication.title": "Import Remote Interviewee",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isIntervieweeOfPublication.added.local-entity": "Successfully added local interviewee to the selection",
+  "submission.sections.describe.relationship-lookup.external-source.import-modal.isIntervieweeOfPublication.added.new-entity": "Successfully imported and added external interviewee to the selection",
+  "relationships.Publication.isIntervieweeOfPublication.Person": "Interviewees",
+  "item.page.relationships.isIntervieweeOfPublication": "Interviews",
+  "relationships.Person.isPublicationOfInterviewee.Publication": "Interviews",
+  "submission.sections.describe.relationship-lookup.title.isPublicationOfInterviewee": "Interviews",
+  "submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfInterviewee": "Local Publications ({{ count }})",
+
+
 
   "submission.sections.ccLicense.type": "License Type",
 
