@@ -98,6 +98,42 @@
     <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
       [parentItem]="object"
       [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.reviewer']"
+      [label]="'dc.contributor.reviewer' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.host']"
+      [label]="'dc.contributor.host' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.producer']"
+      [label]="'dc.contributor.producer' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.director']"
+      [label]="'dc.contributor.director' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.guest']"
+      [label]="'dc.contributor.guest' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
+      [metadataFields]="['dc.contributor.interviewee']"
+      [label]="'dc.contributor.interviewee' | translate">
+    </ds-metadata-representation-list>
+    <ds-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Person'"
       [metadataFields]="['dc.contributor.other']"
       [label]="'dc.contributor.other' | translate">
     </ds-metadata-representation-list>
@@ -186,7 +222,26 @@
       [separator]="' '"
       [label]="'dc.audience'">
     </ds-generic-item-page-field>
-
+        <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.format.extent']"
+      [label]="'dc.format.extent'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.source.series']"
+      [label]="'dc.source.series'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.source.season']"
+      [label]="'dc.source.season'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.source.episode']"
+      [label]="'dc.source.episode'">
+    </ds-generic-item-page-field>
+    <ds-item-page-uri-field [item]="object"
+      [fields]="['dc.relation.link']"
+      [label]="'dc.relation.link'">
+    </ds-item-page-uri-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.description.notes']"
       [label]="'dc.description.notes'">

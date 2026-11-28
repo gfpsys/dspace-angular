@@ -7445,5 +7445,15 @@
   "dc.contributor.editor":"Editor",
   "dc.contributor.other":"Other",
   "cm.library":"Library",
-  "dc.publisher.location":"Place of Publication"
+  "dc.publisher.location":"Place of Publication",
+  "dc.format.extent":"Extent / Duration",
+  "dc.source.series":"Series / Programme",
+  "dc.source.season":"Season",
+  "dc.source.episode":"Episode",
+  "dc.relation.link":"Access link / URL",
+  "dc.contributor.host":"Host",
+  "dc.contributor.producer":"Producer",
+  "dc.contributor.director":"Director",
+  "dc.contributor.guest":"Guest",
+  "dc.contributor.interviewee":"Interviewee",
 }

@@ -11189,5 +11189,15 @@
   "dc.contributor.editor":"Editor / editorial",
   "dc.contributor.other":"Otro colaborador",
   "cm.library":"Biblioteca",
-  "dc.publisher.location":"Lugar de publicación"
+  "dc.publisher.location":"Lugar de publicación",
+  "dc.format.extent":"Extensión / duración",
+  "dc.source.series":"Serie / programa",
+  "dc.source.season":"Temporada",
+  "dc.source.episode":"Episodio",
+  "dc.relation.link":" 	Liga de acceso / URL",
+  "dc.contributor.host":"Conductor(a)",
+  "dc.contributor.producer":"Productor(a)",
+  "dc.contributor.director":"Realizador(a)",
+  "dc.contributor.guest":"Invitado(a)",
+  "dc.contributor.interviewee":"Entrevistado(a)",
 }
